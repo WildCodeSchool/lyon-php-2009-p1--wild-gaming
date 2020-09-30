@@ -4,3 +4,37 @@
     display: flex;
     justify-content: center;
 }
+
+.homepage_btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.btn {
+    width: 66%;
+    height: 75px;
+    margin: 20px;
+    border-radius: 15px;
+    font-size: 35px;
+    background-color: cadetblue;
+    color: white;
+    font-weight: 900;
+    border-color: black;
+    border-width: 4px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 0.5rem;
+}
+
+.logossocialnetworks img {
+    max-width : 2rem;
+    border-radius: 0.2rem;
+}
