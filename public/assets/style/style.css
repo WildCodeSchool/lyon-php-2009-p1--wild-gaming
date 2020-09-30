@@ -4,10 +4,10 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    margin: 0 0.5em;
+    margin: 0 0.5rem;
 }
 
 .logossocialnetworks img {
     max-width : 2rem;
-    border-radius: 0.2em;
+    border-radius: 0.2rem;
 }
