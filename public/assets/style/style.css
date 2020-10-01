@@ -1,3 +1,9 @@
+.logo {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .homepage_btn{
     display: flex;
