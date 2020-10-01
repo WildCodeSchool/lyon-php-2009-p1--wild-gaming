@@ -3,7 +3,7 @@
 
     <header>
         <picture class="logo">
-            <img src="assets/bwlogo.jpg" alt="Logo" />
+            <img src="assets/img/blackwhitelogo.png" alt="Logo" />
         </picture>
     </header>
 
