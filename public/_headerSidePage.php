@@ -1,7 +1,11 @@
 <header>
     <link rel="stylesheet" href="assets/style/style.css"/>
 
-    <img src="assets/img/logo.png" alt="logo wild gamers"/>
+    <header>
+        <picture class="logo">
+            <img src="assets/bwlogo.jpg" alt="Logo" />
+        </picture>
+    </header>
 
     <nav>
         <ul>
