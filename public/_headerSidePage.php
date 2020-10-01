@@ -9,13 +9,21 @@
 
     <nav>
         <ul>
-            <li><a href="index.php">homepage</a></li>
+            <div>
+                <li><a href="index.php">homepage</a></li>
+            </div>
+            <div>
             <li><a href="RPG.php">RPG</a></li>
             <li><a href="FPS.php">FPS</a></li>
+            </div>
+            <div>
             <li><a href="action.php">action/aventure</a></li>
             <li><a href="strategie.php">stratégie</a></li>
+            </div>
+            <div>
             <li><a href="sport.php">sport</a></li>
             <li><a href="simulation.php">simulation</a></li>
+            </div>
         </ul>
     </nav>
 </header>

@@ -40,12 +40,31 @@ footer {
 }
 
 
+
+
+nav {
+    margin: 3 0 0 0;
+
+}
+
+nav ul {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+header ul div{
+    display: flex;
+    justify-content: center;
+
+}
+
 nav li {
     list-style-type: none;
     font-style: Roboto Slab;
-}
-
-ul {
-    display: flex;
+    margin: 0 4 0 4;
 }
 
