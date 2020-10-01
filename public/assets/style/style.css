@@ -29,6 +29,17 @@ footer {
 }
 
 .logossocialnetworks img {
-    max-width : 2rem;
+    max-width: 2rem;
     border-radius: 0.2rem;
 }
+
+header img {
+
+}
+
+
+nav li {
+    list-style-type: none;
+    font-style: Roboto Slab;
+}
+
