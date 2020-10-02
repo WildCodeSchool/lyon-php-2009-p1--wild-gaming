@@ -9,6 +9,7 @@
 
     <nav>
         <ul>
+
             <div>
                 <li><a href="index.php">homepage</a></li>
             </div>
@@ -24,6 +25,7 @@
             <li><a href="sport.php">sport</a></li>
             <li><a href="simulation.php">simulation</a></li>
             </div>
+
         </ul>
     </nav>
 </header>
