@@ -1,3 +1,16 @@
+body {
+    background-color: #BDC0FA;
+    font-family: 'Roboto Slab';font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.title-homepage {
+    display: flex;
+    justify-content: center;
+}
+
+
 .logo {
     height: auto;
     width: 100%;
@@ -24,6 +37,7 @@
     font-weight: 900;
     border-color: black;
     border-width: 4px;
+    font-family: 'Roboto Slab';
 }
 
 footer {
@@ -31,7 +45,9 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    margin: 0 0.5rem;
+    margin: 2rem 0.5rem;
+
+
 }
 
 .logossocialnetworks img {
@@ -40,8 +56,31 @@ footer {
 }
 
 
+
+
+nav {
+    margin: 3 0 0 0;
+
+}
+
+nav ul {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+header ul div{
+    display: flex;
+    justify-content: center;
+
+}
+
 nav li {
     list-style-type: none;
     font-style: Roboto Slab;
+    margin: 0 4 0 4;
 }
 

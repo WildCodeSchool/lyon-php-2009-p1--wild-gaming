@@ -3,19 +3,29 @@
 
     <header>
         <picture class="logo">
-            <img src="assets/bwlogo.jpg" alt="Logo" />
+            <img src="assets/img/blackwhitelogo.png" alt="Logo" />
         </picture>
     </header>
 
     <nav>
         <ul>
-            <li><a href="index.php">Home</a></li>
+
+            <div>
+                <li><a href="index.php">homepage</a></li>
+            </div>
+            <div>
             <li><a href="RPG.php">RPG</a></li>
             <li><a href="FPS.php">FPS</a></li>
-            <li><a href="action.php">Action/Aventure</a></li>
-            <li><a href="strategie.php">Stratégie</a></li>
-            <li><a href="sport.php">Sport</a></li>
-            <li><a href="simulation.php">Simulation</a></li>
+            </div>
+            <div>
+            <li><a href="action.php">action/aventure</a></li>
+            <li><a href="strategie.php">stratégie</a></li>
+            </div>
+            <div>
+            <li><a href="sport.php">sport</a></li>
+            <li><a href="simulation.php">simulation</a></li>
+            </div>
+
         </ul>
     </nav>
 </header>
