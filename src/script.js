@@ -1,11 +1,3 @@
-/*const article = document.getElementById("article");
-const navbarColor = document.getElementById("navbar");
-
-if (article.className === 'rpg') {
-    console.log('pute');
-    //navbarColor.style.backgroundColor = 'blue';
-}*/
-
 function changeColorNavbar(){
     const article = document.getElementById("article");
     const navbarColor = document.getElementById("navbar");
@@ -14,18 +6,18 @@ function changeColorNavbar(){
             navbarColor.style.backgroundColor = "grey";
             break
         case ('action'):
-            navbarColor.style.backgroundColor = "";
+            navbarColor.style.backgroundColor = "orange";
             break
         case ('simulation'):
-            navbarColor.style.backgroundColor = "";
+            navbarColor.style.backgroundColor = "purple";
             break
         case ('sport'):
             navbarColor.style.backgroundColor = "yellow";
             break
-        case ('strategie'):
-            navbarColor.style.backgroundColor = "";
+        case ('strategy'):
+            navbarColor.style.backgroundColor = "blue";
             break
         case ('fps'):
-            navbarColor.style.backgroundColor = "";
+            navbarColor.style.backgroundColor = "brown";
     }
 }

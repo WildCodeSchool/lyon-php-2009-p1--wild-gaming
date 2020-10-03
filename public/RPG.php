@@ -4,7 +4,7 @@ include_once '_headerSidePage.php';
 ?>
 
 
-<table class="rpg" id="article"> Pute</table>
+<table class="rpg" id="article"> RPG </table>
 
     <script>
         changeColorNavbar();

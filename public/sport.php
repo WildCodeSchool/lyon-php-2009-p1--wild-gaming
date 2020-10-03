@@ -3,11 +3,11 @@ include_once '_headerSidePage.php';
 ?>
 
 
-<table class="sport" id="article"> Pute</table>
+<table class="sport" id="article"> Sport </table>
 
-<script>
-    changeColorNavbar();
-</script>
+    <script>
+        changeColorNavbar();
+    </script>
 <?php
 include_once '_footer.php';
 
