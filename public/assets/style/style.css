@@ -63,6 +63,8 @@ footer {
 
 
 nav {
+    border: solid black 1px;
+    background-color: green;
     margin: 3 0 0 0;
 
 }
