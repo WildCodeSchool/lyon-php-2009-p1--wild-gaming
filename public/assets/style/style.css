@@ -44,20 +44,36 @@ form {
     font-family: 'Roboto Slab';
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 2rem 0.5rem;
+@media screen and (max-width: 600px){
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 2rem 0.5rem;
+    }
 
-
+    .logossocialnetworks img {
+        max-width: 2rem;
+        border-radius: 0.2rem;
+    }
 }
 
-.logossocialnetworks img {
-    max-width: 2rem;
-    border-radius: 0.2rem;
+@media screen and (min-width: 600px){
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 1rem;
+    }
+
+    .logossocialnetworks img {
+        max-width: 2rem;
+        border-radius: 0.2rem;
+    }
 }
+
+
 
 
 
@@ -87,4 +103,7 @@ nav li {
     font-style: Roboto Slab;
     margin: 0 4 0 4;
 }
+
+
+
 
