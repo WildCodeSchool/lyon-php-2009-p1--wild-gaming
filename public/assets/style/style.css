@@ -90,3 +90,71 @@ nav li {
     margin: 0 4 0 4;
 }
 
+
+/*form*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+form{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+}
+
+div.lign_of_stars {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+input.star {
+    border: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    opacity: 0;
+    float: right;
+}
+
+label.star {
+    position: relative;
+    float: right;
+    color: black;
+    content: "\2605";
+}
+
+label.star:before {
+    margin: 5px;
+    content: "\2605";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    color: var(--accent-color);
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+}
+
+input.star:checked ~ label.star:before {
+    color: #FFC107;
+}
+
+label.star:hover ~ label.star:before {
+    color: #ffdb70;
+}
+
+label.star:hover:before {
+    color: #FFC107;
+}
+
