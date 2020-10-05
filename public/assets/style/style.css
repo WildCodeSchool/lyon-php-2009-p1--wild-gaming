@@ -245,51 +245,31 @@ ul {
 }
 
 
-/*form*/
+/*Star rating*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-form{
-    margin: auto;
-    width: 80%;
+.line_of_stars {
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
-
-form div{
-    display: flex;
-    flex-direction: column;
-    margin: 0.5rem 0;
-}
-
-div.lign_of_stars {
     flex-direction: row-reverse;
     justify-content: flex-end;
-    margin: 0;
 }
 
 input.star {
     border: 0;
     width: 1px;
     height: 1px;
-    overflow: hidden;
-    position: absolute !important;
-    clip: rect(1px 1px 1px 1px);
-    clip: rect(1px, 1px, 1px, 1px);
     opacity: 0;
-    float: right;
 }
 
 label.star {
-    position: relative;
-    float: right;
+    float: left;
     color: black;
     content: "\2605";
 }
 
 label.star:before {
-    margin: 5px;
+    margin: 2px;
     content: "\2605";
     font-family: FontAwesome;
     font-size: 1.5em;
@@ -300,16 +280,18 @@ label.star:before {
     user-select: none;
 }
 
+
 input.star:checked ~ label.star:before {
-    color: #FFC107;
+    color: yellow;
 }
 
 label.star:hover ~ label.star:before {
     color: #ffdb70;
+
 }
 
 label.star:hover:before {
-    color: #FFC107;
+    color: yellow;
 }
 
 
