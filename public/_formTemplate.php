@@ -15,6 +15,7 @@
     <div class="star_rating">
         <label for="Star_Rating"> notez ce jeu : </label>
         <div class="lign_of_stars">
+            <input type="checkb
             <input type="checkbox" id="star4" name="Star_Rating" class="star" value="4">
             <label for="star4" class="star" title="4 stars"></label>
             <input type="checkbox" id="star3" name="Star_Rating" class="star" value="3">
