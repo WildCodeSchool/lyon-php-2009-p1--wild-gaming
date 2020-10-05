@@ -1,3 +1,15 @@
 <?php
+include_once '_headerSidePage.php';
 
-include 'public/_footer.php';
+?>
+
+
+<table class="rpg" id="article"> RPG </table>
+
+    <script>
+        changeColorNavbar();
+    </script>
+
+<?php
+include_once '_footer.php';
+?>
