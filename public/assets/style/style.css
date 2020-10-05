@@ -1,4 +1,4 @@
-/*.logo {
+.logo {
 body {
     background-color: #BDC0FA;
     font-family: 'Roboto Slab';font-size: 22px;
@@ -89,7 +89,7 @@ footer {
     max-width : 2rem;
     border-radius: 0.2rem;
 
-}*/
+}
 
     {box-sizing:border-box}
 
