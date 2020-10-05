@@ -137,6 +137,20 @@
 </form>
 
 <?php
+include_once '_headerSidePage.php';
+?>
 
+<<<<<<< HEAD
 include '_footer.php';
+=======
+
+    <table class="strategy" id="article"> Stratégie </table>
+
+    <script>
+        changeColorNavbar();
+    </script>
+<?php
+include_once '_footer.php';
+
+>>>>>>> 422ec43d258bd2d7bede7f7a585d99f18d0abd13
 ?>
