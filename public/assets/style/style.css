@@ -74,11 +74,13 @@ form {
 }
 
 
-
+/*
 
 
 
 nav {
+    border: solid black 1px;
+    background-color: green;
     margin: 3 0 0 0;
 
 }
@@ -102,6 +104,19 @@ nav li {
     list-style-type: none;
     font-style: Roboto Slab;
     margin: 0 4 0 4;
+}
+*/
+
+.navbar {
+    background-color: blue;
+}
+
+.navbar-brand{
+    width: 4rem;
+}
+
+.container-fluid{
+    padding: 0;
 }
 
 

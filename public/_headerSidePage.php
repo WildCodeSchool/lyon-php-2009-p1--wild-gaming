@@ -1,13 +1,13 @@
 <header>
     <link rel="stylesheet" href="assets/style/style.css"/>
-
+    <script type="text/javascript" src="/src/script.js"></script>
     <header>
         <picture class="logo">
             <img src="assets/img/blackwhitelogo.png" alt="Logo" />
         </picture>
     </header>
 
-    <nav>
+    <nav id="navbar">
         <ul>
 
             <div>
