@@ -21,14 +21,6 @@
     </div>
     <section>
         <div class="homepage_btn">
-<<<<<<< HEAD
-            <input class="btn" type="button" value="RPG">
-            <input class="btn" type="button" value="FPS">
-            <input class="btn" type="button" value="Stratégie">
-            <input class="btn" type="button" value="Simulation">
-            <input class="btn" type="button" value="Action/Aventure">
-            <input class="btn" type="button" value="Sport">
-=======
             <form action="RPG.php">
                 <input class="btn" type="submit" value="RPG">
             </form>
@@ -47,7 +39,6 @@
             <form action="sport.php">
                 <input class="btn" type="submit" value="Sport">
             </form>
->>>>>>> 422ec43d258bd2d7bede7f7a585d99f18d0abd13
         </div>
     </section>
     <?php

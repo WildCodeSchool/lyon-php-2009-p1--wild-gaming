@@ -1,42 +1,47 @@
+:root{
+    --body-color: F4F091;
+
+}
+
 body {
-    background-color: #BDC0FA;
+    background-color: var(--body-color);
     font-family: 'Roboto Slab';font-size: 22px;
     margin: 0;
     padding: 0;
 }
 
 .actionPage {
-    background-color: #BDC0FA;
+    background-color: var(--body-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .fpsPage {
-    background-color: #BDC0FA;
+    background-color: var(--body-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .rpgPage {
-    background-color: #BDC0FA;
+    background-color: var(--body-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .simulationPage {
-    background-color: #BDC0FA;
+    background-color: var(--body-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .sportPage {
-    background-color: #BDC0FA;
+    background-color: var(--body-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .strategiePage {
-    background-color: #BDC0FA;
+    background-color: var(--body-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
@@ -49,7 +54,7 @@ body {
 
 .logo {
     height: auto;
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
 }
@@ -62,8 +67,14 @@ body {
 
 }
 
-.btn {
+form {
+    display: flex;
     width: 66%;
+    align-content: center;
+}
+
+.btn {
+    width: 100%%;
     height: 75px;
     margin: 20px;
     border-radius: 15px;
@@ -176,4 +187,14 @@ ul {
 #cover1 {
     max-width: 250px;
     max-height: 250px;
+}
+
+.navbar {
+    background-color: blue;
+}
+.navbar-brand{
+    width: 4rem;
+}
+.container-fluid{
+    padding: 0;
 }

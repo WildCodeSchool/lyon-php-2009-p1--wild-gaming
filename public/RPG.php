@@ -9,6 +9,7 @@
 </head>
 <body class="rpgPage">
 <header>
+    <?php include_once '_headerSidePageResponsive.php' ?>
     <!-- Code HEADER -->
 </header>
 
@@ -16,7 +17,7 @@
     <!-- Code Carousel -->
 </div>
 
-<section class="blocRpg">
+<section class="rpg" id="article">
     <div class="gridLeft">
         <div class="cover">
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
@@ -129,6 +130,29 @@
             <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
         </div>
     </div>
+    <script>
+        const article = document.getElementById("article");
+        const navbarColor = document.querySelector(".navbar");
+        switch (article.className) {
+            case ('rpg'):
+                navbarColor.style.backgroundColor = "grey";
+                break
+            case ('action'):
+                navbarColor.style.backgroundColor = "orange";
+                break
+            case ('simulation'):
+                navbarColor.style.backgroundColor = "purple";
+                break
+            case ('sport'):
+                navbarColor.style.backgroundColor = "yellow";
+                break
+            case ('strategie'):
+                navbarColor.style.backgroundColor = "blue";
+                break
+            case ('fps'):
+                navbarColor.style.backgroundColor = "brown";
+        }
+    </script>
 
 </section>
 
