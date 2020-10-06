@@ -1,23 +1,23 @@
 function changeColorNavbar(){
     const article = document.getElementById("article");
-    const navbarColor = document.getElementById("navbar");
+    const navbarColor = document.querySelector(".navbar");
     switch (article.className) {
-        case ('rpg'):
+        case ('blocRPG'):
             navbarColor.style.backgroundColor = "grey";
             break
         case ('action'):
             navbarColor.style.backgroundColor = "orange";
             break
-        case ('simulation'):
+        case ('blocSimulation'):
             navbarColor.style.backgroundColor = "purple";
             break
-        case ('sport'):
+        case ('blocSport'):
             navbarColor.style.backgroundColor = "yellow";
             break
-        case ('strategy'):
+        case ('blocStrategie'):
             navbarColor.style.backgroundColor = "blue";
             break
-        case ('fps'):
+        case ('blocFPS'):
             navbarColor.style.backgroundColor = "brown";
     }
 }

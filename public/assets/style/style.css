@@ -1,43 +1,47 @@
-.logo {
+:root{
+    --body-color: F4F091;
+
+}
+
 body {
-    background-color: #BDC0FA;
+    background-color: var(--body-color);
     font-family: 'Roboto Slab';font-size: 22px;
     margin: 0;
     padding: 0;
 }
 
 .actionPage {
-    background-color: #BDC0FA;
+    background-color: var(--body-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .fpsPage {
-    background-color: #BDC0FA;
+    background-color: var(--body-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .rpgPage {
-    background-color: #BDC0FA;
+    background-color: var(--body-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .simulationPage {
-    background-color: #BDC0FA;
+    background-color: var(--body-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .sportPage {
-    background-color: #BDC0FA;
+    background-color: var(--body-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .strategiePage {
-    background-color: #BDC0FA;
+    background-color: var(--body-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
@@ -49,9 +53,8 @@ body {
 }
 
 .logo {
->>>>>>> 51b0eaf19b931225459609e61f735540f1e1b6a7
     height: auto;
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
 }
@@ -64,8 +67,14 @@ body {
 
 }
 
-.btn {
+form {
+    display: flex;
     width: 66%;
+    align-content: center;
+}
+
+.btn {
+    width: 100%%;
     height: 75px;
     margin: 20px;
     border-radius: 15px;
@@ -158,7 +167,7 @@ footer {
     opacity: 1;
 }
 
-}
+
 .blocAction {
     width: 80%;
     margin-left: auto;
@@ -245,7 +254,68 @@ ul {
     list-style: none;
 }
 
+
+/*Star rating*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.line_of_stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+input.star {
+    border: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+label.star {
+    float: left;
+    color: black;
+    content: "\2605";
+}
+
+label.star:before {
+    margin: 2px;
+    content: "\2605";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    color: black;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+}
+
+
+input.star:checked ~ label.star:before {
+    color: yellow;
+}
+
+label.star:hover ~ label.star:before {
+    color: #ffdb70;
+
+}
+
+label.star:hover:before {
+    color: yellow;
+}
+
+
 #cover1 {
     max-width: 250px;
     max-height: 250px;
+}
+
+.navbar {
+    background-color: blue;
+}
+.navbar-brand{
+    width: 4rem;
+}
+.container-fluid{
+    padding: 0;
 }
