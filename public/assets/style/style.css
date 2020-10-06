@@ -1,4 +1,4 @@
-.logo {
+
 body {
     background-color: #BDC0FA;
     font-family: 'Roboto Slab';font-size: 22px;
@@ -49,7 +49,6 @@ body {
 }
 
 .logo {
->>>>>>> 51b0eaf19b931225459609e61f735540f1e1b6a7
     height: auto;
     width: 100%;
     display: flex;
@@ -158,7 +157,7 @@ footer {
     opacity: 1;
 }
 
-}
+
 .blocAction {
     width: 80%;
     margin-left: auto;
@@ -245,7 +244,60 @@ ul {
     list-style: none;
 }
 
+
+/*Star rating*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.line_of_stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+input.star {
+    border: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+label.star {
+    float: left;
+    color: black;
+    content: "\2605";
+}
+
+label.star:before {
+    margin: 2px;
+    content: "\2605";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    color: black;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+}
+
+
+input.star:checked ~ label.star:before {
+    color: yellow;
+}
+
+label.star:hover ~ label.star:before {
+    color: #ffdb70;
+
+}
+
+label.star:hover:before {
+    color: yellow;
+}
+
+
 #cover1 {
     max-width: 250px;
     max-height: 250px;
 }
+
+
