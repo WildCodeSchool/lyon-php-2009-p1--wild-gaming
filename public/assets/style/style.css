@@ -302,6 +302,14 @@ form {
     margin-top: 3rem;
 }
 
+.error{
+    color: red;
+}
+
+#thanks{
+    color: blue;
+}
+
 
 
 /*Star rating*/
