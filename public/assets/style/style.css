@@ -6,39 +6,41 @@
     --homepage-footer-backgrnd: #3855A3;
     --homepage-btn135-backgrnd: #283876;
     --homepage-btn246-backgrnd: #345FA4;
-    --navbar-action-backgrnd: #253E6B;
-    --navbar-action-text: #E1EDFB;
-    --navbar-fps-backgrnd: #253E6B;
-    --navbar-fps-text: #E1EDFB;
-    --navbar-rpg-backgrnd: #253E6B;
-    --navbar-rpg-text: #E1EDFB;
-    --navbar-simu-backgrnd: #253E6B;
-    --navbar-simu-text: #E1EDFB;
-    --navbar-sport-backgrnd: #253E6B;
-    --navbar-sport-text: #E1EDFB;
-    --navbar-strategy-backgrnd: #253E6B;
-    --navbar-strategy-text: #E1EDFB;
-    --action-backgrnd: #29E60;
+    --navbar-text-sidepage: #E1EDFB;
+    --navbar-action-backgrnd: #E21923;
+    --action-backgrnd: #EC9DA1;
+    --navbar-fps-backgrnd: #B10CA0;
+    --fps-backgrnd: #E2B1DD;
+    --navbar-rpg-backgrnd: #131DBD;
+    --rpg-backgrnd: #BCBFEF;
+    --navbar-simu-backgrnd: #189627;
+    --simu-backgrnd: #91CC98;
+    --navbar-strategy-backgrnd: #0BB9A6;
+    --strategy-backgrnd: #B2E7E1;
+    --navbar-sport-backgrnd: #E99025;
+    --sport-backgrnd: #F7CB96;
+
+
     --action-text: #E1EDFB;
     --action-form-backgrnd: #242C4A;
     --action-box-border: #000000;
-    --fps-backgrnd: #BDC0FA;
+
     --fps-text: #00004F;
     --fps-form-backgrnd: #8BA3C5;
     --fps-box-border: #000000;
-    --rpg-backgrnd: #386278;
+
     --rpg-text: #E1EDFB;
     --rpg-form-backgrnd: #22454D;
     --rpg-box-border: #000000;
-    --simu-backgrnd: #7890CD;
+
     --simu-text: #00004F;
     --simu-form-backgrnd: #72AAD3;
     --simu-box-border: #000000;
-    --sport-backgrnd: #414770;
+
     --sport-text: #E1EDFB;
     --sport-form-backgrnd: #272C45;
     --sport-box-border: #000000;
-    --strategy-backgrnd: #22454D;
+
     --strategy-text: #E1EDFB;
     --strategy-form-backgrnd: #1E3951;
     --strategy-box-border: #000000;
@@ -49,44 +51,48 @@
 }
 
 body {
-    background-color: #8BA3C5;
-    font-family: 'Roboto Slab';font-size: 22px;
-    margin: 0;
-    padding: 0;
-}
+        background-color: #8BA3C5;
+        font-family: 'Roboto Slab';
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
 
 .actionPage {
-    background-color: var(--body-color);
+    background-color: var(--action-backgrnd);
     font-family: 'Roboto Slab';font-size: 15px;
-    margin: 0;
+    margin: auto;
     padding: 0;
+    width: auto;
 }
 .fpsPage {
-    background-color: var(--body-color);
+    background-color: var(--fps-backgrnd);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .rpgPage {
-    background-color: var(--body-color);
+    background-color: var(--rpg-backgrnd);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .simulationPage {
-    background-color: var(--body-color);
+    background-color: var(--simu-backgrnd);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .sportPage {
-    background-color: var(--body-color);
+    background-color: var(--sport-backgrnd);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .strategiePage {
-    background-color: var(--body-color);
+    background-color: var(--strategy-backgrnd);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
@@ -207,12 +213,11 @@ footer {
     opacity: 1;
 }
 
-
 .blocAction {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 .blocFPS {
     width: 80%;
@@ -240,7 +245,8 @@ footer {
     margin-right: auto;
 }
 .gridLeft {
-    border: black solid 2px;
+    width: 95%;
+    border: black solid 1px;
     border-radius: 5px;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
@@ -249,17 +255,26 @@ footer {
     grid-template-areas:
     "cover details";
     margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:auto;
 }
 .gridRight {
     display: grid;
-    border: black solid 2px;
+    width: 95%;
+    border: black solid 1px;
     border-radius: 5px;
     grid-template-columns: 1fr 0.5fr;
     grid-template-rows: 300px;
     gap: 5px 10px;
     grid-template-areas:
     "detailRight coverRight";
-    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:auto;
 }
 .detailRight {
     grid-area: detailRight;
@@ -269,6 +284,7 @@ footer {
     display: flex;
     justify-content: center;
     align-self: center;
+    overflow:auto;
 }
 
 .cover {
@@ -276,6 +292,7 @@ footer {
     display: flex;
     justify-content: center;
     align-self: center;
+    overflow:auto;
 }
 .details {
     grid-area: details;
@@ -363,6 +380,10 @@ label.star:hover:before {
 
 
 #cover1 {
+    max-width: 250px;
+    max-height: 250px;
+}
+#cover2 {
     max-width: 250px;
     max-height: 250px;
 }
