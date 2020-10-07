@@ -42,6 +42,7 @@
                         <a id="listLeft" href="https://bethesda.net/en/game/doom" target="_blank">Acheter</a>
                     </ul>
                 </div>
+            </div>
         </div>
     </div>
     <div class="gridRight">
