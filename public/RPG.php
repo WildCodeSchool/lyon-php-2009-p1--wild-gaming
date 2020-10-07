@@ -11,6 +11,7 @@
 <header>
     <?php include_once '_headerSidePageResponsive.php' ?>
     <?php include_once '../src/function.php'; ?>
+
     <!-- Code HEADER -->
 </header>
 
@@ -212,10 +213,7 @@
 <?php include_once '_form.php'; ?>
 
 
-<?php
-
-include '_footer.php';
-?>
+<?php include '_footer.php'; ?>
 
 <script type="text/javascript" src="/script.js"></script>
 

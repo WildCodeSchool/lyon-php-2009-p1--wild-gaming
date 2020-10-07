@@ -211,7 +211,7 @@
 
 <?php include_once '_form.php'; ?>
 
-<?php  include '_footer.php'; ?>
+<?php include '_footer.php'; ?>
 
 <script type="text/javascript" src="/script.js"></script>
 

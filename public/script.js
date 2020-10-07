@@ -53,8 +53,6 @@ function showSlides(n) {
     }
 
 
-
-
 }
 
 
@@ -65,7 +63,4 @@ function showSlides(n) {
         const slideimg = document.querySelector('.gameSlides');
         slideimg.onclick = function() {slideLink()};
 
-
-
-
-
+}
