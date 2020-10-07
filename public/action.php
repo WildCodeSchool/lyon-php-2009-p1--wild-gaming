@@ -26,15 +26,16 @@
         </div>
         <div class="details">
             <div id="title">
-                <h3>Game 1:</h3>
+                <h3><?= array_keys($dataBase['Action/Aventure'])[0]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['Release'] . ")" ?></span></h3>
             </div>
 
             <div id="infos">
                 <ul>
-                    <li id="listLeft">EA Vancouver</li>
-                    <li id="listLeft">PEGI 12</li>
-                    <p id="listLeft">Synopsis: Le jeu de simulation auto !</p>
-                    <a id="listLeft" href="https://www.metacritic.com">Note metacritic</a>
+                    <li id="listLeft">Studio : <?= ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['Studio'] ?> </li>
+                    <li id="listLeft">PEGI : <?= ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['PEGI'] ?></li>
+                    <p id="listLeft">Synopsis : <?= ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['Synopsis'] ?></p>
+                    <a id="listLeft" href="https://www.metacritic.com/game/pc/assassins-creed-origins" target="_blank">Note : 84/100</a>
+                    <a id="listLeft" href="https://store.ubi.com/fr/assassins-creed-origins/592450934e0165f46c8b4568.html" target="_blank">Acheter</a>
                 </ul>
             </div>
         </div>
@@ -42,13 +43,15 @@
     <div class="gridRight">
         <div class="detailRight">
             <div id="titleRight">
-                <h3>Game 2:</h3>
+                <h3><?= array_keys($dataBase['Action/Aventure'])[1]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['Cyberpunk 2077']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Développé par EA Vancouver</li>
-                    <li id="listRight">Classification: PEGI 12</li>
-                    <p id="listRight">Synopsis:  La simulation de foot annuelle !</p>
+                    <li id="listRight">Studio : <?= ($dataBase)['Action/Aventure']['Cyberpunk 2077']['Studio'] ?></li>
+                    <li id="listRight">PEGI : <?= ($dataBase)['Action/Aventure']['Cyberpunk 2077']['PEGI'] ?></li>
+                    <p id="listRight">Synopsis : <?= ($dataBase)['Action/Aventure']['Cyberpunk 2077']['Synopsis'] ?></p>
+                    <a id="listRight" href="https://www.metacritic.com/game/pc/cyberpunk-2077" target="_blank">Note : Non noté</a>
+                    <a id="listRight" href="https://www.cyberpunk.net/us/en/pre-order" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
@@ -63,15 +66,16 @@
         </div>
         <div class="details">
             <div id="title">
-                <h3>Game 1:</h3>
+                <h3><?= array_keys($dataBase['Action/Aventure'])[2]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['The Legend of Zelda : Breath of the Wild']['Release'] . ")" ?></span></h3>
             </div>
 
             <div id="infos">
                 <ul>
-                    <li id="listLeft">EA Vancouver</li>
-                    <li id="listLeft">PEGI 12</li>
-                    <p id="listLeft">Synopsis: Le jeu de simulation auto !</p>
-                    <a id="listLeft" href="https://www.metacritic.com">Note metacritic</a>
+                    <li id="listLeft">Studio : <?= ($dataBase)['Action/Aventure']['The Legend of Zelda : Breath of the Wild']['Studio'] ?> </li>
+                    <li id="listLeft">PEGI : <?= ($dataBase)['Action/Aventure']['The Legend of Zelda : Breath of the Wild']['PEGI'] ?></li>
+                    <p id="listLeft">Synopsis : <?= ($dataBase)['Action/Aventure']['The Legend of Zelda : Breath of the Wild']['Synopsis'] ?></p>
+                    <a id="listLeft" href="https://www.metacritic.com/game/switch/the-legend-of-zelda-breath-of-the-wild" target="_blank">Note : 97/100</a>
+                    <a id="listLeft" href="https://www.zelda.com/breath-of-the-wild/buy-now/" target="_blank">Acheter</a>
                 </ul>
             </div>
         </div>
@@ -80,13 +84,15 @@
     <div class="gridRight">
         <div class="detailRight">
             <div id="titleRight">
-                <h3>Game 2:</h3>
+                <h3><?= array_keys($dataBase['Action/Aventure'])[3]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Développé par EA Vancouver</li>
-                    <li id="listRight">Classification: PEGI 12</li>
-                    <p id="listRight">Synopsis:  La simulation de foot annuelle !</p>
+                    <li id="listRight">Studio : <?= ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['Studio'] ?></li>
+                    <li id="listRight">PEGI : <?= ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['PEGI'] ?></li>
+                    <p id="listRight">Synopsis : <?= ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['Synopsis'] ?></p>
+                    <a id="listRight" href="https://www.metacritic.com/game/playstation-4/red-dead-redemption-2" target="_blank">Note : 97/100</a>
+                    <a id="listRight" href="https://www.rockstargames.com/reddeadredemption2/restricted-content/agegate/form?redirect=https%3A%2F%2Fwww.rockstargames.com%2Freddeadredemption2%2Ffr%2Forder&options=&locale=fr_fr" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
@@ -101,15 +107,16 @@
         </div>
         <div class="details">
             <div id="title">
-                <h3>Game 1:</h3>
+                <h3><?= array_keys($dataBase['Action/Aventure'])[4]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['The Witcher 3 : Wild Hunt']['Release'] . ")" ?></span></h3>
             </div>
 
             <div id="infos">
                 <ul>
-                    <li id="listLeft">EA Vancouver</li>
-                    <li id="listLeft">PEGI 12</li>
-                    <p id="listLeft">Synopsis: Le jeu de simulation auto !</p>
-                    <a id="listLeft" href="https://www.metacritic.com">Note metacritic</a>
+                    <li id="listLeft">Studio : <?= ($dataBase)['Action/Aventure']['The Witcher 3 : Wild Hunt']['Studio'] ?> </li>
+                    <li id="listLeft">PEGI : <?= ($dataBase)['Action/Aventure']['The Witcher 3 : Wild Hunt']['PEGI'] ?></li>
+                    <p id="listLeft">Synopsis : <?= ($dataBase)['Action/Aventure']['The Witcher 3 : Wild Hunt']['Synopsis'] ?></p>
+                    <a id="listLeft" href="https://www.metacritic.com/game/playstation-4/the-witcher-3-wild-hunt" target="_blank">Note : 92/100</a>
+                    <a id="listLeft" href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/" target="_blank">Acheter</a>
                 </ul>
             </div>
         </div>
@@ -118,13 +125,15 @@
     <div class="gridRight">
         <div class="detailRight">
             <div id="titleRight">
-                <h3>Game 2:</h3>
+                <h3><?= array_keys($dataBase['Action/Aventure'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['Uncharted 4 : A Thief\'s End']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Développé par EA Vancouver</li>
-                    <li id="listRight">Classification: PEGI 12</li>
-                    <p id="listRight">Synopsis:  La simulation de foot annuelle !</p>
+                    <li id="listRight">Studio : <?= ($dataBase)['Action/Aventure']['Uncharted 4 : A Thief\'s End']['Studio'] ?></li>
+                    <li id="listRight">PEGI : <?= ($dataBase)['Action/Aventure']['Uncharted 4 : A Thief\'s End']['PEGI'] ?></li>
+                    <p id="listRight">Synopsis : <?= ($dataBase)['Action/Aventure']['Uncharted 4 : A Thief\'s End']['Synopsis'] ?></p>
+                    <a id="listRight" href="https://www.metacritic.com/game/playstation-4/uncharted-4-a-thiefs-end" target="_blank">Note : 93/100</a>
+                    <a id="listRight" href="https://www.playstation.com/fr-fr/games/uncharted-4-a-thiefs-end-ps4/buy-now/" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
@@ -162,31 +171,7 @@
 
 </section>
 
-    <form action="">
-        <label for="actionadvgamelist">What game did you play?</label>
-        <select id="actionadvgamelist" name="actionadvgamelist">
-            <option value="acorigins">Assassin's Creed Origins</option>
-            <option value="cyberpunk">Cyberpunk 2077</option>
-            <option value="reddead">Red Dead Redemption 2</option>
-            <option value="zelda">The Legend of Zelda: Breath of the Wild</option>
-            <option value="witcher">The Witcher 3: Wild Hunt</option>
-            <option value="uncharted">Uncharted 4: A Thief’s End</option>
-        </select>
 
-        <label for="actionadvrating">How would you rate it?</label>
-        <select id="actionadvrating" name="actionadvrating">
-            <option value="excellent">Excellent!</option>
-            <option value="good">Good</option>
-            <option value="decent">Decent but not my favorite game</option>
-            <option value="disliked">I disliked it</option>
-            <option value="hated">To be avoided at all costs!</option>
-        </select>
-
-        <label for="comment">Leave a comment (optional)</label>
-        <textarea id="comment" name="comment" placeholder="Anything to say?" style="height:200px"></textarea>
-
-        <input type="submit" value="Submit">
-    </form>
 <script type="text/javascript" src="script.js"></script>
 
 </body>
