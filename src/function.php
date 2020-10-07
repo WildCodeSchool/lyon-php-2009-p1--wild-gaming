@@ -303,5 +303,3 @@ $dataBase = [
         ]
     ]
 ];
-
-var_dump($dataBase);

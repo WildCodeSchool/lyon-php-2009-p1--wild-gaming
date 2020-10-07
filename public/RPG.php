@@ -10,6 +10,7 @@
 <body class="rpgPage">
 <header>
     <?php include_once '_headerSidePageResponsive.php' ?>
+    <?php include_once '../src/function.php'; ?>
     <!-- Code HEADER -->
 </header>
 
@@ -24,15 +25,16 @@
         </div>
         <div class="details">
             <div id="title">
-                <h3>Game 1:</h3>
+                <h3><?= array_keys($dataBase['RPG'])[0]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['RPG']['The Dungeon of Naheulbeuck : The Amulet of Chaos']['Release'] . ")" ?></span></h3>
             </div>
 
             <div id="infos">
                 <ul>
-                    <li id="listLeft">EA Vancouver</li>
-                    <li id="listLeft">PEGI 12</li>
-                    <p id="listLeft">Synopsis: Le jeu de simulation auto !</p>
-                    <a id="listLeft" href="https://www.metacritic.com">Note metacritic</a>
+                    <li id="listLeft">Studio : <?= ($dataBase)['RPG']['The Dungeon of Naheulbeuck : The Amulet of Chaos']['Studio'] ?> </li>
+                    <li id="listLeft">PEGI : <?= ($dataBase)['RPG']['The Dungeon of Naheulbeuck : The Amulet of Chaos']['PEGI'] ?></li>
+                    <p id="listLeft">Synopsis : <?= ($dataBase)['RPG']['The Dungeon of Naheulbeuck : The Amulet of Chaos']['Synopsis'] ?></p>
+                    <a id="listLeft" href="https://www.metacritic.com/game/pc/the-dungeon-of-naheulbeuk-the-amulet-of-chaos" target="_blank">Note : 73/100</a>
+                    <a id="listLeft" href="https://store.steampowered.com/app/970830/The_Dungeon_Of_Naheulbeuk_The_Amulet_Of_Chaos/" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
@@ -40,13 +42,15 @@
     <div class="gridRight">
         <div class="detailRight">
             <div id="titleRight">
-                <h3>Game 2:</h3>
+                <h3><?= array_keys($dataBase['RPG'])[1]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['RPG']['Sword Art Online : Alicization Lycoris']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Développé par EA Vancouver</li>
-                    <li id="listRight">Classification: PEGI 12</li>
-                    <p id="listRight">Synopsis:  La simulation de foot annuelle !</p>
+                    <li id="listRight">Studio : <?= ($dataBase)['RPG']['Sword Art Online : Alicization Lycoris']['Studio'] ?></li>
+                    <li id="listRight">PEGI : <?= ($dataBase)['RPG']['Sword Art Online : Alicization Lycoris']['PEGI'] ?></li>
+                    <p id="listRight">Synopsis : <?= ($dataBase)['RPG']['Sword Art Online : Alicization Lycoris']['Synopsis'] ?></p>
+                    <a id="listRight" href="https://www.metacritic.com/game/pc/sword-art-online-alicization-lycoris" target="_blank">Note : 53/100</a>
+                    <a id="listRight" href="https://store.steampowered.com/app/1009290/SWORD_ART_ONLINE_Alicization_Lycoris/" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
@@ -61,15 +65,16 @@
         </div>
         <div class="details">
             <div id="title">
-                <h3>Game 1:</h3>
+                <h3><?= array_keys($dataBase['RPG'])[2]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['RPG']['Fire Emblem Fates']['Release'] . ")" ?></span></h3>
             </div>
 
             <div id="infos">
                 <ul>
-                    <li id="listLeft">EA Vancouver</li>
-                    <li id="listLeft">PEGI 12</li>
-                    <p id="listLeft">Synopsis: Le jeu de simulation auto !</p>
-                    <a id="listLeft" href="https://www.metacritic.com">Note metacritic</a>
+                    <li id="listLeft">Studio : <?= ($dataBase)['RPG']['Fire Emblem Fates']['Studio'] ?> </li>
+                    <li id="listLeft">PEGI : <?= ($dataBase)['RPG']['Fire Emblem Fates']['PEGI'] ?></li>
+                    <p id="listLeft">Synopsis : <?= ($dataBase)['RPG']['Fire Emblem Fates']['Synopsis'] ?></p>
+                    <a id="listLeft" href="https://www.metacritic.com/game/3ds/fire-emblem-fates-conquest" target="_blank">Note : 87/100</a>
+                    <a id="listLeft" href="https://www.nintendo.fr/Jeux/Nintendo-3DS/Fire-Emblem-Fates-1026071.html" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
@@ -78,13 +83,15 @@
     <div class="gridRight">
         <div class="detailRight">
             <div id="titleRight">
-                <h3>Game 2:</h3>
+                <h3><?= array_keys($dataBase['RPG'])[3]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['RPG']['Star Wars : The Old Republic']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Développé par EA Vancouver</li>
-                    <li id="listRight">Classification: PEGI 12</li>
-                    <p id="listRight">Synopsis:  La simulation de foot annuelle !</p>
+                    <li id="listRight">Studio : <?= ($dataBase)['RPG']['Star Wars : The Old Republic']['Studio'] ?></li>
+                    <li id="listRight">PEGI : <?= ($dataBase)['RPG']['Star Wars : The Old Republic']['PEGI'] ?></li>
+                    <p id="listRight">Synopsis : <?= ($dataBase)['RPG']['Star Wars : The Old Republic']['Synopsis'] ?></p>
+                    <a id="listRight" href="https://www.metacritic.com/game/pc/star-wars-the-old-republic" target="_blank">Note : 85/100</a>
+                    <a id="listRight" href="https://www.swtor.com/fr/buy" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
@@ -99,15 +106,16 @@
         </div>
         <div class="details">
             <div id="title">
-                <h3>Game 1:</h3>
+                <h3><?= array_keys($dataBase['RPG'])[4]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['RPG']['Fantasy of Expedition']['Release'] . ")" ?></span></h3>
             </div>
 
             <div id="infos">
                 <ul>
-                    <li id="listLeft">EA Vancouver</li>
-                    <li id="listLeft">PEGI 12</li>
-                    <p id="listLeft">Synopsis: Le jeu de simulation auto !</p>
-                    <a id="listLeft" href="https://www.metacritic.com">Note metacritic</a>
+                    <li id="listLeft">Studio : <?= ($dataBase)['RPG']['Fantasy of Expedition']['Studio'] ?> </li>
+                    <li id="listLeft">PEGI : <?= ($dataBase)['RPG']['Fantasy of Expedition']['PEGI'] ?></li>
+                    <p id="listLeft">Synopsis : <?= ($dataBase)['RPG']['Fantasy of Expedition']['Synopsis'] ?></p>
+                    <a id="listLeft" href="https://www.metacritic.com/game/pc/fantasy-of-expedition" target="_blank">Note : Non noté</a>
+                    <a id="listLeft" href="https://store.steampowered.com/app/780670/Fantasy_of_Expedition/" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
@@ -116,13 +124,15 @@
     <div class="gridRight">
         <div class="detailRight">
             <div id="titleRight">
-                <h3>Game 2:</h3>
+                <h3><?= array_keys($dataBase['RPG'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['RPG']['The Elder Scrolls Online']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Développé par EA Vancouver</li>
-                    <li id="listRight">Classification: PEGI 12</li>
-                    <p id="listRight">Synopsis:  La simulation de foot annuelle !</p>
+                    <li id="listRight">Studio : <?= ($dataBase)['RPG']['The Elder Scrolls Online']['Studio'] ?></li>
+                    <li id="listRight">PEGI : <?= ($dataBase)['RPG']['The Elder Scrolls Online']['PEGI'] ?></li>
+                    <p id="listRight">Synopsis : <?= ($dataBase)['RPG']['The Elder Scrolls Online']['Synopsis'] ?></p>
+                    <a id="listRight" href="https://www.metacritic.com/game/pc/the-elder-scrolls-online" target="_blank">Note : 71/100</a>
+                    <a id="listRight" href="https://store.steampowered.com/agecheck/app/306130/" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
