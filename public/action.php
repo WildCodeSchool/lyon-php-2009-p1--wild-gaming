@@ -174,11 +174,14 @@
 
 <script type="text/javascript" src="script.js"></script>
 
-</body>
-</html>
 
+
+<?php include_once '_form.php'; ?>
 
 <?php
 
 include '_footer.php';
 ?>
+
+</body>
+</html>
