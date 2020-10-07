@@ -20,7 +20,7 @@
 <section class="action" id="article">
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src="assets/img/fifa21.png" "cover">
         </div>
         <div class="details">
             <div id="title">
