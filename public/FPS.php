@@ -10,6 +10,8 @@
 <body class="fpsPage">
 <header>
     <?php include_once '_headerSidePageResponsive.php' ?>
+    <?php include_once '../src/function.php'; ?>
+
     <!-- Code HEADER -->
 </header>
 
@@ -23,30 +25,37 @@
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
         </div>
         <div class="details">
-            <div id="title">
-                <h3>Game 1:</h3>
+            <div class="cover">
+                <img id="cover1" src=" <?= $dataBase['FPS']['Doom Eternal']['Image'] ?>" "cover">
             </div>
+            <div class="details">
+                <div id="title">
+                    <h3><?= array_keys($dataBase['FPS'])[0]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Doom Eternal']['Release'] . ")" ?></span></h3>
+                </div>
 
-            <div id="infos">
-                <ul>
-                    <li id="listLeft">EA Vancouver</li>
-                    <li id="listLeft">PEGI 12</li>
-                    <p id="listLeft">Synopsis: Le jeu de simulation auto !</p>
-                    <a id="listLeft" href="https://www.metacritic.com">Note metacritic</a>
-                </ul>
-            </div>
+                <div id="infos">
+                    <ul>
+                        <li id="listLeft">Studio : <?= ($dataBase)['FPS']['Doom Eternal']['Studio'] ?> </li>
+                        <li id="listLeft">PEGI : <?= ($dataBase)['FPS']['Doom Eternal']['PEGI'] ?></li>
+                        <p id="listLeft">Synopsis : <?= ($dataBase)['FPS']['Doom Eternal']['Synopsis'] ?></p>
+                        <a id="listLeft" href="https://www.metacritic.com/game/playstation-4/doom-eternal" target="_blank">Note : 87/100</a>
+                        <a id="listLeft" href="https://bethesda.net/en/game/doom" target="_blank">Acheter</a>
+                    </ul>
+                </div>
         </div>
     </div>
     <div class="gridRight">
         <div class="detailRight">
             <div id="titleRight">
-                <h3>Game 2:</h3>
+                <h3><?= array_keys($dataBase['FPS'])[1]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Call of Duty : Modern Warfare']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Développé par EA Vancouver</li>
-                    <li id="listRight">Classification: PEGI 12</li>
-                    <p id="listRight">Synopsis:  La simulation de foot annuelle !</p>
+                    <li id="listRight">Studio : <?= ($dataBase)['FPS']['Call of Duty : Modern Warfare']['Studio'] ?></li>
+                    <li id="listRight">PEGI : <?= ($dataBase)['FPS']['Call of Duty : Modern Warfare']['PEGI'] ?></li>
+                    <p id="listRight">Synopsis : <?= ($dataBase)['FPS']['Call of Duty : Modern Warfare']['Synopsis'] ?></p>
+                    <a id="listRight" href="https://www.metacritic.com/game/playstation-4/call-of-duty-modern-warfare" target="_blank">Note : 80/100</a>
+                    <a id="listRight" href="https://www.callofduty.com/fr/modernwarfare/buy" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
@@ -61,15 +70,16 @@
         </div>
         <div class="details">
             <div id="title">
-                <h3>Game 1:</h3>
+                <h3><?= array_keys($dataBase['FPS'])[2]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Battlefield 5']['Release'] . ")" ?></span></h3>
             </div>
 
             <div id="infos">
                 <ul>
-                    <li id="listLeft">EA Vancouver</li>
-                    <li id="listLeft">PEGI 12</li>
-                    <p id="listLeft">Synopsis: Le jeu de simulation auto !</p>
-                    <a id="listLeft" href="https://www.metacritic.com">Note metacritic</a>
+                    <li id="listLeft">Studio : <?= ($dataBase)['FPS']['Battlefield 5']['Studio'] ?> </li>
+                    <li id="listLeft">PEGI : <?= ($dataBase)['FPS']['Battlefield 5']['PEGI'] ?></li>
+                    <p id="listLeft">Synopsis : <?= ($dataBase)['FPS']['Battlefield 5']['Synopsis'] ?></p>
+                    <a id="listLeft" href="https://www.metacritic.com/game/playstation-4/battlefield-v" target="_blank">Note : 73/100</a>
+                    <a id="listLeft" href="https://www.ea.com/fr-fr/games/battlefield/battlefield-5/buy" target="_blank">Acheter</a>
                 </ul>
             </div>
         </div>
@@ -78,13 +88,15 @@
     <div class="gridRight">
         <div class="detailRight">
             <div id="titleRight">
-                <h3>Game 2:</h3>
+                <h3><?= array_keys($dataBase['FPS'])[3]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Counter Strike : Global Offensive']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Développé par EA Vancouver</li>
-                    <li id="listRight">Classification: PEGI 12</li>
-                    <p id="listRight">Synopsis:  La simulation de foot annuelle !</p>
+                    <li id="listRight">Studio : <?= ($dataBase)['FPS']['Counter Strike : Global Offensive']['Studio'] ?></li>
+                    <li id="listRight">PEGI : <?= ($dataBase)['FPS']['Counter Strike : Global Offensive']['PEGI'] ?></li>
+                    <p id="listRight">Synopsis : <?= ($dataBase)['FPS']['Counter Strike : Global Offensive']['Synopsis'] ?></p>
+                    <a id="listRight" href="https://www.metacritic.com/game/pc/counter-strike-global-offensive" target="_blank">Note : 83/100</a>
+                    <a id="listRight" href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
@@ -99,15 +111,16 @@
         </div>
         <div class="details">
             <div id="title">
-                <h3>Game 1:</h3>
+                <h3><?= array_keys($dataBase['FPS'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Star Wars Battlefront 2']['Release'] . ")" ?></span></h3>
             </div>
 
             <div id="infos">
                 <ul>
-                    <li id="listLeft">EA Vancouver</li>
-                    <li id="listLeft">PEGI 12</li>
-                    <p id="listLeft">Synopsis: Le jeu de simulation auto !</p>
-                    <a id="listLeft" href="https://www.metacritic.com">Note metacritic</a>
+                    <li id="listLeft">Studio : <?= ($dataBase)['FPS']['Star Wars Battlefront 2']['Studio'] ?> </li>
+                    <li id="listLeft">PEGI : <?= ($dataBase)['FPS']['Star Wars Battlefront 2']['PEGI'] ?></li>
+                    <p id="listLeft">Synopsis : <?= ($dataBase)['FPS']['Star Wars Battlefront 2']['Synopsis'] ?></p>
+                    <a id="listLeft" href="https://www.metacritic.com/game/pc/star-wars-battlefront-ii" target="_blank">Note : 65/100</a>
+                    <a id="listLeft" href="https://www.ea.com/games/starwars/battlefront/star-wars-battlefront-2/buy" target="_blank">Acheter</a>
                 </ul>
             </div>
         </div>
@@ -116,13 +129,15 @@
     <div class="gridRight">
         <div class="detailRight">
             <div id="titleRight">
-                <h3>Game 2:</h3>
+                <h3><?= array_keys($dataBase['FPS'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Borderlands 3']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Développé par EA Vancouver</li>
-                    <li id="listRight">Classification: PEGI 12</li>
-                    <p id="listRight">Synopsis:  La simulation de foot annuelle !</p>
+                    <li id="listRight">Studio : <?= ($dataBase)['FPS']['Borderlands 3']['Studio'] ?></li>
+                    <li id="listRight">PEGI : <?= ($dataBase)['FPS']['Borderlands 3']['PEGI'] ?></li>
+                    <p id="listRight">Synopsis : <?= ($dataBase)['FPS']['Borderlands 3']['Synopsis'] ?></p>
+                    <a id="listRight" href="https://www.metacritic.com/game/pc/borderlands-3" target="_blank">Note : 81/100</a>
+                    <a id="listRight" href="https://borderlands.com/fr-FR/shop/" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
