@@ -257,6 +257,7 @@ footer {
     grid-template-areas:
     "cover details";
     margin-top: 20px;
+    margin-bottom: 20px;
     overflow:auto;
 }
 .gridRight {
@@ -268,7 +269,8 @@ footer {
     gap: 5px 10px;
     grid-template-areas:
     "detailRight coverRight";
-    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     overflow:auto;
 }
 .detailRight {
@@ -358,6 +360,10 @@ label.star:hover:before {
 
 
 #cover1 {
+    max-width: 250px;
+    max-height: 250px;
+}
+#cover2 {
     max-width: 250px;
     max-height: 250px;
 }
