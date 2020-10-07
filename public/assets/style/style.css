@@ -1,10 +1,55 @@
 :root{
     --body-color: F4F091;
+    --homepage-backgrnd: #AEBCC;
+    --homepage-welcome-title: #284879;
+    --homepage-footer-text-btn-text: #C8DDF7;
+    --homepage-footer-backgrnd: #3855A3;
+    --homepage-btn135-backgrnd: #283876;
+    --homepage-btn246-backgrnd: #345FA4;
+    --navbar-action-backgrnd: #253E6B;
+    --navbar-action-text: #E1EDFB;
+    --navbar-fps-backgrnd: #253E6B;
+    --navbar-fps-text: #E1EDFB;
+    --navbar-rpg-backgrnd: #253E6B;
+    --navbar-rpg-text: #E1EDFB;
+    --navbar-simu-backgrnd: #253E6B;
+    --navbar-simu-text: #E1EDFB;
+    --navbar-sport-backgrnd: #253E6B;
+    --navbar-sport-text: #E1EDFB;
+    --navbar-strategy-backgrnd: #253E6B;
+    --navbar-strategy-text: #E1EDFB;
+    --action-backgrnd: #29E60;
+    --action-text: #E1EDFB;
+    --action-form-backgrnd: #242C4A;
+    --action-box-border: #000000;
+    --fps-backgrnd: #BDC0FA;
+    --fps-text: #00004F;
+    --fps-form-backgrnd: #8BA3C5;
+    --fps-box-border: #000000;
+    --rpg-backgrnd: #386278;
+    --rpg-text: #E1EDFB;
+    --rpg-form-backgrnd: #22454D;
+    --rpg-box-border: #000000;
+    --simu-backgrnd: #7890CD;
+    --simu-text: #00004F;
+    --simu-form-backgrnd: #72AAD3;
+    --simu-box-border: #000000;
+    --sport-backgrnd: #414770;
+    --sport-text: #E1EDFB;
+    --sport-form-backgrnd: #272C45;
+    --sport-box-border: #000000;
+    --strategy-backgrnd: #22454D;
+    --strategy-text: #E1EDFB;
+    --strategy-form-backgrnd: #1E3951;
+    --strategy-box-border: #000000;
+
+
+    
 
 }
 
 body {
-    background-color: var(--body-color);
+    background-color: var(--homepage-text-btn-footer);
     font-family: 'Roboto Slab';font-size: 22px;
     margin: 0;
     padding: 0;
