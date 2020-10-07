@@ -130,9 +130,8 @@
             <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
         </div>
     </div>
-    <!-- Code HEADER -->
 
-    <script>
+   <script>
         const article = document.getElementById("article");
         const navbarColor = document.querySelector(".navbar");
         switch (article.className) {
@@ -186,6 +185,10 @@
 
         <input type="submit" value="Submit">
     </form>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
 
 <?php
 
