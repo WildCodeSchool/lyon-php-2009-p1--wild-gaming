@@ -132,19 +132,34 @@ body {
     border-width: 4px;
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 0 0.5rem;
+/* start footer */
+@media screen and (max-width: 600px) {
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 0 0.5rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 1rem;
+    }
 }
 
 .logossocialnetworks img {
-    max-width : 2rem;
+    max-width: 2rem;
     border-radius: 0.2rem;
-
 }
+
+/* end footer */
 
     {box-sizing:border-box}
 
@@ -311,7 +326,8 @@ ul {
     list-style: none;
 }
 
-/* Form */
+/* start form */
+
 
 form {
     width: 80%;
@@ -378,6 +394,8 @@ label.star:hover:before {
     color: yellow;
 }
 
+/* end form */
+
 
 #cover1 {
     max-width: 250px;
@@ -388,6 +406,8 @@ label.star:hover:before {
     max-height: 250px;
 }
 
+/* start navbar */
+
 .navbar {
     background-color: blue;
 }
@@ -397,3 +417,5 @@ label.star:hover:before {
 .container-fluid{
     padding: 0;
 }
+
+/* end navabar */
