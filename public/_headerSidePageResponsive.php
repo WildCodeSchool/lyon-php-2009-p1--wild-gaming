@@ -18,10 +18,10 @@
             <li class="nav-item"><a class="nav-link " href="index.php">Homepage</a></li>
             <li class="nav-item"><a class="nav-link " href="RPG.php">RPG</a></li>
             <li class="nav-item"><a class="nav-link " href="FPS.php">FPS</a></li>
-            <li class="nav-item"><a class="nav-link " href="action.php">action</a></li>
-            <li class="nav-item"><a class="nav-link " href="strategie.php">strategie</a></li>
-            <li class="nav-item"><a class="nav-link " href="sport.php">sport</a></li>
-            <li class="nav-item"><a class="nav-link " href="simulation.php">simulation</a></li>
+            <li class="nav-item"><a class="nav-link " href="action.php">Action/Aventure</a></li>
+            <li class="nav-item"><a class="nav-link " href="strategie.php">Stratégie</a></li>
+            <li class="nav-item"><a class="nav-link " href="sport.php">Sport</a></li>
+            <li class="nav-item"><a class="nav-link " href="simulation.php">Simulation</a></li>
           </ul>
         </div>
       </nav>
