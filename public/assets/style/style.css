@@ -319,9 +319,6 @@ body {
     text-align: center;
 }
 
-#listLeft {
-    margin-left: -20px;
-}
 ul {
     list-style: none;
 }
@@ -423,7 +420,7 @@ label.star:hover:before {
     background-color:#007dc1;
     border-radius:23px;
     border:1px solid #124d77;
-    display:inline-block;
+    display: inline-block;
     cursor:pointer;
     color:#ffffff;
     font-family:Arial;

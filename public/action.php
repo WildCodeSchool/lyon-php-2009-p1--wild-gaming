@@ -76,7 +76,7 @@
                     <li id="listLeft">PEGI : <?= ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['PEGI'] ?></li>
                     <p id="listLeft">Synopsis : <?= ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listLeft" href="https://www.metacritic.com/game/pc/assassins-creed-origins" target="_blank">Note : 84/100</a>
-                    <a class="buttonarticle"  id="listLeft" href="https://store.ubi.com/fr/assassins-creed-origins/592450934e0165f46c8b4568.html" target="_blank">Acheter</a>
+                    <a class="buttonarticle" id="listLeft" href="https://store.ubi.com/fr/assassins-creed-origins/592450934e0165f46c8b4568.html" target="_blank">Acheter</a>
                 </ul>
             </div>
         </div>
