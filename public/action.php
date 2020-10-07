@@ -12,12 +12,54 @@
 <body class="actionPage">
 <header>
     <?php include_once '_headerSidePageResponsive.php' ?>
+    <?php include_once '../src/function.php' ?>
     <!-- Code HEADER -->
 </header>
 
-<div class="carousel">
-    <!-- Code Carousel -->
+<div class="slideshow" id="slide">
+        <div class="gameSlides fade">
+            <img src="assets/img/fake1.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[0] ?>" style="width:100%">
+            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[0] ?></div>
+        </div>
+
+        <div class="gameSlides fade">
+            <img src="assets/img/fake2.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[1] ?>" style="width:100%">
+            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[1] ?></div>
+        </div>
+
+        <div class="gameSlides fade">
+            <img src="assets/img/fake3.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[2] ?>" style="width:100%">
+            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[2] ?></div>
+        </div>
+
+        <div class="gameSlides fade">
+            <img src="assets/img/fake4.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[3] ?>" style="width:100%">
+            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[3] ?></div>
+        </div>
+
+        <div class="gameSlides fade">
+            <img src="assets/img/fake5.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[4] ?>" style="width:100%">
+            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[4] ?></div>
+        </div>
+
+        <div class="gameSlides fade">
+            <img src="assets/img/fake6.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[5] ?>" style="width:100%">
+            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[5] ?></div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
 
 <section class="action" id="article">
     <div class="gridLeft">
@@ -156,37 +198,8 @@
                 navbarColor.style.backgroundColor = "var(--navbar-fps-backgrnd)";
         }
     </script>
-
-
-
-
 </section>
 
-    <form action="">
-        <label for="actionadvgamelist">What game did you play?</label>
-        <select id="actionadvgamelist" name="actionadvgamelist">
-            <option value="acorigins">Assassin's Creed Origins</option>
-            <option value="cyberpunk">Cyberpunk 2077</option>
-            <option value="reddead">Red Dead Redemption 2</option>
-            <option value="zelda">The Legend of Zelda: Breath of the Wild</option>
-            <option value="witcher">The Witcher 3: Wild Hunt</option>
-            <option value="uncharted">Uncharted 4: A Thief’s End</option>
-        </select>
-
-        <label for="actionadvrating">How would you rate it?</label>
-        <select id="actionadvrating" name="actionadvrating">
-            <option value="excellent">Excellent!</option>
-            <option value="good">Good</option>
-            <option value="decent">Decent but not my favorite game</option>
-            <option value="disliked">I disliked it</option>
-            <option value="hated">To be avoided at all costs!</option>
-        </select>
-
-        <label for="comment">Leave a comment (optional)</label>
-        <textarea id="comment" name="comment" placeholder="Anything to say?" style="height:200px"></textarea>
-
-        <input type="submit" value="Submit">
-    </form>
 <script type="text/javascript" src="script.js"></script>
 
 </body>
@@ -197,3 +210,8 @@
 
 include '_footer.php';
 ?>
+
+<script type="text/javascript" src="/script.js"></script>
+
+</body>
+</html>

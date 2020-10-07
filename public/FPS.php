@@ -10,11 +10,54 @@
 <body class="fpsPage">
 <header>
     <?php include_once '_headerSidePageResponsive.php' ?>
+    <?php include_once '../src/function.php' ?>
     <!-- Code HEADER -->
 </header>
 
-<div class="carousel">
-    <!-- Code Carousel -->
+<div class="slideshow">
+
+    <div class="gameSlides fade">
+        <img src="assets/img/fake1.jpg" alt =" <?= array_keys($dataBase['FPS'])[0] ?>" style="width:100%">
+        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[0] ?></div>
+    </div>
+
+    <div class="gameSlides fade">
+        <img src="assets/img/fake2.jpg" alt =" <?= array_keys($dataBase['FPS'])[1] ?>" style="width:100%">
+        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[1] ?></div>
+    </div>
+
+    <div class="gameSlides fade">
+        <img src="assets/img/fake3.jpg" alt =" <?= array_keys($dataBase['FPS'])[2] ?>" style="width:100%">
+        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[2] ?></div>
+    </div>
+
+    <div class="gameSlides fade">
+        <img src="assets/img/fake4.jpg" alt =" <?= array_keys($dataBase['FPS'])[3] ?>" style="width:100%">
+        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[3] ?></div>
+    </div>
+
+    <div class="gameSlides fade">
+        <img src="assets/img/fake5.jpg" alt =" <?= array_keys($dataBase['FPS'])[4] ?>" style="width:100%">
+        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[4] ?></div>
+    </div>
+
+    <div class="gameSlides fade">
+        <img src="assets/img/fake6.jpg" alt =" <?= array_keys($dataBase['FPS'])[5] ?>" style="width:100%">
+        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[5] ?></div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
 </div>
 
 <section class="fps" id="article">
@@ -164,3 +207,8 @@
 
 include '_footer.php';
 ?>
+
+<script type="text/javascript" src="/script.js"></script>
+
+</body>
+</html>
