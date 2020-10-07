@@ -1,4 +1,3 @@
-<?php include_once '../src/function.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -64,7 +63,7 @@
 <section class="action" id="article">
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src=" <?= $dataBase['Sport']['NBA 2K21']['Image'] ?>" "cover">
+            <img id="cover1" src=" <?= $dataBase ['Action/Aventure']['Assassin\'s Creed Origins']['Image']?>" "cover">
         </div>
         <div class="details">
             <div id="title">
@@ -98,13 +97,13 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src=" <?= $dataBase['Sport']['FIFA 21']['Image'] ?>" alt="cover">
+            <img id="cover2" src=" <?= $dataBase['Action/Aventure']['Cyberpunk 2077']['Image'] ?>" alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src=" <?= $dataBase ['Action/Aventure']['The Legend of Zelda : Breath of the Wild']['Image']?>" "cover">
         </div>
         <div class="details">
             <div id="title">
@@ -139,13 +138,13 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src=" <?= $dataBase['Action/Aventure']['Red Dead Redemption 2']['Image'] ?>" alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src=" <?= $dataBase ['Action/Aventure']['The Witcher 3 : Wild Hunt']['Image']?>" "cover">
         </div>
         <div class="details">
             <div id="title">
@@ -180,7 +179,7 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src=" <?= $dataBase['Action/Aventure']['Uncharted 4 : A Thief\'s End']['Image'] ?>" alt="cover">
         </div>
     </div>
 

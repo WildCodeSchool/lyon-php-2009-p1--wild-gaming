@@ -67,15 +67,16 @@
         </div>
         <div class="details">
             <div id="title">
-                <h3>Game 1:</h3>
+                <h3><?= array_keys($dataBase['Stratégie'])[0]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Company of Heroes 2']['Release'] . ")" ?></span></h3>
             </div>
 
             <div id="infos">
                 <ul>
-                    <li id="listLeft">EA Vancouver</li>
-                    <li id="listLeft">PEGI 12</li>
-                    <p id="listLeft">Synopsis: Le jeu de simulation auto !</p>
-                    <a id="listLeft" href="https://www.metacritic.com">Note metacritic</a>
+                    <li id="listLeft">Studio : <?= ($dataBase)['Stratégie']['Company of Heroes 2']['Studio'] ?> </li>
+                    <li id="listLeft">PEGI : <?= ($dataBase)['Stratégie']['Company of Heroes 2']['PEGI'] ?></li>
+                    <p id="listLeft">Synopsis : <?= ($dataBase)['Stratégie']['Company of Heroes 2']['Synopsis'] ?></p>
+                    <a id="listLeft" href="https://www.metacritic.com/game/pc/company-of-heroes-2" target="_blank">Note : 80/100</a>
+                    <a id="listLeft" href="https://store.steampowered.com/agecheck/app/231430/" target="_blank">Acheter</a>
                 </ul>
             </div>
         </div>
@@ -83,13 +84,15 @@
     <div class="gridRight">
         <div class="detailRight">
             <div id="titleRight">
-                <h3>Game 2:</h3>
+                <h3><?= array_keys($dataBase['Stratégie'])[1]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Starcraft 2 : Wings of Liberty']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Développé par EA Vancouver</li>
-                    <li id="listRight">Classification: PEGI 12</li>
-                    <p id="listRight">Synopsis:  La simulation de foot annuelle !</p>
+                    <li id="listRight">Studio : <?= ($dataBase)['Stratégie']['Starcraft 2 : Wings of Liberty']['Studio'] ?></li>
+                    <li id="listRight">PEGI : <?= ($dataBase)['Stratégie']['Starcraft 2 : Wings of Liberty']['PEGI'] ?></li>
+                    <p id="listRight">Synopsis : <?= ($dataBase)['Stratégie']['Starcraft 2 : Wings of Liberty']['Synopsis'] ?></p>
+                    <a id="listRight" href="https://www.metacritic.com/game/pc/starcraft-ii-wings-of-liberty" target="_blank">Note : 93/100</a>
+                    <a id="listRight" href="https://starcraft2.com/en-us/" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
@@ -104,15 +107,16 @@
         </div>
         <div class="details">
             <div id="title">
-                <h3>Game 1:</h3>
+                <h3><?= array_keys($dataBase['Stratégie'])[2]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Age of Empire 2 : Definitive Edition']['Release'] . ")" ?></span></h3>
             </div>
 
             <div id="infos">
                 <ul>
-                    <li id="listLeft">EA Vancouver</li>
-                    <li id="listLeft">PEGI 12</li>
-                    <p id="listLeft">Synopsis: Le jeu de simulation auto !</p>
-                    <a id="listLeft" href="https://www.metacritic.com">Note metacritic</a>
+                    <li id="listLeft">Studio : <?= ($dataBase)['Stratégie']['Age of Empire 2 : Definitive Edition']['Studio'] ?> </li>
+                    <li id="listLeft">PEGI : <?= ($dataBase)['Stratégie']['Age of Empire 2 : Definitive Edition']['PEGI'] ?></li>
+                    <p id="listLeft">Synopsis : <?= ($dataBase)['Stratégie']['Age of Empire 2 : Definitive Edition']['Synopsis'] ?></p>
+                    <a id="listLeft" href="https://www.metacritic.com/game/pc/age-of-empires-ii-definitive-edition" target="_blank">Note : 84/100</a>
+                    <a id="listLeft" href="https://store.steampowered.com/app/813780/Age_of_Empires_II_Definitive_Edition/" target="_blank">Acheter</a>
                 </ul>
             </div>
         </div>
@@ -121,13 +125,15 @@
     <div class="gridRight">
         <div class="detailRight">
             <div id="titleRight">
-                <h3>Game 2:</h3>
+                <h3><?= array_keys($dataBase['Stratégie'])[3]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Warcraft 3 : Reforged']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Développé par EA Vancouver</li>
-                    <li id="listRight">Classification: PEGI 12</li>
-                    <p id="listRight">Synopsis:  La simulation de foot annuelle !</p>
+                    <li id="listRight">Studio : <?= ($dataBase)['Stratégie']['Warcraft 3 : Reforged']['Studio'] ?></li>
+                    <li id="listRight">PEGI : <?= ($dataBase)['Stratégie']['Warcraft 3 : Reforged']['PEGI'] ?></li>
+                    <p id="listRight">Synopsis : <?= ($dataBase)['Stratégie']['Warcraft 3 : Reforged']['Synopsis'] ?></p>
+                    <a id="listRight" href="https://www.metacritic.com/game/pc/warcraft-iii-reforged" target="_blank">Note : 59/100</a>
+                    <a id="listRight" href="https://eu.shop.battle.net/en-us/product/warcraft-iii-reforged?blzcmp=blizzard_hp_WarcraftIII:Reforged_card" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
@@ -142,15 +148,16 @@
         </div>
         <div class="details">
             <div id="title">
-                <h3>Game 1:</h3>
+                <h3><?= array_keys($dataBase['Stratégie'])[4]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Total War : Warhammer 2']['Release'] . ")" ?></span></h3>
             </div>
 
             <div id="infos">
                 <ul>
-                    <li id="listLeft">EA Vancouver</li>
-                    <li id="listLeft">PEGI 12</li>
-                    <p id="listLeft">Synopsis: Le jeu de simulation auto !</p>
-                    <a id="listLeft" href="https://www.metacritic.com">Note metacritic</a>
+                    <li id="listLeft">Studio : <?= ($dataBase)['Stratégie']['Total War : Warhammer 2']['Studio'] ?> </li>
+                    <li id="listLeft">PEGI : <?= ($dataBase)['Stratégie']['Total War : Warhammer 2']['PEGI'] ?></li>
+                    <p id="listLeft">Synopsis : <?= ($dataBase)['Stratégie']['Total War : Warhammer 2']['Synopsis'] ?></p>
+                    <a id="listLeft" href="https://www.metacritic.com/game/pc/total-war-warhammer-ii" target="_blank">Note : 87/100</a>
+                    <a id="listLeft" href="https://store.steampowered.com/app/594570/Total_War_WARHAMMER_II/" target="_blank">Acheter</a>
                 </ul>
             </div>
         </div>
@@ -159,13 +166,15 @@
     <div class="gridRight">
         <div class="detailRight">
             <div id="titleRight">
-                <h3>Game 2:</h3>
+                <h3><?= array_keys($dataBase['Stratégie'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Star Wars : Empire at War']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Développé par EA Vancouver</li>
-                    <li id="listRight">Classification: PEGI 12</li>
-                    <p id="listRight">Synopsis:  La simulation de foot annuelle !</p>
+                    <li id="listRight">Studio : <?= ($dataBase)['Stratégie']['Star Wars : Empire at War']['Studio'] ?></li>
+                    <li id="listRight">PEGI : <?= ($dataBase)['Stratégie']['Star Wars : Empire at War']['PEGI'] ?></li>
+                    <p id="listRight">Synopsis : <?= ($dataBase)['Stratégie']['Star Wars : Empire at War']['Synopsis'] ?></p>
+                    <a id="listRight" href="https://www.metacritic.com/game/pc/star-wars-empire-at-war" target="_blank">Note : 79/100</a>
+                    <a id="listRight" href="https://store.steampowered.com/app/32470/STAR_WARS_Empire_at_War__Gold_Pack/" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
