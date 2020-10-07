@@ -24,7 +24,7 @@ switch ($_SERVER['PHP_SELF']){
         $aliasTheme = "sport";
         break;
     case('/strategie.php'):
-        $theme = "Strategie";
+        $theme = "Stratégie";
         $aliasTheme = "strategie";
         break;
     case('/_form.php'):
