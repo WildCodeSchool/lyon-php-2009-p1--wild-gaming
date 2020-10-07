@@ -1,5 +1,6 @@
 <footer class="footer">
     <link rel="stylesheet" href="assets/style/style.css"/>
+    <script src="script.js"></script>
     <div class="logossocialnetworks">
         <img
                 src="assets/img/facebooklogo.png"

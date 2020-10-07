@@ -130,27 +130,29 @@
             <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
         </div>
     </div>
+    <!-- Code HEADER -->
+
     <script>
         const article = document.getElementById("article");
         const navbarColor = document.querySelector(".navbar");
         switch (article.className) {
             case ('rpg'):
-                navbarColor.style.backgroundColor = "grey";
+                navbarColor.style.backgroundColor = "var(--navbar-rpg-backgrnd)";
                 break
             case ('action'):
-                navbarColor.style.backgroundColor = "orange";
+                navbarColor.style.backgroundColor = "var(--navbar-action-backgrnd)";
                 break
             case ('simulation'):
-                navbarColor.style.backgroundColor = "purple";
+                navbarColor.style.backgroundColor = "var(--navbar-simu-backgrnd)";
                 break
             case ('sport'):
-                navbarColor.style.backgroundColor = "yellow";
+                navbarColor.style.backgroundColor = "var(--navbar-sport-backgrnd)";
                 break
             case ('strategie'):
-                navbarColor.style.backgroundColor = "blue";
+                navbarColor.style.backgroundColor = "var(--navbar-strategy-backgrnd)";
                 break
             case ('fps'):
-                navbarColor.style.backgroundColor = "brown";
+                navbarColor.style.backgroundColor = "var(--navbar-fps-backgrnd)";
         }
     </script>
 
