@@ -156,9 +156,9 @@
 
 </section>
 
-<form>
-    <!-- Code pour le form -->
-</form>
+
+<?php include_once '_form.php'; ?>
+
 
 <?php
 
