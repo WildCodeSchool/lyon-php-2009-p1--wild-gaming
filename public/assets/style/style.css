@@ -112,11 +112,6 @@ body {
 
 }
 
-form {
-    display: flex;
-    width: 66%;
-    align-content: center;
-}
 
 .btn {
     width: 100%;
@@ -298,6 +293,15 @@ footer {
 ul {
     list-style: none;
 }
+
+/* Form */
+
+form {
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
 
 
 /*Star rating*/
