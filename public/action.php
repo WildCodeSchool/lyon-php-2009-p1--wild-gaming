@@ -12,12 +12,54 @@
 <body class="actionPage">
 <header>
     <?php include_once '_headerSidePageResponsive.php' ?>
+    <?php include_once '../src/function.php' ?>
     <!-- Code HEADER -->
 </header>
 
-<div class="carousel">
-    <!-- Code Carousel -->
+<div class="slideshow" id="slide">
+        <div class="gameSlides fade">
+            <img src="assets/img/fake1.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[0] ?>" style="width:100%">
+            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[0] ?></div>
+        </div>
+
+        <div class="gameSlides fade">
+            <img src="assets/img/fake2.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[1] ?>" style="width:100%">
+            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[1] ?></div>
+        </div>
+
+        <div class="gameSlides fade">
+            <img src="assets/img/fake3.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[2] ?>" style="width:100%">
+            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[2] ?></div>
+        </div>
+
+        <div class="gameSlides fade">
+            <img src="assets/img/fake4.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[3] ?>" style="width:100%">
+            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[3] ?></div>
+        </div>
+
+        <div class="gameSlides fade">
+            <img src="assets/img/fake5.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[4] ?>" style="width:100%">
+            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[4] ?></div>
+        </div>
+
+        <div class="gameSlides fade">
+            <img src="assets/img/fake6.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[5] ?>" style="width:100%">
+            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[5] ?></div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
 
 <section class="action" id="article">
     <div class="gridLeft">
@@ -165,23 +207,13 @@
                 navbarColor.style.backgroundColor = "var(--navbar-fps-backgrnd)";
         }
     </script>
-
-
-
-
 </section>
-
-
-<script type="text/javascript" src="script.js"></script>
-
-
 
 <?php include_once '_form.php'; ?>
 
-<?php
+<?php include '_footer.php'; ?>
 
-include '_footer.php';
-?>
+<script type="text/javascript" src="/script.js"></script>
 
 </body>
 </html>
