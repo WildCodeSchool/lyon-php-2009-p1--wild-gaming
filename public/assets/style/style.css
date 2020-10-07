@@ -248,7 +248,8 @@ footer {
     margin-right: auto;
 }
 .gridLeft {
-    border: black solid 2px;
+    width: 95%;
+    border: black solid 1px;
     border-radius: 5px;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
@@ -258,11 +259,14 @@ footer {
     "cover details";
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
     overflow:auto;
 }
 .gridRight {
     display: grid;
-    border: black solid 2px;
+    width: 95%;
+    border: black solid 1px;
     border-radius: 5px;
     grid-template-columns: 1fr 0.5fr;
     grid-template-rows: 300px;
@@ -271,6 +275,8 @@ footer {
     "detailRight coverRight";
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     overflow:auto;
 }
 .detailRight {
