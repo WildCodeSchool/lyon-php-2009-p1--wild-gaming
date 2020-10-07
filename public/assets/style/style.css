@@ -115,7 +115,33 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
 
+
+
+
+#linkTo {
+    box-shadow:inset 0px 1px 0px 0px #54A3F7;
+    background:linear-gradient(to bottom, #007DC1 5%, #0061A7 100%);
+    background-color:#007dc1;
+    border-radius:23px;
+    border:1px solid #124D77;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    padding:12px 14px;
+    text-decoration:none;
+    text-shadow:0px 0px 0px #154682;
+}
+#linkTo:hover {
+    background:linear-gradient(to bottom, #0061A7 5%, #007DC1 100%);
+    background-color:#0061a7;
+}
+#linkTo:active {
+    position:relative;
+    top:1px;
 }
 
 
@@ -130,6 +156,11 @@ body {
     font-weight: 900;
     border-color: black;
     border-width: 4px;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #0061A7 5%, #007DC1 100%);
+    background-color: #0061a7;
 }
 
 /* start footer */
