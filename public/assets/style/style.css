@@ -205,6 +205,7 @@ body {
 .btn:hover {
     background: linear-gradient(to bottom, #0061A7 5%, #007DC1 100%);
     background-color: #0061a7;
+    cursor: pointer;
 }
 
 /* start footer */
