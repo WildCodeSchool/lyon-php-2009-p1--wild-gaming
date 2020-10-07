@@ -1,3 +1,5 @@
+<?php include_once '../src/function.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +22,7 @@
 <section class="action" id="article">
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src=" <?= $dataBase['Sport']['NBA 2K21']['Image'] ?>" "cover">
         </div>
         <div class="details">
             <div id="title">
@@ -51,7 +53,7 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src=" <?= $dataBase['Sport']['FIFA 21']['Image'] ?>" alt="cover">
         </div>
     </div>
 
