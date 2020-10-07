@@ -76,7 +76,7 @@
                     <li id="listLeft">Studio : <?= ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['Studio'] ?> </li>
                     <li id="listLeft">PEGI : <?= ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['PEGI'] ?></li>
                     <p id="listLeft">Synopsis : <?= ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['Synopsis'] ?></p>
-                    <a id="listLeft" href="https://www.metacritic.com/game/pc/assassins-creed-origins" target="_blank">Note : 84/100</a>
+                    <a class="buttonarcticle" id="listLeft" href="https://www.metacritic.com/game/pc/assassins-creed-origins" target="_blank">Note : 84/100</a>
                     <a id="listLeft" href="https://store.ubi.com/fr/assassins-creed-origins/592450934e0165f46c8b4568.html" target="_blank">Acheter</a>
                 </ul>
             </div>
@@ -133,7 +133,7 @@
                     <li id="listRight">Studio : <?= ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['Studio'] ?></li>
                     <li id="listRight">PEGI : <?= ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['PEGI'] ?></li>
                     <p id="listRight">Synopsis : <?= ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['Synopsis'] ?></p>
-                    <a id="listRight" href="https://www.metacritic.com/game/playstation-4/red-dead-redemption-2" target="_blank">Note : 97/100</a>
+                    <a class="bouttonarticle" id="listRight" href="https://www.metacritic.com/game/playstation-4/red-dead-redemption-2" target="_blank">Note : 97/100</a>
                     <a id="listRight" href="https://www.rockstargames.com/reddeadredemption2/restricted-content/agegate/form?redirect=https%3A%2F%2Fwww.rockstargames.com%2Freddeadredemption2%2Ffr%2Forder&options=&locale=fr_fr" target="_blank"> Acheter</a>
                 </ul>
             </div>
