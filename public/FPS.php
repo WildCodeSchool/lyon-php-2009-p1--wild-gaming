@@ -65,7 +65,7 @@
 <section class="fps" id="article">
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src=" <?= $dataBase['FPS']['Doom Eternal']['Image'] ?>" "cover">
         </div>
         <div class="details">
             <div class="details">
@@ -101,13 +101,13 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src=" <?= $dataBase['FPS']['Call of Duty : Modern Warfare']['Image'] ?>" alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src=" <?= $dataBase['FPS']['Battlefield 5']['Image'] ?>" "cover">
         </div>
         <div class="details">
             <div id="title">
@@ -142,17 +142,17 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src=" <?= $dataBase['FPS']['Counter Strike : Global Offensive']['Image'] ?> " alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src=" <?= $dataBase['FPS']['Star Wars Battlefront 2']['Image'] ?>" "cover">
         </div>
         <div class="details">
             <div id="title">
-                <h3><?= array_keys($dataBase['FPS'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Star Wars Battlefront 2']['Release'] . ")" ?></span></h3>
+                <h3><?= array_keys($dataBase['FPS'])[4]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Star Wars Battlefront 2']['Release'] . ")" ?></span></h3>
             </div>
 
             <div id="infos">
@@ -183,7 +183,7 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src=" <?= $dataBase['FPS']['Borderlands 3']['Image'] ?> " alt="cover">
         </div>
     </div>
     <script>

@@ -64,7 +64,7 @@
 <section class="rpg" id="article">
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src=" <?= $dataBase ['RPG']['The Dungeon of Naheulbeuck : The Amulet of Chaos']['Image']?>" "cover">
         </div>
         <div class="details">
             <div id="title">
@@ -98,13 +98,13 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src=" <?= $dataBase['RPG']['Sword Art Online : Alicization Lycoris']['Image'] ?>" alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src=" <?= $dataBase ['RPG']['Fire Emblem Fates']['Image']?>" "cover">
         </div>
         <div class="details">
             <div id="title">
@@ -139,13 +139,13 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src=" <?= $dataBase['RPG']['Star Wars : The Old Republic']['Image'] ?>" alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src=" <?= $dataBase ['RPG']['Fantasy of Expedition']['Image']?>" "cover">
         </div>
         <div class="details">
             <div id="title">
@@ -180,7 +180,7 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src=" <?= $dataBase['RPG']['The Elder Scrolls Online']['Image'] ?>" alt="cover">
         </div>
     </div>
     <script>
