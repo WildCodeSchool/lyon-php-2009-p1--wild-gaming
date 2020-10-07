@@ -8,12 +8,11 @@
     <title>RPG - WildGaming</title>
 </head>
 <body class="rpgPage">
-<header>
+
     <?php include_once '_headerSidePageResponsive.php' ?>
     <?php include_once '../src/function.php'; ?>
 
-    <!-- Code HEADER -->
-</header>
+    <!--Code HEADER -->
 
 <div class="slideshow">
 
@@ -216,6 +215,7 @@
 <?php include '_footer.php'; ?>
 
 <script type="text/javascript" src="/script.js"></script>
+
 
 </body>
 </html>

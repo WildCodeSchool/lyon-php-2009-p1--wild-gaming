@@ -8,11 +8,11 @@
     <title>Stratégie - WildGaming</title>
 </head>
 <body class="strategiePage">
-<header>
+
     <?php include_once '_headerSidePageResponsive.php' ?>
     <?php include_once '../src/function.php' ?>
     <!-- Code HEADER -->
-</header>
+
 
 <div class="slideshow">
 
