@@ -94,8 +94,8 @@ if (!empty($_POST) && isset($_POST['btn-contact'])) {
             <textarea class="form-control" id="comment" rows="3" name="comment"></textarea>
         </div>
             </br>
-        <div>
-        <button type="submit" class="bttn-btn-primary" name="btn-contact" id="btn-contact">Send</button>
+        <div class="buttonSubmit">
+        <button type="submit" class="bttn btn-primary" name="btn-contact">Send</button>
         </div>
         <span id="thanks"><?= $thanksMessage ?></span>
     </form>
