@@ -16,32 +16,32 @@
 <div class="slideshow">
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake1.jpg" alt =" <?= array_keys($dataBase['RPG'])[0] ?>" style="width:100%">
+        <a href="#ctitle1"><img src="assets/img/carouselpics/rpg/amc.jpg" alt =" <?= array_keys($dataBase['RPG'])[0] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['RPG'])[0] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake2.jpg" alt =" <?= array_keys($dataBase['RPG'])[1] ?>" style="width:100%">
+        <a href="#ctitle2"><img src="assets/img/carouselpics/rpg/swa.jpg" alt =" <?= array_keys($dataBase['RPG'])[1] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['RPG'])[1] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake3.jpg" alt =" <?= array_keys($dataBase['RPG'])[2] ?>" style="width:100%">
+        <a href="#ctitle3"><img src="assets/img/carouselpics/rpg/fef.jpg" alt =" <?= array_keys($dataBase['RPG'])[2] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['RPG'])[2] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake4.jpg" alt =" <?= array_keys($dataBase['RPG'])[3] ?>" style="width:100%">
+        <a href="#ctitle4"><img src="assets/img/carouselpics/rpg/sws.jpg" alt =" <?= array_keys($dataBase['RPG'])[3] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['RPG'])[3] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake5.jpg" alt =" <?= array_keys($dataBase['RPG'])[4] ?>" style="width:100%">
+        <a href="#ctitle5"><img src="assets/img/carouselpics/rpg/foe.jpg" alt =" <?= array_keys($dataBase['RPG'])[4] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['RPG'])[4] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake6.jpg" alt =" <?= array_keys($dataBase['RPG'])[5] ?>" style="width:100%">
+        <a href="#ctitle6"><img src="assets/img/carouselpics/rpg/eso.jpg" alt =" <?= array_keys($dataBase['RPG'])[5] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['RPG'])[5] ?></div>
     </div>
 
@@ -65,10 +65,10 @@
             <img id="cover1" src=" <?= $dataBase ['RPG']['The Dungeon of Naheulbeuck : The Amulet of Chaos']['Image']?>" "cover">
         </div>
         <div class="details">
+            <div id="ctitle1">
             <div id="title">
                 <h3><?= array_keys($dataBase['RPG'])[0]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['RPG']['The Dungeon of Naheulbeuck : The Amulet of Chaos']['Release'] . ")" ?></span></h3>
-            </div>
-
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['RPG']['The Dungeon of Naheulbeuck : The Amulet of Chaos']['Studio'] ?> </li>
@@ -80,11 +80,13 @@
             </div>
         </div>
     </div>
+
     <div class="gridRight">
         <div class="detailRight">
+            <div id="ctitle2">
             <div id="titleRight">
                 <h3><?= array_keys($dataBase['RPG'])[1]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['RPG']['Sword Art Online : Alicization Lycoris']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Studio : <?= ($dataBase)['RPG']['Sword Art Online : Alicization Lycoris']['Studio'] ?></li>
@@ -105,10 +107,10 @@
             <img id="cover1" src=" <?= $dataBase ['RPG']['Fire Emblem Fates']['Image']?>" "cover">
         </div>
         <div class="details">
+            <div id="ctitle3">
             <div id="title">
                 <h3><?= array_keys($dataBase['RPG'])[2]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['RPG']['Fire Emblem Fates']['Release'] . ")" ?></span></h3>
-            </div>
-
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['RPG']['Fire Emblem Fates']['Studio'] ?> </li>
@@ -123,9 +125,10 @@
 
     <div class="gridRight">
         <div class="detailRight">
+            <div id="ctitle4">
             <div id="titleRight">
                 <h3><?= array_keys($dataBase['RPG'])[3]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['RPG']['Star Wars : The Old Republic']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Studio : <?= ($dataBase)['RPG']['Star Wars : The Old Republic']['Studio'] ?></li>
@@ -146,10 +149,10 @@
             <img id="cover1" src=" <?= $dataBase ['RPG']['Fantasy of Expedition']['Image']?>" "cover">
         </div>
         <div class="details">
+            <div id="ctitle5">
             <div id="title">
                 <h3><?= array_keys($dataBase['RPG'])[4]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['RPG']['Fantasy of Expedition']['Release'] . ")" ?></span></h3>
-            </div>
-
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['RPG']['Fantasy of Expedition']['Studio'] ?> </li>
@@ -164,9 +167,10 @@
 
     <div class="gridRight">
         <div class="detailRight">
+            <div id="ctitle6">
             <div id="titleRight">
                 <h3><?= array_keys($dataBase['RPG'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['RPG']['The Elder Scrolls Online']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Studio : <?= ($dataBase)['RPG']['The Elder Scrolls Online']['Studio'] ?></li>

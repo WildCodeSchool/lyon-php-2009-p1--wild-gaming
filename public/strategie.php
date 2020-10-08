@@ -16,32 +16,32 @@
 <div class="slideshow">
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake1.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[0] ?>" style="width:100%">
+        <a href="#ftitle1"><img src="assets/img/carouselpics/strat/coh.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[0] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[0] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake2.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[1] ?>" style="width:100%">
+        <a href="#ftitle2"><img src="assets/img/carouselpics/strat/sta.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[1] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[1] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake3.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[2] ?>" style="width:100%">
+        <a href="#ftitle3"><img src="assets/img/carouselpics/strat/age.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[2] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[2] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake4.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[3] ?>" style="width:100%">
+        <a href="#ftitle4"><img src="assets/img/carouselpics/strat/war.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[3] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[3] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake5.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[4] ?>" style="width:100%">
+        <a href="#ftitle5"><img src="assets/img/carouselpics/strat/wah.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[4] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[4] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake6.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[5] ?>" style="width:100%">
+        <a href="#ftitle6"><img src="assets/img/carouselpics/strat/stw.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[5] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[5] ?></div>
     </div>
 
@@ -65,10 +65,12 @@
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
         </div>
         <div class="details">
+            <div id="ftitle1">
             <div id="title">
+                <h3>Game 1:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['Stratégie'])[0]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Company of Heroes 2']['Release'] . ")" ?></span></h3>
             </div>
-
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['Stratégie']['Company of Heroes 2']['Studio'] ?> </li>
@@ -80,9 +82,13 @@
             </div>
         </div>
     </div>
+
     <div class="gridRight">
         <div class="detailRight">
+            <div id="ftitle2">
             <div id="titleRight">
+                <h3>Game 2:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['Stratégie'])[1]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Starcraft 2 : Wings of Liberty']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
@@ -105,10 +111,12 @@
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
         </div>
         <div class="details">
+            <div id="ftitle3">
             <div id="title">
+                <h3>Game 1:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['Stratégie'])[2]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Age of Empire 2 : Definitive Edition']['Release'] . ")" ?></span></h3>
             </div>
-
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['Stratégie']['Age of Empire 2 : Definitive Edition']['Studio'] ?> </li>
@@ -123,7 +131,10 @@
 
     <div class="gridRight">
         <div class="detailRight">
+            <div id="ftitle4">
             <div id="titleRight">
+                <h3>Game 2:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['Stratégie'])[3]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Warcraft 3 : Reforged']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
@@ -146,10 +157,12 @@
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
         </div>
         <div class="details">
+            <div id="ftitle5">
             <div id="title">
+                <h3>Game 1:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['Stratégie'])[4]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Total War : Warhammer 2']['Release'] . ")" ?></span></h3>
             </div>
-
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['Stratégie']['Total War : Warhammer 2']['Studio'] ?> </li>
@@ -164,7 +177,10 @@
 
     <div class="gridRight">
         <div class="detailRight">
+            <div id="ftitle6">
             <div id="titleRight">
+                <h3>Game 2:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['Stratégie'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Star Wars : Empire at War']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
@@ -181,6 +197,7 @@
             <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
         </div>
     </div>
+
     <script>
         const article = document.getElementById("article");
         const navbarColor = document.querySelector(".navbar");

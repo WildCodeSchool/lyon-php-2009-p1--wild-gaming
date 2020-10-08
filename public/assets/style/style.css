@@ -7,11 +7,11 @@
     --homepage-btn135-backgrnd: #283876;
     --homepage-btn246-backgrnd: #345FA4;
     --navbar-text-sidepage: #E1EDFB;
-    --navbar-action-backgrnd: #E21923;
+    --navbar-action-backgrnd: #B52d35;
     --action-backgrnd: #EC9DA1;
     --navbar-fps-backgrnd: #B10CA0;
     --fps-backgrnd: #E2B1DD;
-    --navbar-rpg-backgrnd: #131DBD;
+    --navbar-rpg-backgrnd: #2c35ac;
     --rpg-backgrnd: #BCBFEF;
     --navbar-simu-backgrnd: #189627;
     --simu-backgrnd: #91CC98;
@@ -44,11 +44,8 @@
     --strategy-text: #E1EDFB;
     --strategy-form-backgrnd: #1E3951;
     --strategy-box-border: #000000;
-
-
-    
-
 }
+
 
 body {
         background-color: #8BA3C5;
@@ -102,6 +99,8 @@ body {
 .title-homepage {
     display: flex;
     justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .logo {
@@ -121,16 +120,18 @@ body {
 
 
 .btn {
+    cursor: pointer;
     width: 100%;
     height: 75px;
     margin: 20px;
     border-radius: 15px;
     font-size: 35px;
-    background-color: cadetblue;
+    background-color: #23456b;
     color: white;
     font-weight: 900;
-    border-color: black;
+    border-color: #1d3c5f;
     border-width: 4px;
+    text-shadow: 1px 1px 2px #020822, 0 0 1em #070732, 0 0 0.2em #060630;
 }
 
 /* start footer */
@@ -158,6 +159,11 @@ body {
 .logossocialnetworks img {
     max-width: 2rem;
     border-radius: 0.2rem;
+<<<<<<< HEAD
+    margin: 12px;
+    padding: 10px;
+=======
+>>>>>>> master
 }
 
 /* end footer */
@@ -206,6 +212,7 @@ body {
     bottom: 8px;
     width: 100%;
     text-align: center;
+    text-shadow: 1px 1px 2px #020822, 0 0 1em #070732, 0 0 0.2em #060630;
 }
 
 .dot {
@@ -333,14 +340,18 @@ form {
     margin-top: 3rem;
 }
 
+#form-btn {
+    background-color: #1d1d1d;
+    border-color: #8BA3C5;
+}
+
 .error{
-    color: red;
+    color: #721616;
 }
 
 #thanks{
-    color: blue;
+    color: #0f0f4e;
 }
-
 
 
 /*Star rating*/
@@ -380,16 +391,16 @@ label.star:before {
 
 
 input.star:checked ~ label.star:before {
-    color: yellow;
+    color: #ffc21c;
 }
 
 label.star:hover ~ label.star:before {
-    color: #ffdb70;
+    color: #fadc27;
 
 }
 
 label.star:hover:before {
-    color: yellow;
+    color: #fcb614;
 }
 
 /* end form */
