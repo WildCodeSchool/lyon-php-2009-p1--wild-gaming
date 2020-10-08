@@ -8,13 +8,11 @@
 
 </head>
 <body class="fpsPage">
-<header>
+
     <?php include_once '_headerSidePageResponsive.php' ?>
 
     <?php include_once '../src/function.php'; ?>
 
-    <!-- Code HEADER -->
-</header>
 
 <div class="slideshow">
 
