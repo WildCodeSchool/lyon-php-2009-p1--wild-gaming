@@ -45,7 +45,7 @@ if (!empty($_POST) && isset($_POST['btn-contact'])) {
     if (empty($game))
         $errorsGameList = 'Required';
     if (!isset($_POST['star_rating']))
-        $errorStarRating = "Vous n'avez pas mis de note";
+        $errorStarRating = "Vous n'avez pas mis de note !";
      else
         $rate = $_POST["star_rating"];
 

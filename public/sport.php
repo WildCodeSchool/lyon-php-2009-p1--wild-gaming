@@ -65,9 +65,9 @@
             </div></div>
             <div id="infos">
                 <ul>
-                    <li id="listLeft">Studio : <?= ($dataBase)['Sport']['NBA 2K21']['Studio'] ?> </li>
-                    <li id="listLeft">PEGI : <?= ($dataBase)['Sport']['NBA 2K21']['PEGI'] ?></li>
-                    <p id="listLeft">Synopsis : <?= ($dataBase)['Sport']['NBA 2K21']['Synopsis'] ?></p>
+                    <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['Sport']['NBA 2K21']['Studio'] ?> </li>
+                    <li id="listLeft"><b>PEGI :</b> <?= ($dataBase)['Sport']['NBA 2K21']['PEGI'] ?></li>
+                    <p id="listLeft"><b>Synopsis :</b> <?= ($dataBase)['Sport']['NBA 2K21']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listLeft" href="https://www.metacritic.com/game/playstation-4/nba-2k21" target="_blank">Note : 69/100</a>
                     <a class="buttonarticle" id="listLeft" href="https://nba.2k.com/fr-FR/buy/" target="_blank">Acheter</a>
                 </ul>
@@ -83,9 +83,9 @@
             </div></div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Studio : <?= ($dataBase)['Sport']['FIFA 21']['Studio'] ?></li>
-                    <li id="listRight">PEGI : <?= ($dataBase)['Sport']['FIFA 21']['PEGI'] ?></li>
-                    <p id="listRight">Synopsis : <?= ($dataBase)['Sport']['FIFA 21']['Synopsis'] ?></p>
+                    <li id="listRight"><b>Studio :</b> <?= ($dataBase)['Sport']['FIFA 21']['Studio'] ?></li>
+                    <li id="listRight"><b>PEGI :</b> <?= ($dataBase)['Sport']['FIFA 21']['PEGI'] ?></li>
+                    <p id="listRight"><b>Synopsis :</b> <?= ($dataBase)['Sport']['FIFA 21']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listRight" href="https://www.metacritic.com/game/playstation-4/fifa-21" target="_blank">Note : 73/100</a>
                     <a class="buttonarticle" id="listRight" href="https://www.ea.com/games/fifa/fifa-21/buy" target="_blank"> Acheter</a>
                 </ul>
@@ -107,9 +107,9 @@
             </div></div>
             <div id="infos">
                 <ul>
-                    <li id="listLeft">Studio : <?= ($dataBase)['Sport']['F1 2020']['Studio'] ?> </li>
-                    <li id="listLeft">PEGI : <?= ($dataBase)['Sport']['F1 2020']['PEGI'] ?></li>
-                    <p id="listLeft">Synopsis : <?= ($dataBase)['Sport']['F1 2020']['Synopsis'] ?></p>
+                    <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['Sport']['F1 2020']['Studio'] ?> </li>
+                    <li id="listLeft"><b>PEGI :</b> <?= ($dataBase)['Sport']['F1 2020']['PEGI'] ?></li>
+                    <p id="listLeft"><b>Synopsis :</b> <?= ($dataBase)['Sport']['F1 2020']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listLeft" href="https://www.metacritic.com/game/pc/f1-2020" target="_blank">Note : 88/100</a>
                     <a class="buttonarticle" id="listLeft" href="https://store.steampowered.com/app/1080110/F1_2020/" target="_blank">Acheter</a>
                 </ul>
@@ -125,9 +125,9 @@
             </div></div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Studio : <?= ($dataBase)['Sport']['Mario Tennis Aces']['Studio'] ?></li>
-                    <li id="listRight">PEGI : <?= ($dataBase)['Sport']['Mario Tennis Aces']['PEGI'] ?></li>
-                    <p id="listRight">Synopsis : <?= ($dataBase)['Sport']['Mario Tennis Aces']['Synopsis'] ?></p>
+                    <li id="listRight"><b>Studio :</b> <?= ($dataBase)['Sport']['Mario Tennis Aces']['Studio'] ?></li>
+                    <li id="listRight"><b>PEGI :</b> <?= ($dataBase)['Sport']['Mario Tennis Aces']['PEGI'] ?></li>
+                    <p id="listRight"><b>Synopsis :</b> <?= ($dataBase)['Sport']['Mario Tennis Aces']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listRight" href="https://www.metacritic.com/game/switch/mario-tennis-aces" target="_blank">Note : 75/100</a>
                     <a class="buttonarticle" id="listRight" href="https://www.nintendo.com/games/detail/mario-tennis-aces-switch/" target="_blank"> Acheter</a>
                 </ul>
