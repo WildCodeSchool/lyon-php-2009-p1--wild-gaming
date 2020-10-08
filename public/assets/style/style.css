@@ -242,6 +242,7 @@ body {
 }
 
 .logossocialnetworks img {
+    cursor: pointer;
     max-width: 2rem;
     border-radius: 0.2rem;
     margin: 12px;
@@ -535,9 +536,9 @@ label.star:hover:before {
     background:linear-gradient(to bottom, #2d2d2d 5%, #7c7c7c 100%);
     background-color: #353535;
     margin-top : auto;
-    box-shadow:inset 0px 1px 0px 0px #54a3f7;
-    background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
-    background-color:#007dc1;
+    box-shadow:inset 0px 1px 0px 0px #161616;
+    background:linear-gradient(to bottom, #242424 5%, #7a7a7a 100%);
+    background-color: #151515;
     border-radius:23px;
     border:1px solid #124d77;
     display: inline-block;
@@ -552,7 +553,7 @@ label.star:hover:before {
     background: linear-gradient(to bottom, #343434 5%, #838383 100%);
     background-color: #0061a;
     text-decoration:none;
-    color: #051634;
+    color: #000000;
 }
 .buttonarticle:active {
     position:relative;

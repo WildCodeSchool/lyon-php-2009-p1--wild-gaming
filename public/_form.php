@@ -65,7 +65,7 @@ if (!empty($_POST) && isset($_POST['btn-contact'])) {
 
     <form id="contact" method='post' action="#contact">
         <div class="form-group">
-            <label for="game-list">What game did you play ?</label>
+            <label for="game-list">Quel jeu avez-vous testé ?</label>
             <select class="form-control" id="game-list" name="game-list">
                 <?php foreach($dataBase[$theme] as $game => $infos) { ?>
                     <option value="<?= $game ?>"><?= $game ?></option>
