@@ -45,7 +45,7 @@ if (!empty($_POST) && isset($_POST['btn-contact'])) {
     if (empty($game))
         $errorsGameList = 'Required';
     if (!isset($_POST['star_rating']))
-        $errorStarRating = "vous n'avez pas mis de note";
+        $errorStarRating = "Vous n'avez pas mis de note";
      else
         $rate = $_POST["star_rating"];
 
@@ -74,7 +74,7 @@ if (!empty($_POST) && isset($_POST['btn-contact'])) {
         </div>
         <span class="error"><?= $errorGameList ?></span>
         <div class="star_rating">
-            <label for="star_rating">How would you rate it?</label>
+            <label for="star_rating">Quelle note lui donneriez-vous ?</label>
             <div class="line_of_stars">
                 <input type="checkbox" id="star5" name="star_rating" class="star" value="5">
                 <label for="star5" class="star" title="5 stars"></label>
@@ -90,7 +90,7 @@ if (!empty($_POST) && isset($_POST['btn-contact'])) {
         </div>
         <span class="error"><?= $errorStarRating ?></span>
         <div class="comment">
-            <label for="comment">Your message (optional)</label>
+            <label for="comment">Votre message (optionnel) :</label>
             <textarea class="form-control" id="comment" rows="3" name="comment"></textarea>
         </div>
             </br>
