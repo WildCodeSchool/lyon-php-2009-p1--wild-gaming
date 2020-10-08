@@ -105,9 +105,9 @@ if (isset($_POST['game-list'])) {
             </div></div>
             <div id="infos">
                 <ul>
-                    <li id="listLeft">Studio : <?= ($dataBase)['RPG']['The Dungeon of Naheulbeuck : The Amulet of Chaos']['Studio'] ?> </li>
-                    <li id="listLeft">PEGI : <?= ($dataBase)['RPG']['The Dungeon of Naheulbeuck : The Amulet of Chaos']['PEGI'] ?></li>
-                    <p id="listLeft">Synopsis : <?= ($dataBase)['RPG']['The Dungeon of Naheulbeuck : The Amulet of Chaos']['Synopsis'] ?></p>
+                    <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['RPG']['The Dungeon of Naheulbeuck : The Amulet of Chaos']['Studio'] ?> </li>
+                    <li id="listLeft"><b>PEGI :</b> <?= ($dataBase)['RPG']['The Dungeon of Naheulbeuck : The Amulet of Chaos']['PEGI'] ?></li>
+                    <p id="listLeft"><b>Synopsis :</b> <?= ($dataBase)['RPG']['The Dungeon of Naheulbeuck : The Amulet of Chaos']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listLeft" href="https://www.metacritic.com/game/pc/the-dungeon-of-naheulbeuk-the-amulet-of-chaos" target="_blank">Note : 73/100</a>
                     <a class="buttonarticle" id="listLeft" href="https://store.steampowered.com/app/970830/The_Dungeon_Of_Naheulbeuk_The_Amulet_Of_Chaos/" target="_blank"> Acheter</a>
                 </ul>
@@ -123,9 +123,9 @@ if (isset($_POST['game-list'])) {
             </div></div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Studio : <?= ($dataBase)['RPG']['Sword Art Online : Alicization Lycoris']['Studio'] ?></li>
-                    <li id="listRight">PEGI : <?= ($dataBase)['RPG']['Sword Art Online : Alicization Lycoris']['PEGI'] ?></li>
-                    <p id="listRight">Synopsis : <?= ($dataBase)['RPG']['Sword Art Online : Alicization Lycoris']['Synopsis'] ?></p>
+                    <li id="listRight"><b>Studio :</b> <?= ($dataBase)['RPG']['Sword Art Online : Alicization Lycoris']['Studio'] ?></li>
+                    <li id="listRight"><b>PEGI :</b> <?= ($dataBase)['RPG']['Sword Art Online : Alicization Lycoris']['PEGI'] ?></li>
+                    <p id="listRight"><b>Synopsis :</b> <?= ($dataBase)['RPG']['Sword Art Online : Alicization Lycoris']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listRight" href="https://www.metacritic.com/game/pc/sword-art-online-alicization-lycoris" target="_blank">Note : 53/100</a>
                     <a class="buttonarticle" id="listRight" href="https://store.steampowered.com/app/1009290/SWORD_ART_ONLINE_Alicization_Lycoris/" target="_blank"> Acheter</a>
                 </ul>
@@ -147,9 +147,9 @@ if (isset($_POST['game-list'])) {
             </div></div>
             <div id="infos">
                 <ul>
-                    <li id="listLeft">Studio : <?= ($dataBase)['RPG']['Fire Emblem Fates']['Studio'] ?> </li>
-                    <li id="listLeft">PEGI : <?= ($dataBase)['RPG']['Fire Emblem Fates']['PEGI'] ?></li>
-                    <p id="listLeft">Synopsis : <?= ($dataBase)['RPG']['Fire Emblem Fates']['Synopsis'] ?></p>
+                    <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['RPG']['Fire Emblem Fates']['Studio'] ?> </li>
+                    <li id="listLeft"><b>PEGI :</b> <?= ($dataBase)['RPG']['Fire Emblem Fates']['PEGI'] ?></li>
+                    <p id="listLeft"><b>Synopsis :</b> <?= ($dataBase)['RPG']['Fire Emblem Fates']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listLeft" href="https://www.metacritic.com/game/3ds/fire-emblem-fates-conquest" target="_blank">Note : 87/100</a>
                     <a class="buttonarticle" id="listLeft" href="https://www.nintendo.fr/Jeux/Nintendo-3DS/Fire-Emblem-Fates-1026071.html" target="_blank"> Acheter</a>
                 </ul>
@@ -165,9 +165,9 @@ if (isset($_POST['game-list'])) {
             </div></div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Studio : <?= ($dataBase)['RPG']['Star Wars : The Old Republic']['Studio'] ?></li>
-                    <li id="listRight">PEGI : <?= ($dataBase)['RPG']['Star Wars : The Old Republic']['PEGI'] ?></li>
-                    <p id="listRight">Synopsis : <?= ($dataBase)['RPG']['Star Wars : The Old Republic']['Synopsis'] ?></p>
+                    <li id="listRight"><b>Studio :</b> <?= ($dataBase)['RPG']['Star Wars : The Old Republic']['Studio'] ?></li>
+                    <li id="listRight"><b>PEGI :</b> <?= ($dataBase)['RPG']['Star Wars : The Old Republic']['PEGI'] ?></li>
+                    <p id="listRight"><b>Synopsis :</b> <?= ($dataBase)['RPG']['Star Wars : The Old Republic']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listRight" href="https://www.metacritic.com/game/pc/star-wars-the-old-republic" target="_blank">Note : 85/100</a>
                     <a class="buttonarticle" id="listRight" href="https://www.swtor.com/fr/buy" target="_blank"> Acheter</a>
                 </ul>
@@ -189,9 +189,9 @@ if (isset($_POST['game-list'])) {
             </div></div>
             <div id="infos">
                 <ul>
-                    <li id="listLeft">Studio : <?= ($dataBase)['RPG']['Fantasy of Expedition']['Studio'] ?> </li>
-                    <li id="listLeft">PEGI : <?= ($dataBase)['RPG']['Fantasy of Expedition']['PEGI'] ?></li>
-                    <p id="listLeft">Synopsis : <?= ($dataBase)['RPG']['Fantasy of Expedition']['Synopsis'] ?></p>
+                    <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['RPG']['Fantasy of Expedition']['Studio'] ?> </li>
+                    <li id="listLeft"><b>PEGI :</b> <?= ($dataBase)['RPG']['Fantasy of Expedition']['PEGI'] ?></li>
+                    <p id="listLeft"><b>Synopsis :</b> <?= ($dataBase)['RPG']['Fantasy of Expedition']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listLeft" href="https://www.metacritic.com/game/pc/fantasy-of-expedition" target="_blank">Note : Non noté</a>
                     <a class="buttonarticle" id="listLeft" href="https://store.steampowered.com/app/780670/Fantasy_of_Expedition/" target="_blank"> Acheter</a>
                 </ul>
@@ -207,9 +207,9 @@ if (isset($_POST['game-list'])) {
             </div></div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Studio : <?= ($dataBase)['RPG']['The Elder Scrolls Online']['Studio'] ?></li>
-                    <li id="listRight">PEGI : <?= ($dataBase)['RPG']['The Elder Scrolls Online']['PEGI'] ?></li>
-                    <p id="listRight">Synopsis : <?= ($dataBase)['RPG']['The Elder Scrolls Online']['Synopsis'] ?></p>
+                    <li id="listRight"><b>Studio :</b> <?= ($dataBase)['RPG']['The Elder Scrolls Online']['Studio'] ?></li>
+                    <li id="listRight"><b>PEGI :</b> <?= ($dataBase)['RPG']['The Elder Scrolls Online']['PEGI'] ?></li>
+                    <p id="listRight"><b>Synopsis :</b> <?= ($dataBase)['RPG']['The Elder Scrolls Online']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listRight" href="https://www.metacritic.com/game/pc/the-elder-scrolls-online" target="_blank">Note : 71/100</a>
                     <a class="buttonarticle" id="listRight" href="https://store.steampowered.com/agecheck/app/306130/" target="_blank"> Acheter</a>
                 </ul>

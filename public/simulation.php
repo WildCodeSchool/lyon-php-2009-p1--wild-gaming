@@ -65,9 +65,9 @@
             </div></div>
             <div id="infos">
                 <ul>
-                    <li id="listLeft">Studio : <?= ($dataBase)['Simulation']['Pro Cycling Manager 2020']['Studio'] ?> </li>
-                    <li id="listLeft">PEGI : <?= ($dataBase)['Simulation']['Pro Cycling Manager 2020']['PEGI'] ?></li>
-                    <p id="listLeft">Synopsis : <?= ($dataBase)['Simulation']['Pro Cycling Manager 2020']['Synopsis'] ?></p>
+                    <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['Simulation']['Pro Cycling Manager 2020']['Studio'] ?> </li>
+                    <li id="listLeft"><b>PEGI :</b> <?= ($dataBase)['Simulation']['Pro Cycling Manager 2020']['PEGI'] ?></li>
+                    <p id="listLeft"><b>Synopsis :</b> <?= ($dataBase)['Simulation']['Pro Cycling Manager 2020']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listLeft" href="https://https://www.metacritic.com/game/pc/pro-cycling-manager-2020" target="_blank">Note : 66/100</a>
                     <a class="buttonarticle" id="listLeft" href="https://store.steampowered.com/app/1178400/Pro_Cycling_Manager_2020/" target="_blank">Acheter</a>
                 </ul>
@@ -83,9 +83,9 @@
             </div></div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Studio : <?= ($dataBase)['Simulation']['Civilization 5']['Studio'] ?></li>
-                    <li id="listRight">PEGI : <?= ($dataBase)['Simulation']['Civilization 5']['PEGI'] ?></li>
-                    <p id="listRight">Synopsis : <?= ($dataBase)['Simulation']['Civilization 5']['Synopsis'] ?></p>
+                    <li id="listRight"><b>Studio :</b> <?= ($dataBase)['Simulation']['Civilization 5']['Studio'] ?></li>
+                    <li id="listRight"><b>PEGI :</b> <?= ($dataBase)['Simulation']['Civilization 5']['PEGI'] ?></li>
+                    <p id="listRight"><b>Synopsis :</b> <?= ($dataBase)['Simulation']['Civilization 5']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listRight" href="https://www.metacritic.com/game/pc/sid-meiers-civilization-v" target="_blank">Note : 90/100</a>
                     <a class="buttonarticle" id="listRight" href="https://store.steampowered.com/app/8930/Sid_Meiers_Civilization_V/" target="_blank"> Acheter</a>
                 </ul>
@@ -107,9 +107,9 @@
             </div></div>
             <div id="infos">
                 <ul>
-                    <li id="listLeft">Studio : <?= ($dataBase)['Simulation']['Crusader King 3']['Studio'] ?> </li>
-                    <li id="listLeft">PEGI : <?= ($dataBase)['Simulation']['Crusader King 3']['PEGI'] ?></li>
-                    <p id="listLeft">Synopsis : <?= ($dataBase)['Simulation']['Crusader King 3']['Synopsis'] ?></p>
+                    <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['Simulation']['Crusader King 3']['Studio'] ?> </li>
+                    <li id="listLeft"><b>PEGI :</b> <?= ($dataBase)['Simulation']['Crusader King 3']['PEGI'] ?></li>
+                    <p id="listLeft"><b>Synopsis :</b> <?= ($dataBase)['Simulation']['Crusader King 3']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listLeft" href="https://www.metacritic.com/game/pc/crusader-kings-iii" target="_blank">Note : 91/100</a>
                     <a class="buttonarticle" id="listLeft" href="https://store.steampowered.com/app/1158310/Crusader_Kings_III/" target="_blank">Acheter</a>
                 </ul>
@@ -125,9 +125,9 @@
             </div></div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Studio : <?= ($dataBase)['Simulation']['Microsoft Flight Simulator']['Studio'] ?></li>
-                    <li id="listRight">PEGI : <?= ($dataBase)['Simulation']['Microsoft Flight Simulator']['PEGI'] ?></li>
-                    <p id="listRight">Synopsis : <?= ($dataBase)['Simulation']['Microsoft Flight Simulator']['Synopsis'] ?></p>
+                    <li id="listRight"><b>Studio :</b> <?= ($dataBase)['Simulation']['Microsoft Flight Simulator']['Studio'] ?></li>
+                    <li id="listRight"><b>PEGI :</b> <?= ($dataBase)['Simulation']['Microsoft Flight Simulator']['PEGI'] ?></li>
+                    <p id="listRight"><b>Synopsis :</b> <?= ($dataBase)['Simulation']['Microsoft Flight Simulator']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listRight" href="https://www.metacritic.com/game/pc/microsoft-flight-simulator" target="_blank">Note : 92/100</a>
                     <a class="buttonarticle" id="listRight" href="https://store.steampowered.com/app/1250410/Microsoft_Flight_Simulator/" target="_blank"> Acheter</a>
                 </ul>
@@ -149,9 +149,9 @@
             </div></div>
             <div id="infos">
                 <ul>
-                    <li id="listLeft">Studio : <?= ($dataBase)['Simulation']['Port Royale 4']['Studio'] ?> </li>
-                    <li id="listLeft">PEGI : <?= ($dataBase)['Simulation']['Port Royale 4']['PEGI'] ?></li>
-                    <p id="listLeft">Synopsis : <?= ($dataBase)['Simulation']['Port Royale 4']['Synopsis'] ?></p>
+                    <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['Simulation']['Port Royale 4']['Studio'] ?> </li>
+                    <li id="listLeft"><b>PEGI :</b> <?= ($dataBase)['Simulation']['Port Royale 4']['PEGI'] ?></li>
+                    <p id="listLeft"><b>Synopsis :</b> <?= ($dataBase)['Simulation']['Port Royale 4']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listLeft" href="https://www.metacritic.com/game/pc/port-royale-4" target="_blank">Note : 68/100</a>
                     <a class="buttonarticle" id="listLeft" href="https://store.steampowered.com/app/1024650/Port_Royale_4/" target="_blank">Acheter</a>
                 </ul>
@@ -167,9 +167,9 @@
             </div></div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Studio : <?= ($dataBase)['Simulation']['Anno 2205']['Studio'] ?></li>
-                    <li id="listRight">PEGI : <?= ($dataBase)['Simulation']['Anno 2205']['PEGI'] ?></li>
-                    <p id="listRight">Synopsis : <?= ($dataBase)['Simulation']['Anno 2205']['Synopsis'] ?></p>
+                    <li id="listRight"><b>Studio :</b> <?= ($dataBase)['Simulation']['Anno 2205']['Studio'] ?></li>
+                    <li id="listRight"><b>PEGI :</b> <?= ($dataBase)['Simulation']['Anno 2205']['PEGI'] ?></li>
+                    <p id="listRight"><b>Synopsis :</b> <?= ($dataBase)['Simulation']['Anno 2205']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listRight" href="https://www.metacritic.com/game/pc/anno-2205" target="_blank">Note : 72/100</a>
                     <a class="buttonarticle" id="listRight" href="https://store.steampowered.com/app/375910/Anno_2205/" target="_blank"> Acheter</a>
                 </ul>

@@ -48,5 +48,20 @@ function showSlides(n) {
     slides[slideIndex].style.display = "block";
     slides[slideIndex].className += " show";
     dots[slideIndex].className += " active";
+}
+
+// Script sticky Navbar
+
+window.onscroll = function () {stickyNavbar()};
+
+const navbar = document.getElementById('navbar');
+const sticky = navbar.offsetTop;
+
+function stickyNavbar() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
     }
+}
 

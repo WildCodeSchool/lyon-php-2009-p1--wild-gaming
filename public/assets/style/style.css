@@ -58,30 +58,28 @@ html{
 main {
     flex-grow: 1;
 }
+
 footer {
     flex-shrink: 0;
 }
 
-
 body {
-        height: 100%;
-        background-color: #8BA3C5;
-        font-family: 'Roboto Slab';
-        font-size: 22px;
-        margin: 0;
-        padding: 0;
-        width: auto;
-        display: flex;
-        flex-direction: column;
-    }
-
+    height: 100%;
+    background-color: #8BA3C5;
+    font-family: 'Roboto Slab';
+    font-size: 22px;
+    margin: 0;
+    padding-top: 65px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
 
 .actionPage {
     background-color: var(--action-backgrnd);
     font-family: 'Roboto Slab';font-size: 15px;
-    margin: auto;
+    margin: 0;
     padding: 0;
-    width: auto;
 
 }
 .fpsPage {
@@ -154,11 +152,12 @@ body {
         margin: 20px;
         border-radius: 15px;
         font-size: 35px;
-        background-color: cadetblue;
+        background-color: #183569;
         color: white;
         font-weight: 900;
         border-color: black;
         border-width: 2px;
+        text-shadow: 1px 1px 2px #020822, 0 0 1em #070732, 0 0 0.2em #060630;
     }
 }
 
@@ -201,17 +200,18 @@ body {
         width: 100%;
         height: 75px;
         border-radius: 15px;
-        font-size: 35px;
-        background-color: cadetblue;
+        font-size: 31px;
+        background-color: #184062;
         color: white;
         font-weight: 900;
         border-color: black;
         border-width: 2px;
+        text-shadow: 1px 1px 2px #020822, 0 0 1em #070732, 0 0 0.2em #060630;
     }
 }
 
 .btn:hover {
-    background: linear-gradient(to bottom, #0061A7 5%, #007DC1 100%);
+    background: linear-gradient(to bottom, #024d85 5%, #007DC1 100%);
     background-color: var(--homepage-btn135-backgrnd);
     border-color: white;
     cursor: pointer;
@@ -240,6 +240,7 @@ body {
 }
 
 .logossocialnetworks img {
+    cursor: pointer;
     max-width: 2rem;
     border-radius: 0.2rem;
     margin: 12px;
@@ -251,9 +252,11 @@ body {
     {box-sizing:border-box}
 
 .slideshow {
-    max-width: 1000px;
+    max-width: 800px;
+    max-height: 1000px;
     position: relative;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gameSlides {
@@ -300,14 +303,14 @@ body {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #5a5a5a;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-    background-color: #717171;
+    background-color: #000000;
 }
 
 .fade {
@@ -347,6 +350,14 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+@media screen and (max-width: 600px) {
+    .gridRight {
+        height: auto;
+    }
+    .gridLeft {
+        height: auto;
+    }
+}
 .gridLeft {
     width: 95%;
     border: black solid 1px;
@@ -377,7 +388,7 @@ body {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    overflow:auto;
+    overflow: auto;
 }
 .detailRight {
     grid-area: detailRight;
@@ -424,8 +435,16 @@ form {
     border-color: #8BA3C5;
 }
 
-.error {
-    color: #721616;
+
+#btn-submit {
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #020822, 0 0 1em #070732, 0 0 0.2em #888888;
+    background: linear-gradient(to bottom, #343434 5%, #838383 100%);
+    border-color: #1a1a1a;
+}
+
+.error{
+    color: #860606;
 }
 
 #thanks {
@@ -509,16 +528,53 @@ label.star:hover:before {
 .navbar-light .navbar-nav .nav-link {
     color: white;
     font-weight: bold;
+    margin-bottom: 10px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
 }
+
+header .sidepage{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+/* Sticky navbar start */
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+.sticky + .content {
+    padding-top: 50px;
+}
+
+
+/* Sticky navbar end */
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #838686;
+}
+
 
 .container-fluid{
     padding: 0;
 }
+
 .buttonarticle {
+    box-shadow:inset 0px 1px 0px 0px #1a1a1a;
+    background:linear-gradient(to bottom, #2d2d2d 5%, #7c7c7c 100%);
+    background-color: #353535;
     margin-top : auto;
-    box-shadow:inset 0px 1px 0px 0px #54a3f7;
-    background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
-    background-color:#007dc1;
+    box-shadow:inset 0px 1px 0px 0px #161616;
+    background:linear-gradient(to bottom, #242424 5%, #7a7a7a 100%);
+    background-color: #151515;
     border-radius:23px;
     border:1px solid #124d77;
     display: inline-block;
@@ -530,9 +586,10 @@ label.star:hover:before {
     text-shadow:0 0 0 #154682;
 }
 .buttonarticle:hover {
-    background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    background: linear-gradient(to bottom, #343434 5%, #838383 100%);
     background-color: #0061a;
     text-decoration:none;
+    color: #000000;
 }
 .buttonarticle:active {
     position:relative;
@@ -540,7 +597,6 @@ label.star:hover:before {
     text-decoration:none;
 }
 
-/* end navabar */
 
 /* interaction */
 
@@ -548,3 +604,10 @@ label.star:hover:before {
     border-color: red;
     border-width: 6px;
 }
+
+.copyright {
+    cursor: pointer;
+}
+
+/* end navbar */
+

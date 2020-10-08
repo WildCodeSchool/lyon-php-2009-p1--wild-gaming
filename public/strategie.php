@@ -110,9 +110,9 @@
             </div></div>
             <div id="infos">
                 <ul>
-                    <li id="listLeft">Studio : <?= ($dataBase)['Stratégie']['Company of Heroes 2']['Studio'] ?> </li>
-                    <li id="listLeft">PEGI : <?= ($dataBase)['Stratégie']['Company of Heroes 2']['PEGI'] ?></li>
-                    <p id="listLeft">Synopsis : <?= ($dataBase)['Stratégie']['Company of Heroes 2']['Synopsis'] ?></p>
+                    <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['Stratégie']['Company of Heroes 2']['Studio'] ?> </li>
+                    <li id="listLeft"><b>PEGI :</b> <?= ($dataBase)['Stratégie']['Company of Heroes 2']['PEGI'] ?></li>
+                    <p id="listLeft"><b>Synopsis :</b> <?= ($dataBase)['Stratégie']['Company of Heroes 2']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listLeft" href="https://www.metacritic.com/game/pc/company-of-heroes-2" target="_blank">Note : 80/100</a>
                     <a class="buttonarticle" id="listLeft" href="https://store.steampowered.com/agecheck/app/231430/" target="_blank">Acheter</a>
                 </ul>
@@ -128,9 +128,9 @@
             </div></div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Studio : <?= ($dataBase)['Stratégie']['Starcraft 2 : Wings of Liberty']['Studio'] ?></li>
-                    <li id="listRight">PEGI : <?= ($dataBase)['Stratégie']['Starcraft 2 : Wings of Liberty']['PEGI'] ?></li>
-                    <p id="listRight">Synopsis : <?= ($dataBase)['Stratégie']['Starcraft 2 : Wings of Liberty']['Synopsis'] ?></p>
+                    <li id="listRight"><b>Studio :</b> <?= ($dataBase)['Stratégie']['Starcraft 2 : Wings of Liberty']['Studio'] ?></li>
+                    <li id="listRight"><b>PEGI :</b> <?= ($dataBase)['Stratégie']['Starcraft 2 : Wings of Liberty']['PEGI'] ?></li>
+                    <p id="listRight"><b>Synopsis :</b> <?= ($dataBase)['Stratégie']['Starcraft 2 : Wings of Liberty']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listRight" href="https://www.metacritic.com/game/pc/starcraft-ii-wings-of-liberty" target="_blank">Note : 93/100</a>
                     <a class="buttonarticle" id="listRight" href="https://starcraft2.com/en-us/" target="_blank"> Acheter</a>
                 </ul>
@@ -152,9 +152,9 @@
             </div></div>
             <div id="infos">
                 <ul>
-                    <li id="listLeft">Studio : <?= ($dataBase)['Stratégie']['Age of Empire 2 : Definitive Edition']['Studio'] ?> </li>
-                    <li id="listLeft">PEGI : <?= ($dataBase)['Stratégie']['Age of Empire 2 : Definitive Edition']['PEGI'] ?></li>
-                    <p id="listLeft">Synopsis : <?= ($dataBase)['Stratégie']['Age of Empire 2 : Definitive Edition']['Synopsis'] ?></p>
+                    <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['Stratégie']['Age of Empire 2 : Definitive Edition']['Studio'] ?> </li>
+                    <li id="listLeft"><b>PEGI :</b> <?= ($dataBase)['Stratégie']['Age of Empire 2 : Definitive Edition']['PEGI'] ?></li>
+                    <p id="listLeft"><b>Synopsis :</b> <?= ($dataBase)['Stratégie']['Age of Empire 2 : Definitive Edition']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listLeft" href="https://www.metacritic.com/game/pc/age-of-empires-ii-definitive-edition" target="_blank">Note : 84/100</a>
                     <a class="buttonarticle" id="listLeft" href="https://store.steampowered.com/app/813780/Age_of_Empires_II_Definitive_Edition/" target="_blank">Acheter</a>
                 </ul>
@@ -170,9 +170,9 @@
             </div></div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Studio : <?= ($dataBase)['Stratégie']['Warcraft 3 : Reforged']['Studio'] ?></li>
-                    <li id="listRight">PEGI : <?= ($dataBase)['Stratégie']['Warcraft 3 : Reforged']['PEGI'] ?></li>
-                    <p id="listRight">Synopsis : <?= ($dataBase)['Stratégie']['Warcraft 3 : Reforged']['Synopsis'] ?></p>
+                    <li id="listRight"><b>Studio :</b> <?= ($dataBase)['Stratégie']['Warcraft 3 : Reforged']['Studio'] ?></li>
+                    <li id="listRight"><b>PEGI :</b> <?= ($dataBase)['Stratégie']['Warcraft 3 : Reforged']['PEGI'] ?></li>
+                    <p id="listRight"><b>Synopsis :</b> <?= ($dataBase)['Stratégie']['Warcraft 3 : Reforged']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listRight" href="https://www.metacritic.com/game/pc/warcraft-iii-reforged" target="_blank">Note : 59/100</a>
                     <a class="buttonarticle" id="listRight" href="https://eu.shop.battle.net/en-us/product/warcraft-iii-reforged?blzcmp=blizzard_hp_WarcraftIII:Reforged_card" target="_blank"> Acheter</a>
                 </ul>
