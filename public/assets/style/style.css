@@ -58,30 +58,28 @@ html{
 main {
     flex-grow: 1;
 }
+
 footer {
     flex-shrink: 0;
 }
 
-
 body {
-        height: 100%;
-        background-color: #8BA3C5;
-        font-family: 'Roboto Slab';
-        font-size: 22px;
-        margin: 0;
-        padding: 0;
-        width: auto;
-        display: flex;
-        flex-direction: column;
-    }
-
+    height: 100%;
+    background-color: #8BA3C5;
+    font-family: 'Roboto Slab';
+    font-size: 22px;
+    margin: 0;
+    padding-top: 65px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
 
 .actionPage {
     background-color: var(--action-backgrnd);
     font-family: 'Roboto Slab';font-size: 15px;
-    margin: auto;
+    margin: 0;
     padding: 0;
-    width: auto;
 
 }
 .fpsPage {
@@ -253,7 +251,8 @@ body {
 .slideshow {
     max-width: 1000px;
     position: relative;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gameSlides {
@@ -504,11 +503,39 @@ label.star:hover:before {
 .navbar-light .navbar-nav .nav-link {
     color: white;
     font-weight: bold;
+    margin-bottom: 10px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
 }
+
+header .sidepage{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+/* Sticky navbar start */
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+.sticky + .content {
+    padding-top: 50px;
+}
+
+/* Sticky navbar end */
+
 
 .container-fluid{
     padding: 0;
 }
+
 .buttonarticle {
     margin-top : auto;
     box-shadow:inset 0px 1px 0px 0px #54a3f7;
