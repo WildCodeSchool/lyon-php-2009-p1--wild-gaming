@@ -56,7 +56,7 @@
 <section class="simulation" id="article">
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src="<?= $dataBase['Simulation']['Pro Cycling Manager 2020']['Image'] ?>" alt="cover">
         </div>
         <div class="details">
             <div id="dtitle1">
@@ -92,13 +92,13 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src="<?= $dataBase['Simulation']['Civilization 5']['Image'] ?>" alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src="<?= $dataBase['Simulation']['Crusader King 3']['Image'] ?>" alt="cover">
         </div>
         <div class="details">
             <div id="dtitle3">
@@ -134,13 +134,13 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src="<?= $dataBase['Simulation']['Microsoft Flight Simulator']['Image'] ?>" alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src=" <?= $dataBase['Simulation']['Port Royale 4']['Image'] ?>" alt="cover">
         </div>
         <div class="details">
             <div id="dtitle5">
@@ -176,33 +176,9 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src="<?= $dataBase['Simulation']['Anno 2205']['Image'] ?>" alt="cover">
         </div>
     </div>
-
-    <script>
-        const article = document.getElementById("article");
-        const navbarColor = document.querySelector(".navbar");
-        switch (article.className) {
-            case ('rpg'):
-                navbarColor.style.backgroundColor = "var(--navbar-rpg-backgrnd)";
-                break
-            case ('action'):
-                navbarColor.style.backgroundColor = "var(--navbar-action-backgrnd)";
-                break
-            case ('simulation'):
-                navbarColor.style.backgroundColor = "var(--navbar-simu-backgrnd)";
-                break
-            case ('sport'):
-                navbarColor.style.backgroundColor = "var(--navbar-sport-backgrnd)";
-                break
-            case ('strategie'):
-                navbarColor.style.backgroundColor = "var(--navbar-strategy-backgrnd)";
-                break
-            case ('fps'):
-                navbarColor.style.backgroundColor = "var(--navbar-fps-backgrnd)";
-        }
-    </script>
 
 </section>
 

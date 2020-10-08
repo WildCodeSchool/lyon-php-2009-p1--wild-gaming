@@ -56,7 +56,7 @@
 <section class="sport" id="article">
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src="<?= $dataBase['Sport']['NBA 2K21']['Image'] ?>" alt="cover">
         </div>
         <div class="details">
             <div id="etitle1">
@@ -92,13 +92,13 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src="<?= $dataBase['Sport']['FIFA 21']['Image'] ?>" alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src="<?= $dataBase['Sport']['F1 2020']['Image'] ?>" alt="cover">
         </div>
         <div class="details">
             <div id="etitle3">
@@ -134,13 +134,13 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src="<?= $dataBase['Sport']['Mario Tennis Aces']['Image'] ?>" alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src="<?= $dataBase['Sport']['PGA Tour 2K21']['Image'] ?>" alt="cover">
         </div>
         <div class="details">
             <div id="etitle5">
@@ -176,33 +176,9 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src="<?= $dataBase['Sport']['Madden NFL 21']['Image'] ?>" alt="cover">
         </div>
     </div>
-
-    <script>
-        const article = document.getElementById("article");
-        const navbarColor = document.querySelector(".navbar");
-        switch (article.className) {
-            case ('rpg'):
-                navbarColor.style.backgroundColor = "var(--navbar-rpg-backgrnd)";
-                break
-            case ('action'):
-                navbarColor.style.backgroundColor = "var(--navbar-action-backgrnd)";
-                break
-            case ('simulation'):
-                navbarColor.style.backgroundColor = "var(--navbar-simu-backgrnd)";
-                break
-            case ('sport'):
-                navbarColor.style.backgroundColor = "var(--navbar-sport-backgrnd)";
-                break
-            case ('strategie'):
-                navbarColor.style.backgroundColor = "var(--navbar-strategy-backgrnd)";
-                break
-            case ('fps'):
-                navbarColor.style.backgroundColor = "var(--navbar-fps-backgrnd)";
-        }
-    </script>
 
 </section>
 

@@ -243,7 +243,7 @@ body {
     max-width: 2rem;
     border-radius: 0.2rem;
     margin: 12px;
-    padding: 10px;
+    margin-top: 30px;
 }
 
 /* end footer */
@@ -515,6 +515,7 @@ label.star:hover:before {
     padding: 0;
 }
 .buttonarticle {
+    margin-top : auto;
     box-shadow:inset 0px 1px 0px 0px #54a3f7;
     background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
     background-color:#007dc1;
@@ -523,7 +524,6 @@ label.star:hover:before {
     display: inline-block;
     cursor:pointer;
     color:#ffffff;
-    font-family:Arial;
     font-size:13px;
     padding:12px 14px;
     text-decoration:none;
@@ -532,10 +532,12 @@ label.star:hover:before {
 .buttonarticle:hover {
     background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
     background-color: #0061a;
+    text-decoration:none;
 }
 .buttonarticle:active {
     position:relative;
     top:1px;
+    text-decoration:none;
 }
 
 /* end navabar */
