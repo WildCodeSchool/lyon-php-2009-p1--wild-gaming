@@ -7,41 +7,41 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
 </head>
 <body class="sportPage">
-<header>
+
     <?php include_once '_headerSidePageResponsive.php' ?>
     <?php include_once '../src/function.php' ?>
     <!-- Code HEADER -->
-</header>
+
 
 <div class="slideshow">
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake1.jpg" alt =" <?= array_keys($dataBase['Sport'])[0] ?>" style="width:100%">
+        <a href="#etitle1"><img src="assets/img/carouselpics/spo/nba.jpg" alt =" <?= array_keys($dataBase['Sport'])[0] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Sport'])[0] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake2.jpg" alt =" <?= array_keys($dataBase['Sport'])[1] ?>" style="width:100%">
+        <a href="#etitle2"><img src="assets/img/carouselpics/spo/fif.jpg" alt =" <?= array_keys($dataBase['Sport'])[1] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Sport'])[1] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake3.jpg" alt =" <?= array_keys($dataBase['Sport'])[2] ?>" style="width:100%">
+        <a href="#etitle3"><img src="assets/img/carouselpics/spo/for.jpg" alt =" <?= array_keys($dataBase['Sport'])[2] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Sport'])[2] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake4.jpg" alt =" <?= array_keys($dataBase['Sport'])[3] ?>" style="width:100%">
+        <a href="#etitle4"><img src="assets/img/carouselpics/spo/mat.jpg" alt =" <?= array_keys($dataBase['Sport'])[3] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Sport'])[3] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake5.jpg" alt =" <?= array_keys($dataBase['Sport'])[4] ?>" style="width:100%">
+        <a href="#etitle5"><img src="assets/img/carouselpics/spo/2k2.jpg" alt =" <?= array_keys($dataBase['Sport'])[4] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Sport'])[4] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake6.jpg" alt =" <?= array_keys($dataBase['Sport'])[5] ?>" style="width:100%">
+        <a href="#etitle6"><img src="assets/img/carouselpics/spo/mad.jpg" alt =" <?= array_keys($dataBase['Sport'])[5] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Sport'])[5] ?></div>
     </div>
 
@@ -65,10 +65,12 @@
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
         </div>
         <div class="details">
+            <div id="etitle1">
             <div id="title">
+                <h3>Game 1:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['Sport'])[0]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Sport']['NBA 2K21']['Release'] . ")" ?></span></h3>
             </div>
-
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['Sport']['NBA 2K21']['Studio'] ?> </li>
@@ -80,9 +82,13 @@
             </div>
         </div>
     </div>
+
     <div class="gridRight">
         <div class="detailRight">
+            <div id="etitle2">
             <div id="titleRight">
+                <h3>Game 2:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['Sport'])[1]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Sport']['FIFA 21']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
@@ -105,10 +111,12 @@
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
         </div>
         <div class="details">
+            <div id="etitle3">
             <div id="title">
+                <h3>Game 1:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['Sport'])[2]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Sport']['F1 2020']['Release'] . ")" ?></span></h3>
             </div>
-
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['Sport']['F1 2020']['Studio'] ?> </li>
@@ -123,7 +131,10 @@
 
     <div class="gridRight">
         <div class="detailRight">
+            <div id="etitle4">
             <div id="titleRight">
+                <h3>Game 2:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['Sport'])[3]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Sport']['Mario Tennis Aces']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
@@ -146,10 +157,12 @@
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
         </div>
         <div class="details">
+            <div id="etitle5">
             <div id="title">
+                <h3>Game 1:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['Sport'])[4]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Sport']['PGA Tour 2K21']['Release'] . ")" ?></span></h3>
             </div>
-
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['Sport']['PGA Tour 2K21']['Studio'] ?> </li>
@@ -164,7 +177,10 @@
 
     <div class="gridRight">
         <div class="detailRight">
+            <div id="etitle6">
             <div id="titleRight">
+                <h3>Game 2:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['Sport'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Sport']['Madden NFL 21']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
@@ -181,6 +197,7 @@
             <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
         </div>
     </div>
+
     <script>
         const article = document.getElementById("article");
         const navbarColor = document.querySelector(".navbar");

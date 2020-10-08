@@ -8,43 +8,41 @@
 
 </head>
 <body class="fpsPage">
-<header>
+
     <?php include_once '_headerSidePageResponsive.php' ?>
 
     <?php include_once '../src/function.php'; ?>
 
-    <!-- Code HEADER -->
-</header>
 
 <div class="slideshow">
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake1.jpg" alt =" <?= array_keys($dataBase['FPS'])[0] ?>" style="width:100%">
+        <a href="#btitle1"><img src="assets/img/carouselpics/fps/doe.jpg" alt =" <?= array_keys($dataBase['FPS'])[0] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[0] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake2.jpg" alt =" <?= array_keys($dataBase['FPS'])[1] ?>" style="width:100%">
+        <a href="#btitle2"><img src="assets/img/carouselpics/fps/com.jpg" alt =" <?= array_keys($dataBase['FPS'])[1] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[1] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake3.jpg" alt =" <?= array_keys($dataBase['FPS'])[2] ?>" style="width:100%">
+        <a href="#btitle3"><img src="assets/img/carouselpics/fps/btv.jpg" alt =" <?= array_keys($dataBase['FPS'])[2] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[2] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake4.jpg" alt =" <?= array_keys($dataBase['FPS'])[3] ?>" style="width:100%">
+        <a href="#btitle4"><img src="assets/img/carouselpics/fps/csg.jpg" alt =" <?= array_keys($dataBase['FPS'])[3] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[3] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake5.jpg" alt =" <?= array_keys($dataBase['FPS'])[4] ?>" style="width:100%">
+        <a href="#btitle5"><img src="assets/img/carouselpics/fps/sbf.png" alt =" <?= array_keys($dataBase['FPS'])[4] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[4] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake6.jpg" alt =" <?= array_keys($dataBase['FPS'])[5] ?>" style="width:100%">
+        <a href="#btitle6"><img src="assets/img/carouselpics/fps/bor.jpg" alt =" <?= array_keys($dataBase['FPS'])[5] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[5] ?></div>
     </div>
 
@@ -68,11 +66,21 @@
             <img id="cover1" src=" <?= $dataBase['FPS']['Doom Eternal']['Image'] ?>" "cover">
         </div>
         <div class="details">
+            <div id="btitle1">
+            <div id="title">
+                <h3>Game 1:</h3>
+            </div></div>>
+            <div id="infos">
+                <ul>
+                    <li id="listLeft">EA Vancouver</li>
+                    <li id="listLeft">PEGI 12</li>
+                    <p id="listLeft">Synopsis: Le jeu de simulation auto !</p>
+                    <a id="listLeft" href="https://www.metacritic.com">Note metacritic</a>
+                </ul>
             <div class="details">
                 <div id="title">
                     <h3><?= array_keys($dataBase['FPS'])[0]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Doom Eternal']['Release'] . ")" ?></span></h3>
                 </div>
-
                 <div id="infos">
                     <ul>
                         <li id="listLeft">Studio : <?= ($dataBase)['FPS']['Doom Eternal']['Studio'] ?> </li>
@@ -84,10 +92,13 @@
                 </div>
             </div>
         </div>
-    </div>
+
     <div class="gridRight">
         <div class="detailRight">
+            <div id="btitle2">
             <div id="titleRight">
+                <h3>Game 2:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['FPS'])[1]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Call of Duty : Modern Warfare']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
@@ -110,10 +121,12 @@
             <img id="cover1" src=" <?= $dataBase['FPS']['Battlefield 5']['Image'] ?>" "cover">
         </div>
         <div class="details">
+            <div id="btitle3">
             <div id="title">
+                <h3>Game 1:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['FPS'])[2]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Battlefield 5']['Release'] . ")" ?></span></h3>
             </div>
-
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['FPS']['Battlefield 5']['Studio'] ?> </li>
@@ -128,7 +141,10 @@
 
     <div class="gridRight">
         <div class="detailRight">
+            <div id="btitle4">
             <div id="titleRight">
+                <h3>Game 2:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['FPS'])[3]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Counter Strike : Global Offensive']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
@@ -151,10 +167,12 @@
             <img id="cover1" src=" <?= $dataBase['FPS']['Star Wars Battlefront 2']['Image'] ?>" "cover">
         </div>
         <div class="details">
+            <div id="btitle5">
             <div id="title">
+                <h3>Game 1:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['FPS'])[4]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Star Wars Battlefront 2']['Release'] . ")" ?></span></h3>
             </div>
-
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['FPS']['Star Wars Battlefront 2']['Studio'] ?> </li>
@@ -169,7 +187,10 @@
 
     <div class="gridRight">
         <div class="detailRight">
+            <div id="btitle6">
             <div id="titleRight">
+                <h3>Game 2:</h3>
+            </div></div>
                 <h3><?= array_keys($dataBase['FPS'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Borderlands 3']['Release'] . ")" ?></h3>
             </div>
             <div id="infosRight">
@@ -186,6 +207,7 @@
             <img id="cover2" src=" <?= $dataBase['FPS']['Borderlands 3']['Image'] ?> " alt="cover">
         </div>
     </div>
+
     <script>
         const article = document.getElementById("article");
         const navbarColor = document.querySelector(".navbar");

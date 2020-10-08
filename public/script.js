@@ -52,15 +52,3 @@ function showSlides(n) {
     dots[slideIndex].className += " active";
     }
 
-
-}
-
-
-        /*function slideLink() {
-            document.getElementById("gameSlides fade").href="#blocA";
-        }
-
-        const slideimg = document.querySelector('.gameSlides');
-        slideimg.onclick = function() {slideLink()};
-
-}
