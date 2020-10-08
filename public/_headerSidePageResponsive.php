@@ -22,7 +22,7 @@ $titles = [
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <header class="sidepage">
         <div class="container-fluid">
-          <nav class="navbar navbar-expand-md navbar-light" id="navbar">
+          <nav class="navbar navbar-expand-md navbar-light sticky" id="navbar">
             <img class="navbar-brand" src="assets/img/blackwhitelogo.png" alt="logo"/>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>

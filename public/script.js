@@ -1,6 +1,6 @@
-const article = document.getElementById("article");
+const bloc = document.getElementById("article");
 const navbarColor = document.querySelector(".navbar");
-switch (article.className) {
+switch (bloc.className) {
     case ('rpg'):
         navbarColor.style.backgroundColor = "var(--navbar-rpg-backgrnd)";
         break
@@ -52,7 +52,7 @@ function showSlides(n) {
 
 // Script sticky Navbar
 
-window.onscroll = function () {stickyNavbar()};
+/* window.onscroll = function () {stickyNavbar()};
 
 const navbar = document.getElementById('navbar');
 const sticky = navbar.offsetTop;
@@ -62,6 +62,8 @@ function stickyNavbar() {
         navbar.classList.add("sticky")
     } else {
         navbar.classList.remove("sticky");
+        console.log(window.pageYOffset);
     }
 }
 
+*/
