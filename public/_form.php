@@ -95,7 +95,7 @@ if (!empty($_POST) && isset($_POST['btn-contact'])) {
         </div>
             </br>
         <div class="buttonSubmit">
-        <button type="submit" class="bttn btn-primary" name="btn-contact">Send</button>
+        <button type="submit" class="bttn btn-primary" name="btn-contact" id="btn-submit">Soumettre</button>
         </div>
         <span id="thanks"><?= $thanksMessage ?></span>
     </form>
