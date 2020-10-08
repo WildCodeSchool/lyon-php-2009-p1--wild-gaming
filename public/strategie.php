@@ -56,15 +56,13 @@
 <section class="strategie" id="article">
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src="<?= $dataBase['Stratégie']['Company of Heroes 2']['Image'] ?>" alt="cover">
         </div>
         <div class="details">
             <div id="ftitle1">
             <div id="title">
-                <h3>Game 1:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['Stratégie'])[0]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Company of Heroes 2']['Release'] . ")" ?></span></h3>
-            </div>
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['Stratégie']['Company of Heroes 2']['Studio'] ?> </li>
@@ -81,10 +79,8 @@
         <div class="detailRight">
             <div id="ftitle2">
             <div id="titleRight">
-                <h3>Game 2:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['Stratégie'])[1]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Starcraft 2 : Wings of Liberty']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Studio : <?= ($dataBase)['Stratégie']['Starcraft 2 : Wings of Liberty']['Studio'] ?></li>
@@ -96,21 +92,19 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src="<?= $dataBase['Stratégie']['Starcraft 2 : Wings of Liberty']['Image'] ?>" alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src="<?= $dataBase['Stratégie']['Age of Empire 2 : Definitive Edition']['Image'] ?>" alt="cover">
         </div>
         <div class="details">
             <div id="ftitle3">
             <div id="title">
-                <h3>Game 1:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['Stratégie'])[2]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Age of Empire 2 : Definitive Edition']['Release'] . ")" ?></span></h3>
-            </div>
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['Stratégie']['Age of Empire 2 : Definitive Edition']['Studio'] ?> </li>
@@ -127,10 +121,8 @@
         <div class="detailRight">
             <div id="ftitle4">
             <div id="titleRight">
-                <h3>Game 2:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['Stratégie'])[3]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Warcraft 3 : Reforged']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Studio : <?= ($dataBase)['Stratégie']['Warcraft 3 : Reforged']['Studio'] ?></li>
@@ -142,21 +134,19 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src="<?= $dataBase['Stratégie']['Warcraft 3 : Reforged']['Image'] ?>" alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src="<?= $dataBase['Stratégie']['Total War : Warhammer 2']['Image'] ?>" alt="cover">
         </div>
         <div class="details">
             <div id="ftitle5">
             <div id="title">
-                <h3>Game 1:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['Stratégie'])[4]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Total War : Warhammer 2']['Release'] . ")" ?></span></h3>
-            </div>
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['Stratégie']['Total War : Warhammer 2']['Studio'] ?> </li>
@@ -173,10 +163,8 @@
         <div class="detailRight">
             <div id="ftitle6">
             <div id="titleRight">
-                <h3>Game 2:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['Stratégie'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Stratégie']['Star Wars : Empire at War']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Studio : <?= ($dataBase)['Stratégie']['Star Wars : Empire at War']['Studio'] ?></li>
@@ -188,7 +176,7 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src="<?= $dataBase['Stratégie']['Star Wars : Empire at War']['Image'] ?>" alt="cover">
         </div>
     </div>
 
