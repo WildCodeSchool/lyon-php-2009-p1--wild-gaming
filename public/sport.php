@@ -17,32 +17,26 @@
 
     <div class="gameSlides fade">
         <a href="#etitle1"><img src="assets/img/carouselpics/spo/nba.jpg" alt =" <?= array_keys($dataBase['Sport'])[0] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Sport'])[0] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#etitle2"><img src="assets/img/carouselpics/spo/fif.jpg" alt =" <?= array_keys($dataBase['Sport'])[1] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Sport'])[1] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#etitle3"><img src="assets/img/carouselpics/spo/for.jpg" alt =" <?= array_keys($dataBase['Sport'])[2] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Sport'])[2] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#etitle4"><img src="assets/img/carouselpics/spo/mat.jpg" alt =" <?= array_keys($dataBase['Sport'])[3] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Sport'])[3] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#etitle5"><img src="assets/img/carouselpics/spo/2k2.jpg" alt =" <?= array_keys($dataBase['Sport'])[4] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Sport'])[4] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#etitle6"><img src="assets/img/carouselpics/spo/mad.jpg" alt =" <?= array_keys($dataBase['Sport'])[5] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Sport'])[5] ?></div>
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>

@@ -17,32 +17,26 @@
 
     <div class="gameSlides fade">
         <a href="#dtitle1"><img src="assets/img/carouselpics/sim/pcm.jpg" alt =" <?= array_keys($dataBase['Simulation'])[0] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Simulation'])[0] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#dtitle2"><img src="assets/img/carouselpics/sim/civ.jpg" alt =" <?= array_keys($dataBase['Simulation'])[1] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Simulation'])[1] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#dtitle3"><img src="assets/img/carouselpics/sim/csk.jpg" alt =" <?= array_keys($dataBase['Simulation'])[2] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Simulation'])[2] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#dtitle4"><img src="assets/img/carouselpics/sim/mfs.jpg" alt =" <?= array_keys($dataBase['Simulation'])[3] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Simulation'])[3] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#dtitle5"><img src="assets/img/carouselpics/sim/por.jpg" alt =" <?= array_keys($dataBase['Simulation'])[4] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Simulation'])[4] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#dtitle6"><img src="assets/img/carouselpics/sim/ann.jpg" alt =" <?= array_keys($dataBase['Simulation'])[5] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Simulation'])[5] ?></div>
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>

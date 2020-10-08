@@ -17,32 +17,26 @@
 
     <div class="gameSlides fade">
         <a href="#ftitle1"><img src="assets/img/carouselpics/strat/coh.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[0] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[0] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#ftitle2"><img src="assets/img/carouselpics/strat/sta.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[1] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[1] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#ftitle3"><img src="assets/img/carouselpics/strat/age.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[2] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[2] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#ftitle4"><img src="assets/img/carouselpics/strat/war.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[3] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[3] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#ftitle5"><img src="assets/img/carouselpics/strat/wah.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[4] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[4] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#ftitle6"><img src="assets/img/carouselpics/strat/stw.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[5] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[5] ?></div>
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
