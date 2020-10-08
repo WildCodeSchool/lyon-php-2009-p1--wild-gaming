@@ -133,20 +133,39 @@ body {
     text-shadow: 1px 1px 2px #020822, 0 0 1em #070732, 0 0 0.2em #060630;
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 0 0.5rem;
+/* start footer */
+@media screen and (max-width: 600px) {
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 0 0.5rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 1rem;
+    }
 }
 
 .logossocialnetworks img {
-    max-width : 2rem;
+    max-width: 2rem;
     border-radius: 0.2rem;
+<<<<<<< HEAD
     margin: 12px;
     padding: 10px;
+=======
+>>>>>>> master
 }
+
+/* end footer */
 
     {box-sizing:border-box}
 
@@ -307,14 +326,12 @@ footer {
     text-align: center;
 }
 
-#listLeft {
-    margin-left: -20px;
-}
 ul {
     list-style: none;
 }
 
-/* Form */
+/* start form */
+
 
 form {
     width: 80%;
@@ -385,6 +402,8 @@ label.star:hover:before {
     color: #fcb614;
 }
 
+/* end form */
+
 
 #cover1 {
     max-width: 250px;
@@ -395,6 +414,8 @@ label.star:hover:before {
     max-height: 250px;
 }
 
+/* start navbar */
+
 .navbar {
     background-color: blue;
 }
@@ -404,3 +425,28 @@ label.star:hover:before {
 .container-fluid{
     padding: 0;
 }
+.buttonarticle {
+    box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    background-color:#007dc1;
+    border-radius:23px;
+    border:1px solid #124d77;
+    display: inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    padding:12px 14px;
+    text-decoration:none;
+    text-shadow:0 0 0 #154682;
+}
+.buttonarticle:hover {
+    background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    background-color: #0061a;
+}
+.buttonarticle:active {
+    position:relative;
+    top:1px;
+}
+
+/* end navabar */
