@@ -541,3 +541,10 @@ label.star:hover:before {
 }
 
 /* end navabar */
+
+/* interaction */
+
+.red {
+    border-color: red;
+    border-width: 6px;
+}

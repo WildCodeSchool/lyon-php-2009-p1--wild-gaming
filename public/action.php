@@ -13,6 +13,46 @@
 <?php include_once '_headerSidePageResponsive.php' ?>
 <!-- Code HEADER -->
 <?php include_once '../src/function.php' ?>
+<?php
+
+    $theme = "";
+    switch ($_SERVER['PHP_SELF']){
+        case('/action.php'):
+            $theme = "Action/Aventure";
+            break;
+        case('/FPS.php'):
+            $theme = "FPS";
+            break;
+        case('/RPG.php'):
+            $theme = "RPG";
+            break;
+        case('/simulation.php'):
+            $theme = "Simulation";
+            break;
+        case('/sport.php'):
+            $theme = "Sport";
+            break;
+        case('/strategie.php'):
+            $theme = "Stratégie";
+            break;
+        case('/_form.php'):
+            $theme = "Simulation";
+            break;
+        default:
+            echo "error theme don't match";
+    }
+
+    $arrayGames = array_keys($dataBase[$theme]);
+
+    for($i = 0; $i < count($arrayGames); $i++ ){
+        $arrayChangeColors[$arrayGames[$i]] = "";
+    }
+
+    if (isset($_POST['game-list'])) {
+        $userGame = $_POST['game-list'];
+        $arrayChangeColors[$userGame] = 'red';
+    }
+?>
 
 <div class="slideshow" id="slide">
         <div class="gameSlides fade">
@@ -54,13 +94,13 @@
     </div>
 
 <section class="action" id="article">
-    <div class="gridLeft">
+    <div class="gridLeft <?= $arrayChangeColors[$arrayGames[0]] ?>">
         <div class="cover">
             <img id="cover1" src=" <?= $dataBase ['Action/Aventure']['Assassin\'s Creed Origins']['Image']?>" "cover">
         </div>
         <div class="details">
             <div id="atitle1">
-            <div id="title">
+            <div id="title" >
                 <h3><?= array_keys($dataBase['Action/Aventure'])[0]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['Release'] . ")" ?></span></h3>
             </div></div>
             <div id="infos">
@@ -75,10 +115,10 @@
         </div>
     </div>
 
-    <div class="gridRight">
+    <div class="gridRight <?= $arrayChangeColors[$arrayGames[1]] ?>">
         <div class="detailRight">
             <div id="atitle2">
-            <div id="titleRight">
+            <div id="titleRight" >
                 <h3><?= array_keys($dataBase['Action/Aventure'])[1]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['Cyberpunk 2077']['Release'] . ")" ?></h3>
             </div></div>
             <div id="infosRight">
@@ -96,13 +136,13 @@
         </div>
     </div>
 
-    <div class="gridLeft">
+    <div class="gridLeft <?= $arrayChangeColors[$arrayGames[2]] ?>">
         <div class="cover">
             <img id="cover1" src=" <?= $dataBase ['Action/Aventure']['The Legend of Zelda : Breath of the Wild']['Image']?>" "cover">
         </div>
         <div class="details">
             <div id="atitle3">
-            <div id="title">
+            <div id="title" >
                 <h3><?= array_keys($dataBase['Action/Aventure'])[2]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['The Legend of Zelda : Breath of the Wild']['Release'] . ")" ?></span></h3>
             </div></div>
 
@@ -118,10 +158,10 @@
         </div>
     </div>
 
-    <div class="gridRight">
+    <div class="gridRight <?= $arrayChangeColors[$arrayGames[3]] ?>">
         <div class="detailRight">
             <div id="atitle4">
-            <div id="titleRight">
+            <div id="titleRight" >
                 <h3><?= array_keys($dataBase['Action/Aventure'])[3]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['Release'] . ")" ?></h3>
             </div></div>
             <div id="infosRight">
@@ -139,13 +179,13 @@
         </div>
     </div>
 
-    <div class="gridLeft">
+    <div class="gridLeft <?= $arrayChangeColors[$arrayGames[4]] ?>">
         <div class="cover">
             <img id="cover1" src=" <?= $dataBase ['Action/Aventure']['The Witcher 3 : Wild Hunt']['Image']?>" "cover">
         </div>
         <div class="details">
             <div id="atitle5">
-            <div id="title">
+            <div id="title" >
                 <h3><?= array_keys($dataBase['Action/Aventure'])[4]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['The Witcher 3 : Wild Hunt']['Release'] . ")" ?></span></h3>
             </div></div>
 
@@ -161,10 +201,10 @@
         </div>
     </div>
 
-    <div class="gridRight">
+    <div class="gridRight <?= $arrayChangeColors[$arrayGames[5]] ?>">
         <div class="detailRight">
             <div id="atitle6">
-            <div id="titleRight">
+            <div id="titleRight" >
                 <h3><?= array_keys($dataBase['Action/Aventure'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['Uncharted 4 : A Thief\'s End']['Release'] . ")" ?></h3>
             </div></div>
             <div id="infosRight">

@@ -8,9 +8,51 @@
 </head>
 <body class="sportPage">
 
-    <?php include_once '_headerSidePageResponsive.php' ?>
-    <?php include_once '../src/function.php' ?>
-    <!-- Code HEADER -->
+<?php include_once '_headerSidePageResponsive.php' ?>
+<?php include_once '../src/function.php' ?>
+<?php
+
+    $theme = "";
+    switch ($_SERVER['PHP_SELF']){
+        case('/action.php'):
+            $theme = "Action/Aventure";
+            break;
+        case('/FPS.php'):
+            $theme = "FPS";
+            break;
+        case('/RPG.php'):
+            $theme = "RPG";
+            break;
+        case('/simulation.php'):
+            $theme = "Simulation";
+            break;
+        case('/sport.php'):
+            $theme = "Sport";
+            break;
+        case('/strategie.php'):
+            $theme = "Stratégie";
+            break;
+        case('/_form.php'):
+            $theme = "Simulation";
+            break;
+        default:
+            echo "error theme don't match";
+    }
+
+
+    $changeColor1 = $changeColor2 = $changeColor3 = $changeColor4 = $changeColor5 = $changeColor6 = "";
+    $arrayChangeColors = [
+        array_keys($dataBase[$theme])[0]  => $changeColor1,
+        array_keys($dataBase[$theme])[1]  => $changeColor2,
+        array_keys($dataBase[$theme])[2]  => $changeColor3,
+        array_keys($dataBase[$theme])[3]  => $changeColor4,
+        array_keys($dataBase[$theme])[4]  => $changeColor5,
+        array_keys($dataBase[$theme])[5]  => $changeColor6,
+    ];
+    if (isset($_POST['game-list'])) {
+        $arrayChangeColors[$_POST['game-list']] = 'red';
+    }
+?>
 
 
 <div class="slideshow">

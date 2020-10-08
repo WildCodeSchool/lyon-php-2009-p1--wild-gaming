@@ -12,8 +12,53 @@
     <?php include_once '../src/function.php' ?>
     <!-- Code HEADER -->
 
+    <?php
 
-<div class="slideshow">
+    $theme = "";
+    switch ($_SERVER['PHP_SELF']){
+        case('/action.php'):
+            $theme = "Action/Aventure";
+            break;
+        case('/FPS.php'):
+            $theme = "FPS";
+            break;
+        case('/RPG.php'):
+            $theme = "RPG";
+            break;
+        case('/simulation.php'):
+            $theme = "Simulation";
+            break;
+        case('/sport.php'):
+            $theme = "Sport";
+            break;
+        case('/strategie.php'):
+            $theme = "Stratégie";
+            break;
+        case('/_form.php'):
+            $theme = "Simulation";
+            break;
+        default:
+            echo "error theme don't match";
+    }
+
+
+    $changeColor1 = $changeColor2 = $changeColor3 = $changeColor4 = $changeColor5 = $changeColor6 = "";
+    $arrayChangeColors = [
+        array_keys($dataBase[$theme])[0]  => $changeColor1,
+        array_keys($dataBase[$theme])[1]  => $changeColor2,
+        array_keys($dataBase[$theme])[2]  => $changeColor3,
+        array_keys($dataBase[$theme])[3]  => $changeColor4,
+        array_keys($dataBase[$theme])[4]  => $changeColor5,
+        array_keys($dataBase[$theme])[5]  => $changeColor6,
+    ];
+    if (isset($_POST['game-list'])) {
+        $arrayChangeColors[$_POST['game-list']] = 'red';
+    }
+    ?>
+
+
+
+    <div class="slideshow">
 
     <div class="gameSlides fade">
         <a href="#ftitle1"><img src="assets/img/carouselpics/strat/coh.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[0] ?>" style="width:100%"></a>
@@ -54,7 +99,7 @@
 </div>
 
 <section class="strategie" id="article">
-    <div class="gridLeft">
+    <div class="gridLeft <?= $arrayChangeColors[array_keys($dataBase[$theme])[0]] ?>">
         <div class="cover">
             <img id="cover1" src="<?= $dataBase['Stratégie']['Company of Heroes 2']['Image'] ?>" alt="cover">
         </div>
@@ -75,7 +120,7 @@
         </div>
     </div>
 
-    <div class="gridRight">
+    <div class="gridRight <?= $arrayChangeColors[array_keys($dataBase[$theme])[1]] ?>">
         <div class="detailRight">
             <div id="ftitle2">
             <div id="titleRight">
@@ -96,7 +141,7 @@
         </div>
     </div>
 
-    <div class="gridLeft">
+    <div class="gridLeft <?= $arrayChangeColors[array_keys($dataBase[$theme])[2]] ?>">
         <div class="cover">
             <img id="cover1" src="<?= $dataBase['Stratégie']['Age of Empire 2 : Definitive Edition']['Image'] ?>" alt="cover">
         </div>
@@ -117,7 +162,7 @@
         </div>
     </div>
 
-    <div class="gridRight">
+    <div class="gridRight <?= $arrayChangeColors[array_keys($dataBase[$theme])[3]] ?>">
         <div class="detailRight">
             <div id="ftitle4">
             <div id="titleRight">
@@ -138,7 +183,7 @@
         </div>
     </div>
 
-    <div class="gridLeft">
+    <div class="gridLeft <?= $arrayChangeColors[array_keys($dataBase[$theme])[4]] ?>">
         <div class="cover">
             <img id="cover1" src="<?= $dataBase['Stratégie']['Total War : Warhammer 2']['Image'] ?>" alt="cover">
         </div>
@@ -159,7 +204,7 @@
         </div>
     </div>
 
-    <div class="gridRight">
+    <div class="gridRight <?= $arrayChangeColors[array_keys($dataBase[$theme])[5]] ?>">
         <div class="detailRight">
             <div id="ftitle6">
             <div id="titleRight">
