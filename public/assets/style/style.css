@@ -20,7 +20,7 @@
     --navbar-sport-backgrnd: #E99025;
     --sport-backgrnd: #F7CB96;
 
-
+/*
     --action-text: #E1EDFB;
     --action-form-backgrnd: #242C4A;
     --action-box-border: #000000;
@@ -44,6 +44,8 @@
     --strategy-text: #E1EDFB;
     --strategy-form-backgrnd: #1E3951;
     --strategy-box-border: #000000;
+*/
+
 }
 
 
@@ -498,6 +500,12 @@ label.star:hover:before {
 .navbar-brand{
     width: 4rem;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
 .container-fluid{
     padding: 0;
 }
