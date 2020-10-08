@@ -1,35 +1,27 @@
 <?php include_once '../src/function.php';
 
 $theme = "";
-$aliasTheme = "";
 switch ($_SERVER['PHP_SELF']){
     case('/action.php'):
         $theme = "Action/Aventure";
-        $aliasTheme = "action";
         break;
     case('/FPS.php'):
         $theme = "FPS";
-        $aliasTheme = "FPS";
         break;
     case('/RPG.php'):
         $theme = "RPG";
-        $aliasTheme = "RPG";
         break;
     case('/simulation.php'):
         $theme = "Simulation";
-        $aliasTheme = "Simulation";
         break;
     case('/sport.php'):
         $theme = "Sport";
-        $aliasTheme = "sport";
         break;
     case('/strategie.php'):
         $theme = "Stratégie";
-        $aliasTheme = "strategie";
         break;
     case('/_form.php'):
         $theme = "Simulation";
-        $aliasTheme = "FPS";
         break;
     default:
         echo "error theme don't match";

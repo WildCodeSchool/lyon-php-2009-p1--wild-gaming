@@ -598,8 +598,17 @@ header .sidepage{
     text-decoration:none;
 }
 
+
+/* interaction */
+
+.red {
+    border-color: red;
+    border-width: 6px;
+}
+
 .copyright {
     cursor: pointer;
 }
 
 /* end navbar */
+
