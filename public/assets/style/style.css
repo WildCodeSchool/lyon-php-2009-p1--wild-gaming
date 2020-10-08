@@ -413,7 +413,6 @@ ul {
 
 /* start form */
 
-
 form {
     width: 80%;
     margin: auto;
@@ -425,12 +424,18 @@ form {
     border-color: #8BA3C5;
 }
 
-.error{
+.error {
     color: #721616;
 }
 
-#thanks{
+#thanks {
     color: #0f0f4e;
+}
+
+.buttonSubmit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
