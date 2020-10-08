@@ -45,7 +45,7 @@ if (!empty($_POST) && isset($_POST['btn-contact'])) {
     if (empty($game))
         $errorsGameList = 'Required';
     if (!isset($_POST['star_rating']))
-        $errorStarRating = "Vous n'avez pas mis de note";
+        $errorStarRating = "Vous n'avez pas mis de note !";
      else
         $rate = $_POST["star_rating"];
 
@@ -95,7 +95,7 @@ if (!empty($_POST) && isset($_POST['btn-contact'])) {
         </div>
             </br>
         <div>
-        <button type="submit" class="bttn btn-primary" name="btn-contact">Send</button>
+        <button type="submit" class="bttn-btn-primary" name="btn-contact" id="btn-contact">Send</button>
         </div>
         <span id="thanks"><?= $thanksMessage ?></span>
     </form>
