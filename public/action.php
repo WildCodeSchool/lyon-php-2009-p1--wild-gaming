@@ -17,32 +17,26 @@
 <div class="slideshow" id="slide">
         <div class="gameSlides fade">
             <a href="#atitle1"><img src="assets/img/carouselpics/act/ac.jpeg" alt =" <?= array_keys($dataBase['Action/Aventure'])[0] ?>" style="width:100%"></a>
-            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[0] ?></div>
         </div>
 
         <div class="gameSlides fade">
             <a href="#atitle2"><img src="assets/img/carouselpics/act/cyb.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[1] ?>" style="width:100%"></a>
-            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[1] ?></div>
         </div>
 
         <div class="gameSlides fade">
             <a href="#atitle3"><img src="assets/img/carouselpics/act/zel.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[2] ?>" style="width:100%"></a>
-            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[2] ?></div>
         </div>
 
         <div class="gameSlides fade">
             <a href="#atitle4"><img src="assets/img/carouselpics/act/red.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[3] ?>" style="width:100%"></a>
-            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[3] ?></div>
         </div>
 
         <div class="gameSlides fade">
             <a href="#atitle5"><img src="assets/img/carouselpics/act/wit.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[4] ?>" style="width:100%"></a>
-            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[4] ?></div>
         </div>
 
         <div class="gameSlides fade">
             <a href="#atitle6"><img src="assets/img/carouselpics/act/unc.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[5] ?>" style="width:100%"></a>
-            <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[5] ?></div>
         </div>
 
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
