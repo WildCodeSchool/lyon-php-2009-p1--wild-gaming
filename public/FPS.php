@@ -59,18 +59,6 @@
         <div class="cover">
             <img id="cover1" src=" <?= $dataBase['FPS']['Doom Eternal']['Image'] ?>" "cover">
         </div>
-        <div class="details">
-            <div id="btitle1">
-            <div id="title">
-                <h3>Game 1:</h3>
-            </div></div>>
-            <div id="infos">
-                <ul>
-                    <li id="listLeft">EA Vancouver</li>
-                    <li id="listLeft">PEGI 12</li>
-                    <p id="listLeft">Synopsis: Le jeu de simulation auto !</p>
-                    <a id="listLeft" href="https://www.metacritic.com">Note metacritic</a>
-                </ul>
             <div class="details">
                 <div id="title">
                     <h3><?= array_keys($dataBase['FPS'])[0]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Doom Eternal']['Release'] . ")" ?></span></h3>
@@ -86,16 +74,13 @@
                 </div>
             </div>
         </div>
-    </div>
 
     <div class="gridRight">
         <div class="detailRight">
             <div id="btitle2">
             <div id="titleRight">
-                <h3>Game 2:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['FPS'])[1]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Call of Duty : Modern Warfare']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight"><b>Studio :</b> <?= ($dataBase)['FPS']['Call of Duty : Modern Warfare']['Studio'] ?></li>
@@ -118,10 +103,8 @@
         <div class="details">
             <div id="btitle3">
             <div id="title">
-                <h3>Game 1:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['FPS'])[2]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Battlefield 5']['Release'] . ")" ?></span></h3>
-            </div>
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['FPS']['Battlefield 5']['Studio'] ?> </li>
@@ -138,10 +121,8 @@
         <div class="detailRight">
             <div id="btitle4">
             <div id="titleRight">
-                <h3>Game 2:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['FPS'])[3]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Counter Strike : Global Offensive']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight"><b>Studio :</b> <?= ($dataBase)['FPS']['Counter Strike : Global Offensive']['Studio'] ?></li>
@@ -164,10 +145,8 @@
         <div class="details">
             <div id="btitle5">
             <div id="title">
-                <h3>Game 1:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['FPS'])[4]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Star Wars Battlefront 2']['Release'] . ")" ?></span></h3>
-            </div>
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['FPS']['Star Wars Battlefront 2']['Studio'] ?> </li>
@@ -184,10 +163,8 @@
         <div class="detailRight">
             <div id="btitle6">
             <div id="titleRight">
-                <h3>Game 2:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['FPS'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Borderlands 3']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight"><b>Studio :</b> <?= ($dataBase)['FPS']['Borderlands 3']['Studio'] ?></li>
@@ -203,29 +180,7 @@
         </div>
     </div>
 
-    <script>
-        const article = document.getElementById("article");
-        const navbarColor = document.querySelector(".navbar");
-        switch (article.className) {
-            case ('rpg'):
-                navbarColor.style.backgroundColor = "var(--navbar-rpg-backgrnd)";
-                break
-            case ('action'):
-                navbarColor.style.backgroundColor = "var(--navbar-action-backgrnd)";
-                break
-            case ('simulation'):
-                navbarColor.style.backgroundColor = "var(--navbar-simu-backgrnd)";
-                break
-            case ('sport'):
-                navbarColor.style.backgroundColor = "var(--navbar-sport-backgrnd)";
-                break
-            case ('strategie'):
-                navbarColor.style.backgroundColor = "var(--navbar-strategy-backgrnd)";
-                break
-            case ('fps'):
-                navbarColor.style.backgroundColor = "var(--navbar-fps-backgrnd)";
-        }
-    </script>
+
 
 </section>
 

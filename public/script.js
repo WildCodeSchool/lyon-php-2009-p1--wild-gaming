@@ -1,25 +1,23 @@
-function changeColorNavbar(){
-    const article = document.getElementById("article");
-    const navbarColor = document.querySelector(".navbar");
-    switch (article.className) {
-        case ('blocRPG'):
-            navbarColor.style.backgroundColor = "grey";
-            break
-        case ('action'):
-            navbarColor.style.backgroundColor = "orange";
-            break
-        case ('blocSimulation'):
-            navbarColor.style.backgroundColor = "purple";
-            break
-        case ('blocSport'):
-            navbarColor.style.backgroundColor = "yellow";
-            break
-        case ('blocStrategie'):
-            navbarColor.style.backgroundColor = "blue";
-            break
-        case ('blocFPS'):
-            navbarColor.style.backgroundColor = "brown";
-    }
+const article = document.getElementById("article");
+const navbarColor = document.querySelector(".navbar");
+switch (article.className) {
+    case ('rpg'):
+        navbarColor.style.backgroundColor = "var(--navbar-rpg-backgrnd)";
+        break
+    case ('action'):
+        navbarColor.style.backgroundColor = "var(--navbar-action-backgrnd)";
+        break
+    case ('simulation'):
+        navbarColor.style.backgroundColor = "var(--navbar-simu-backgrnd)";
+        break
+    case ('sport'):
+        navbarColor.style.backgroundColor = "var(--navbar-sport-backgrnd)";
+        break
+    case ('strategie'):
+        navbarColor.style.backgroundColor = "var(--navbar-strategy-backgrnd)";
+        break
+    case ('fps'):
+        navbarColor.style.backgroundColor = "var(--navbar-fps-backgrnd)";
 }
 
 

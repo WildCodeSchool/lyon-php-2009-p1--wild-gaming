@@ -56,15 +56,13 @@
 <section class="simulation" id="article">
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src="<?= $dataBase['Simulation']['Pro Cycling Manager 2020']['Image'] ?>" alt="cover">
         </div>
         <div class="details">
             <div id="dtitle1">
             <div id="title">
-                <h3>Game 1:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['Simulation'])[0]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Simulation']['Pro Cycling Manager 2020']['Release'] . ")" ?></span></h3>
-            </div>
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['Simulation']['Pro Cycling Manager 2020']['Studio'] ?> </li>
@@ -81,10 +79,8 @@
         <div class="detailRight">
             <div id="dtitle2">
             <div id="titleRight">
-                <h3>Game 2:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['Simulation'])[1]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Simulation']['Civilization 5']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight"><b>Studio :</b> <?= ($dataBase)['Simulation']['Civilization 5']['Studio'] ?></li>
@@ -96,21 +92,19 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src="<?= $dataBase['Simulation']['Civilization 5']['Image'] ?>" alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src="<?= $dataBase['Simulation']['Crusader King 3']['Image'] ?>" alt="cover">
         </div>
         <div class="details">
             <div id="dtitle3">
             <div id="title">
-                <h3>Game 1:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['Simulation'])[2]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Simulation']['Crusader King 3']['Release'] . ")" ?></span></h3>
-            </div>
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['Simulation']['Crusader King 3']['Studio'] ?> </li>
@@ -127,10 +121,8 @@
         <div class="detailRight">
             <div id="dtitle4">
             <div id="titleRight">
-                <h3>Game 2:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['Simulation'])[3]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Simulation']['Microsoft Flight Simulator']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight"><b>Studio :</b> <?= ($dataBase)['Simulation']['Microsoft Flight Simulator']['Studio'] ?></li>
@@ -142,21 +134,19 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src="<?= $dataBase['Simulation']['Microsoft Flight Simulator']['Image'] ?>" alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src=" <?= $dataBase['Simulation']['Port Royale 4']['Image'] ?>" alt="cover">
         </div>
         <div class="details">
             <div id="dtitle5">
             <div id="title">
-                <h3>Game 1:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['Simulation'])[4]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Simulation']['Port Royale 4']['Release'] . ")" ?></span></h3>
-            </div>
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['Simulation']['Port Royale 4']['Studio'] ?> </li>
@@ -173,10 +163,8 @@
         <div class="detailRight">
             <div id="dtitle6">
             <div id="titleRight">
-                <h3>Game 2:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['Simulation'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Simulation']['Anno 2205']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight"><b>Studio :</b> <?= ($dataBase)['Simulation']['Anno 2205']['Studio'] ?></li>
@@ -188,33 +176,9 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src="<?= $dataBase['Simulation']['Anno 2205']['Image'] ?>" alt="cover">
         </div>
     </div>
-
-    <script>
-        const article = document.getElementById("article");
-        const navbarColor = document.querySelector(".navbar");
-        switch (article.className) {
-            case ('rpg'):
-                navbarColor.style.backgroundColor = "var(--navbar-rpg-backgrnd)";
-                break
-            case ('action'):
-                navbarColor.style.backgroundColor = "var(--navbar-action-backgrnd)";
-                break
-            case ('simulation'):
-                navbarColor.style.backgroundColor = "var(--navbar-simu-backgrnd)";
-                break
-            case ('sport'):
-                navbarColor.style.backgroundColor = "var(--navbar-sport-backgrnd)";
-                break
-            case ('strategie'):
-                navbarColor.style.backgroundColor = "var(--navbar-strategy-backgrnd)";
-                break
-            case ('fps'):
-                navbarColor.style.backgroundColor = "var(--navbar-fps-backgrnd)";
-        }
-    </script>
 
 </section>
 
