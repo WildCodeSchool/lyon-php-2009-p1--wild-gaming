@@ -424,7 +424,6 @@ ul {
 
 /* start form */
 
-
 form {
     width: 80%;
     margin: auto;
@@ -436,6 +435,7 @@ form {
     border-color: #8BA3C5;
 }
 
+
 .bttn-btn-primary {
     color: #ffffff;
     text-shadow: 1px 1px 2px #020822, 0 0 1em #070732, 0 0 0.2em #888888;
@@ -446,8 +446,14 @@ form {
     color: #860606;
 }
 
-#thanks{
+#thanks {
     color: #0f0f4e;
+}
+
+.buttonSubmit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
