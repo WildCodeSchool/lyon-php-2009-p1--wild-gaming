@@ -21,6 +21,7 @@
     </div>
     <section>
         <div class="homepage_btn">
+            <div>
             <form action="RPG.php">
                 <input class="btn" type="submit" value="RPG">
             </form>
@@ -30,6 +31,8 @@
             <form action="strategie.php">
                 <input class="btn" type="submit" value="Stratégie">
             </form>
+            </div>
+            <div>
             <form action="simulation.php">
                 <input class="btn" type="submit" value="Simulation">
             </form>
@@ -39,11 +42,12 @@
             <form action="sport.php">
                 <input class="btn" type="submit" value="Sport">
             </form>
+            </div>
         </div>
     </section>
-    <?php
-    include_once '_footer.php';
-    ?>
 </main>
+<?php
+include_once '_footer.php';
+?>
 </body>
 </html>

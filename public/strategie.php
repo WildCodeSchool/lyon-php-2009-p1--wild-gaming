@@ -17,32 +17,26 @@
 
     <div class="gameSlides fade">
         <a href="#ftitle1"><img src="assets/img/carouselpics/strat/coh.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[0] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[0] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#ftitle2"><img src="assets/img/carouselpics/strat/sta.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[1] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[1] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#ftitle3"><img src="assets/img/carouselpics/strat/age.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[2] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[2] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#ftitle4"><img src="assets/img/carouselpics/strat/war.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[3] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[3] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#ftitle5"><img src="assets/img/carouselpics/strat/wah.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[4] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[4] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#ftitle6"><img src="assets/img/carouselpics/strat/stw.jpg" alt =" <?= array_keys($dataBase['Stratégie'])[5] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['Stratégie'])[5] ?></div>
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -62,7 +56,7 @@
 <section class="strategie" id="article">
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src="<?= $dataBase['Stratégie']['Company of Heroes 2']['Image'] ?>" alt="cover">
         </div>
         <div class="details">
             <div id="ftitle1">
@@ -98,13 +92,13 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src="<?= $dataBase['Stratégie']['Starcraft 2 : Wings of Liberty']['Image'] ?>" alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src="<?= $dataBase['Stratégie']['Age of Empire 2 : Definitive Edition']['Image'] ?>" alt="cover">
         </div>
         <div class="details">
             <div id="ftitle3">
@@ -140,13 +134,13 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src="<?= $dataBase['Stratégie']['Warcraft 3 : Reforged']['Image'] ?>" alt="cover">
         </div>
     </div>
 
     <div class="gridLeft">
         <div class="cover">
-            <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
+            <img id="cover1" src="<?= $dataBase['Stratégie']['Total War : Warhammer 2']['Image'] ?>" alt="cover">
         </div>
         <div class="details">
             <div id="ftitle5">
@@ -182,7 +176,7 @@
             </div>
         </div>
         <div class="coverRight">
-            <img id="cover2" src="https://via.placeholder.com/150/0000FF/808080" alt="cover">
+            <img id="cover2" src="<?= $dataBase['Stratégie']['Star Wars : Empire at War']['Image'] ?>" alt="cover">
         </div>
     </div>
 

@@ -18,32 +18,26 @@
 
     <div class="gameSlides fade">
         <a href="#btitle1"><img src="assets/img/carouselpics/fps/doe.jpg" alt =" <?= array_keys($dataBase['FPS'])[0] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[0] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#btitle2"><img src="assets/img/carouselpics/fps/com.jpg" alt =" <?= array_keys($dataBase['FPS'])[1] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[1] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#btitle3"><img src="assets/img/carouselpics/fps/btv.jpg" alt =" <?= array_keys($dataBase['FPS'])[2] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[2] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#btitle4"><img src="assets/img/carouselpics/fps/csg.jpg" alt =" <?= array_keys($dataBase['FPS'])[3] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[3] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#btitle5"><img src="assets/img/carouselpics/fps/sbf.png" alt =" <?= array_keys($dataBase['FPS'])[4] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[4] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#btitle6"><img src="assets/img/carouselpics/fps/bor.jpg" alt =" <?= array_keys($dataBase['FPS'])[5] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[5] ?></div>
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -65,18 +59,6 @@
         <div class="cover">
             <img id="cover1" src=" <?= $dataBase['FPS']['Doom Eternal']['Image'] ?>" "cover">
         </div>
-        <div class="details">
-            <div id="btitle1">
-            <div id="title">
-                <h3>Game 1:</h3>
-            </div></div>>
-            <div id="infos">
-                <ul>
-                    <li id="listLeft">EA Vancouver</li>
-                    <li id="listLeft">PEGI 12</li>
-                    <p id="listLeft">Synopsis: Le jeu de simulation auto !</p>
-                    <a id="listLeft" href="https://www.metacritic.com">Note metacritic</a>
-                </ul>
             <div class="details">
                 <div id="title">
                     <h3><?= array_keys($dataBase['FPS'])[0]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Doom Eternal']['Release'] . ")" ?></span></h3>
@@ -97,10 +79,8 @@
         <div class="detailRight">
             <div id="btitle2">
             <div id="titleRight">
-                <h3>Game 2:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['FPS'])[1]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Call of Duty : Modern Warfare']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Studio : <?= ($dataBase)['FPS']['Call of Duty : Modern Warfare']['Studio'] ?></li>
@@ -123,10 +103,8 @@
         <div class="details">
             <div id="btitle3">
             <div id="title">
-                <h3>Game 1:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['FPS'])[2]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Battlefield 5']['Release'] . ")" ?></span></h3>
-            </div>
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['FPS']['Battlefield 5']['Studio'] ?> </li>
@@ -143,10 +121,8 @@
         <div class="detailRight">
             <div id="btitle4">
             <div id="titleRight">
-                <h3>Game 2:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['FPS'])[3]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Counter Strike : Global Offensive']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Studio : <?= ($dataBase)['FPS']['Counter Strike : Global Offensive']['Studio'] ?></li>
@@ -169,10 +145,8 @@
         <div class="details">
             <div id="btitle5">
             <div id="title">
-                <h3>Game 1:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['FPS'])[4]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Star Wars Battlefront 2']['Release'] . ")" ?></span></h3>
-            </div>
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['FPS']['Star Wars Battlefront 2']['Studio'] ?> </li>
@@ -189,10 +163,8 @@
         <div class="detailRight">
             <div id="btitle6">
             <div id="titleRight">
-                <h3>Game 2:</h3>
-            </div></div>
                 <h3><?= array_keys($dataBase['FPS'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['FPS']['Borderlands 3']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Studio : <?= ($dataBase)['FPS']['Borderlands 3']['Studio'] ?></li>
