@@ -66,6 +66,7 @@ body {
     margin: auto;
     padding: 0;
     width: auto;
+
 }
 .fpsPage {
     background-color: var(--fps-backgrnd);
@@ -405,9 +406,6 @@ label.star:hover:before {
 
 /* start navbar */
 
-.navbar {
-    background-color: blue;
-}
 .navbar-brand{
     width: 4rem;
 }

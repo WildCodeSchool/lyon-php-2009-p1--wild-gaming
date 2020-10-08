@@ -7,11 +7,11 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
 </head>
 <body class="simulationPage">
-<header>
-    <?php include_once '_headerSidePageResponsive.php' ?>
-    <?php include_once '../src/function.php' ?>
+
+<?php include_once '_headerSidePageResponsive.php' ?>
+<?php include_once '../src/function.php' ?>
     <!-- Code HEADER -->
-</header>
+
 
 <div class="slideshow">
 
