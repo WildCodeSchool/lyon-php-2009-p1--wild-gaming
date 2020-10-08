@@ -17,32 +17,26 @@
 
     <div class="gameSlides fade">
         <a href="#ctitle1"><img src="assets/img/carouselpics/rpg/amc.jpg" alt =" <?= array_keys($dataBase['RPG'])[0] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['RPG'])[0] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#ctitle2"><img src="assets/img/carouselpics/rpg/swa.jpg" alt =" <?= array_keys($dataBase['RPG'])[1] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['RPG'])[1] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#ctitle3"><img src="assets/img/carouselpics/rpg/fef.jpg" alt =" <?= array_keys($dataBase['RPG'])[2] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['RPG'])[2] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#ctitle4"><img src="assets/img/carouselpics/rpg/sws.jpg" alt =" <?= array_keys($dataBase['RPG'])[3] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['RPG'])[3] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#ctitle5"><img src="assets/img/carouselpics/rpg/foe.jpg" alt =" <?= array_keys($dataBase['RPG'])[4] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['RPG'])[4] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#ctitle6"><img src="assets/img/carouselpics/rpg/eso.jpg" alt =" <?= array_keys($dataBase['RPG'])[5] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['RPG'])[5] ?></div>
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>

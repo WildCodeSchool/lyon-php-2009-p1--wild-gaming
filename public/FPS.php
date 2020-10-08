@@ -18,32 +18,26 @@
 
     <div class="gameSlides fade">
         <a href="#btitle1"><img src="assets/img/carouselpics/fps/doe.jpg" alt =" <?= array_keys($dataBase['FPS'])[0] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[0] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#btitle2"><img src="assets/img/carouselpics/fps/com.jpg" alt =" <?= array_keys($dataBase['FPS'])[1] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[1] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#btitle3"><img src="assets/img/carouselpics/fps/btv.jpg" alt =" <?= array_keys($dataBase['FPS'])[2] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[2] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#btitle4"><img src="assets/img/carouselpics/fps/csg.jpg" alt =" <?= array_keys($dataBase['FPS'])[3] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[3] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#btitle5"><img src="assets/img/carouselpics/fps/sbf.png" alt =" <?= array_keys($dataBase['FPS'])[4] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[4] ?></div>
     </div>
 
     <div class="gameSlides fade">
         <a href="#btitle6"><img src="assets/img/carouselpics/fps/bor.jpg" alt =" <?= array_keys($dataBase['FPS'])[5] ?>" style="width:100%"></a>
-        <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[5] ?></div>
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
