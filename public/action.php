@@ -65,9 +65,9 @@
             </div></div>
             <div id="infos">
                 <ul>
-                    <li id="listLeft">Studio : <?= ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['Studio'] ?> </li>
-                    <li id="listLeft">PEGI : <?= ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['PEGI'] ?></li>
-                    <p id="listLeft">Synopsis : <?= ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['Synopsis'] ?></p>
+                    <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['Studio'] ?> </li>
+                    <li id="listLeft"><b>PEGI :</b> <?= ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['PEGI'] ?></li>
+                    <p id="listLeft"><b>Synopsis :</b> <?= ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listLeft" href="https://www.metacritic.com/game/pc/assassins-creed-origins" target="_blank">Note : 84/100</a>
                     <a class="buttonarticle" id="listLeft" href="https://store.ubi.com/fr/assassins-creed-origins/592450934e0165f46c8b4568.html" target="_blank">Acheter</a>
                 </ul>
@@ -83,9 +83,9 @@
             </div></div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Studio : <?= ($dataBase)['Action/Aventure']['Cyberpunk 2077']['Studio'] ?></li>
-                    <li id="listRight">PEGI : <?= ($dataBase)['Action/Aventure']['Cyberpunk 2077']['PEGI'] ?></li>
-                    <p id="listRight">Synopsis : <?= ($dataBase)['Action/Aventure']['Cyberpunk 2077']['Synopsis'] ?></p>
+                    <li id="listRight"><b>Studio :</b> <?= ($dataBase)['Action/Aventure']['Cyberpunk 2077']['Studio'] ?></li>
+                    <li id="listRight"><b>PEGI :</b> <?= ($dataBase)['Action/Aventure']['Cyberpunk 2077']['PEGI'] ?></li>
+                    <p id="listRight"><b>Synopsis :</b> <?= ($dataBase)['Action/Aventure']['Cyberpunk 2077']['Synopsis'] ?></p>
                     <a class="buttonarticle"  id="listRight" href="https://www.metacritic.com/game/pc/cyberpunk-2077" target="_blank">Note : Non noté</a>
                     <a class="buttonarticle"  id="listRight" href="https://www.cyberpunk.net/us/en/pre-order" target="_blank">Acheter</a>
                 </ul>
@@ -108,9 +108,9 @@
 
             <div id="infos">
                 <ul>
-                    <li id="listLeft">Studio : <?= ($dataBase)['Action/Aventure']['The Legend of Zelda : Breath of the Wild']['Studio'] ?> </li>
-                    <li id="listLeft">PEGI : <?= ($dataBase)['Action/Aventure']['The Legend of Zelda : Breath of the Wild']['PEGI'] ?></li>
-                    <p id="listLeft">Synopsis : <?= ($dataBase)['Action/Aventure']['The Legend of Zelda : Breath of the Wild']['Synopsis'] ?></p>
+                    <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['Action/Aventure']['The Legend of Zelda : Breath of the Wild']['Studio'] ?> </li>
+                    <li id="listLeft"><b>PEGI :</b> <?= ($dataBase)['Action/Aventure']['The Legend of Zelda : Breath of the Wild']['PEGI'] ?></li>
+                    <p id="listLeft"><b>Synopsis :</b> <?= ($dataBase)['Action/Aventure']['The Legend of Zelda : Breath of the Wild']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listLeft" href="https://www.metacritic.com/game/switch/the-legend-of-zelda-breath-of-the-wild" target="_blank">Note : 97/100</a>
                     <a class="buttonarticle"  id="listLeft" href="https://www.zelda.com/breath-of-the-wild/buy-now/" target="_blank">Acheter</a>
                 </ul>
@@ -126,9 +126,9 @@
             </div></div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Studio : <?= ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['Studio'] ?></li>
-                    <li id="listRight">PEGI : <?= ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['PEGI'] ?></li>
-                    <p id="listRight">Synopsis : <?= ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['Synopsis'] ?></p>
+                    <li id="listRight"><b>Studio :</b> <?= ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['Studio'] ?></li>
+                    <li id="listRight"><b>PEGI :</b> <?= ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['PEGI'] ?></li>
+                    <p id="listRight"><b>Synopsis :</b> <?= ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['Synopsis'] ?></p>
                     <a class="buttonarticle" id="listRight" href="https://www.metacritic.com/game/playstation-4/red-dead-redemption-2" target="_blank">Note : 97/100</a>
                     <a class="buttonarticle"  id="listRight" href="https://www.rockstargames.com/reddeadredemption2/restricted-content/agegate/form?redirect=https%3A%2F%2Fwww.rockstargames.com%2Freddeadredemption2%2Ffr%2Forder&options=&locale=fr_fr" target="_blank"> Acheter</a>
                 </ul>
@@ -151,9 +151,9 @@
 
             <div id="infos">
                 <ul>
-                    <li id="listLeft">Studio : <?= ($dataBase)['Action/Aventure']['The Witcher 3 : Wild Hunt']['Studio'] ?> </li>
-                    <li id="listLeft">PEGI : <?= ($dataBase)['Action/Aventure']['The Witcher 3 : Wild Hunt']['PEGI'] ?></li>
-                    <p id="listLeft">Synopsis : <?= ($dataBase)['Action/Aventure']['The Witcher 3 : Wild Hunt']['Synopsis'] ?></p>
+                    <li id="listLeft"><b>Studio :</b> <?= ($dataBase)['Action/Aventure']['The Witcher 3 : Wild Hunt']['Studio'] ?> </li>
+                    <li id="listLeft"><b>PEGI :</b> <?= ($dataBase)['Action/Aventure']['The Witcher 3 : Wild Hunt']['PEGI'] ?></li>
+                    <p id="listLeft"><b>Synopsis :</b> <?= ($dataBase)['Action/Aventure']['The Witcher 3 : Wild Hunt']['Synopsis'] ?></p>
                     <a class="buttonarticle"  id="listLeft" href="https://www.metacritic.com/game/playstation-4/the-witcher-3-wild-hunt" target="_blank">Note : 92/100</a>
                     <a class="buttonarticle"  id="listLeft" href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/" target="_blank">Acheter</a>
                 </ul>
@@ -169,9 +169,9 @@
             </div></div>
             <div id="infosRight">
                 <ul>
-                    <li id="listRight">Studio : <?= ($dataBase)['Action/Aventure']['Uncharted 4 : A Thief\'s End']['Studio'] ?></li>
-                    <li id="listRight">PEGI : <?= ($dataBase)['Action/Aventure']['Uncharted 4 : A Thief\'s End']['PEGI'] ?></li>
-                    <p id="listRight">Synopsis : <?= ($dataBase)['Action/Aventure']['Uncharted 4 : A Thief\'s End']['Synopsis'] ?></p>
+                    <li id="listRight"><b>Studio :</b> <?= ($dataBase)['Action/Aventure']['Uncharted 4 : A Thief\'s End']['Studio'] ?></li>
+                    <li id="listRight"><b>PEGI :</b> <?= ($dataBase)['Action/Aventure']['Uncharted 4 : A Thief\'s End']['PEGI'] ?></li>
+                    <p id="listRight"><b>Synopsis :</b> <?= ($dataBase)['Action/Aventure']['Uncharted 4 : A Thief\'s End']['Synopsis'] ?></p>
                     <a class="buttonarticle"  id="listRight" href="https://www.metacritic.com/game/playstation-4/uncharted-4-a-thiefs-end" target="_blank">Note : 93/100</a>
                     <a class="buttonarticle"  id="listRight" href="https://www.playstation.com/fr-fr/games/uncharted-4-a-thiefs-end-ps4/buy-now/" target="_blank"> Acheter</a>
                 </ul>

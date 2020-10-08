@@ -45,7 +45,7 @@ if (!empty($_POST) && isset($_POST['btn-contact'])) {
     if (empty($game))
         $errorsGameList = 'Required';
     if (!isset($_POST['star_rating']))
-        $errorStarRating = "Vous n'avez pas mis de note";
+        $errorStarRating = "Vous n'avez pas mis de note !";
      else
         $rate = $_POST["star_rating"];
 
@@ -65,7 +65,7 @@ if (!empty($_POST) && isset($_POST['btn-contact'])) {
 
     <form id="contact" method='post' action="#contact">
         <div class="form-group">
-            <label for="game-list">What game did you play ?</label>
+            <label for="game-list">Quel jeu avez-vous testé ?</label>
             <select class="form-control" id="game-list" name="game-list">
                 <?php foreach($dataBase[$theme] as $game => $infos) { ?>
                     <option value="<?= $game ?>"><?= $game ?></option>
@@ -94,8 +94,8 @@ if (!empty($_POST) && isset($_POST['btn-contact'])) {
             <textarea class="form-control" id="comment" rows="3" name="comment"></textarea>
         </div>
             </br>
-        <div>
-        <button type="submit" class="bttn btn-primary" name="btn-contact">Send</button>
+        <div class="buttonSubmit">
+        <button type="submit" class="bttn btn-primary" name="btn-contact" id="btn-submit">Soumettre</button>
         </div>
         <span id="thanks"><?= $thanksMessage ?></span>
     </form>
