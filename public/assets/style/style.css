@@ -20,7 +20,7 @@
     --navbar-sport-backgrnd: #E99025;
     --sport-backgrnd: #F7CB96;
 
-
+/*
     --action-text: #E1EDFB;
     --action-form-backgrnd: #242C4A;
     --action-box-border: #000000;
@@ -44,16 +44,35 @@
     --strategy-text: #E1EDFB;
     --strategy-form-backgrnd: #1E3951;
     --strategy-box-border: #000000;
+*/
+
+}
+
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex-grow: 1;
+}
+footer {
+    flex-shrink: 0;
 }
 
 
 body {
+        height: 100%;
         background-color: #8BA3C5;
         font-family: 'Roboto Slab';
         font-size: 22px;
         margin: 0;
         padding: 0;
         width: auto;
+        display: flex;
+        flex-direction: column;
     }
 
 
@@ -63,6 +82,7 @@ body {
     margin: auto;
     padding: 0;
     width: auto;
+
 }
 .fpsPage {
     background-color: var(--fps-backgrnd);
@@ -109,28 +129,92 @@ body {
     justify-content: center;
 }
 
-.homepage_btn{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
 
+
+@media screen and (max-width: 600px){
+
+    .homepage_btn form{
+        margin: 0;
+        padding: 0;
+    }
+
+    .homepage_btn div{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .btn {
+        box-sizing: border-box;
+        margin: auto;
+        width: 100%;
+        height: 75px;
+        margin: 20px;
+        border-radius: 15px;
+        font-size: 35px;
+        background-color: cadetblue;
+        color: white;
+        font-weight: 900;
+        border-color: black;
+        border-width: 2px;
+    }
 }
 
 
-.btn {
+
+@media screen and (min-width: 600px) {
+    .homepage_btn form{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .homepage_btn {
+        height: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: no-wrap;
+    }
+
+    .homepage_btn div{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin:  0;
+        width: 18rem;
+    }
+
+    .btn {
+        text-align: center;
+        box-sizing: border-box;
+        margin: 20px auto;
+        width: 100%;
+        height: 75px;
+        border-radius: 15px;
+        font-size: 35px;
+        background-color: cadetblue;
+        color: white;
+        font-weight: 900;
+        border-color: black;
+        border-width: 2px;
+    }
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #0061A7 5%, #007DC1 100%);
+    background-color: var(--homepage-btn135-backgrnd);
+    border-color: white;
     cursor: pointer;
-    width: 100%;
-    height: 75px;
-    margin: 20px;
-    border-radius: 15px;
-    font-size: 35px;
-    background-color: #23456b;
-    color: white;
-    font-weight: 900;
-    border-color: #1d3c5f;
-    border-width: 4px;
-    text-shadow: 1px 1px 2px #020822, 0 0 1em #070732, 0 0 0.2em #060630;
 }
 
 /* start footer */
@@ -139,7 +223,7 @@ body {
     footer {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: space-around;
         align-items: center;
         margin: 0 0.5rem;
     }
@@ -158,11 +242,8 @@ body {
 .logossocialnetworks img {
     max-width: 2rem;
     border-radius: 0.2rem;
-<<<<<<< HEAD
     margin: 12px;
     padding: 10px;
-=======
->>>>>>> master
 }
 
 /* end footer */
@@ -416,12 +497,15 @@ label.star:hover:before {
 
 /* start navbar */
 
-.navbar {
-    background-color: blue;
-}
 .navbar-brand{
     width: 4rem;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
 .container-fluid{
     padding: 0;
 }

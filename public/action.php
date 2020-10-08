@@ -8,12 +8,11 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
 
 </head>
+
 <body class="actionPage">
-<header>
-    <?php include_once '_headerSidePageResponsive.php' ?>
-    <?php include_once '../src/function.php' ?>
-    <!-- Code HEADER -->
-</header>
+<?php include_once '_headerSidePageResponsive.php' ?>
+<!-- Code HEADER -->
+<?php include_once '../src/function.php' ?>
 
 <div class="slideshow" id="slide">
         <div class="gameSlides fade">
