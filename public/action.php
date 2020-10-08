@@ -1,3 +1,45 @@
+<?php
+include_once '../src/function.php';
+
+$theme = "";
+switch ($_SERVER['PHP_SELF']){
+    case('/action.php'):
+        $theme = "Action/Aventure";
+        break;
+    case('/FPS.php'):
+        $theme = "FPS";
+        break;
+    case('/RPG.php'):
+        $theme = "RPG";
+        break;
+    case('/simulation.php'):
+        $theme = "Simulation";
+        break;
+    case('/sport.php'):
+        $theme = "Sport";
+        break;
+    case('/strategie.php'):
+        $theme = "Stratégie";
+        break;
+    case('/_form.php'):
+        $theme = "Simulation";
+        break;
+    default:
+        echo "error theme don't match";
+}
+
+$arrayGames = array_keys($dataBase[$theme]);
+
+for($i = 0; $i < count($arrayGames); $i++ ){
+    $arrayChangeColors[$arrayGames[$i]] = "";
+}
+
+if (isset($_POST['game-list'])) {
+    $userGame = $_POST['game-list'];
+    $arrayChangeColors[$userGame] = 'red';
+}
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,47 +54,6 @@
 <body class="actionPage">
 <?php include_once '_headerSidePageResponsive.php' ?>
 <!-- Code HEADER -->
-<?php include_once '../src/function.php' ?>
-<?php
-
-    $theme = "";
-    switch ($_SERVER['PHP_SELF']){
-        case('/action.php'):
-            $theme = "Action/Aventure";
-            break;
-        case('/FPS.php'):
-            $theme = "FPS";
-            break;
-        case('/RPG.php'):
-            $theme = "RPG";
-            break;
-        case('/simulation.php'):
-            $theme = "Simulation";
-            break;
-        case('/sport.php'):
-            $theme = "Sport";
-            break;
-        case('/strategie.php'):
-            $theme = "Stratégie";
-            break;
-        case('/_form.php'):
-            $theme = "Simulation";
-            break;
-        default:
-            echo "error theme don't match";
-    }
-
-    $arrayGames = array_keys($dataBase[$theme]);
-
-    for($i = 0; $i < count($arrayGames); $i++ ){
-        $arrayChangeColors[$arrayGames[$i]] = "";
-    }
-
-    if (isset($_POST['game-list'])) {
-        $userGame = $_POST['game-list'];
-        $arrayChangeColors[$userGame] = 'red';
-    }
-?>
 
 <div class="slideshow" id="slide">
         <div class="gameSlides fade">

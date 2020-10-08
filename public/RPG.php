@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style/style.css" />
-    <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
-</head>
-<body class="rpgPage">
-
-<?php include_once '_headerSidePageResponsive.php' ?>
-<?php include_once '../src/function.php'; ?>
 <?php
+
+include_once '../src/function.php';
 
 $theme = "";
 switch ($_SERVER['PHP_SELF']){
@@ -50,6 +40,20 @@ if (isset($_POST['game-list'])) {
     $arrayChangeColors[$userGame] = 'red';
 }
 ?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+</head>
+<body class="rpgPage">
+
+<?php include_once '_headerSidePageResponsive.php' ?>
+
 
     <!--Code HEADER -->
 
@@ -94,7 +98,7 @@ if (isset($_POST['game-list'])) {
 </div>
 
 <section class="rpg" id="article">
-    <div class="gridLeft <?= $arrayChangeColors[array_keys($dataBase[$theme])[0]] ?>">
+    <div class="gridLeft <?= $arrayChangeColors[$arrayGames[0]] ?>">
         <div class="cover">
             <img id="cover1" src=" <?= $dataBase ['RPG']['The Dungeon of Naheulbeuck : The Amulet of Chaos']['Image']?>" "cover">
         </div>
@@ -115,7 +119,7 @@ if (isset($_POST['game-list'])) {
         </div>
     </div>
 
-    <div class="gridRight <?= $arrayChangeColors[array_keys($dataBase[$theme])[1]] ?>">
+    <div class="gridRight <?= $arrayChangeColors[$arrayGames[1]] ?>">
         <div class="detailRight">
             <div id="ctitle2">
             <div id="titleRight">
@@ -136,7 +140,7 @@ if (isset($_POST['game-list'])) {
         </div>
     </div>
 
-    <div class="gridLeft <?= $arrayChangeColors[array_keys($dataBase[$theme])[2]] ?>">
+    <div class="gridLeft <?= $arrayChangeColors[$arrayGames[2]] ?>">
         <div class="cover">
             <img id="cover1" src=" <?= $dataBase ['RPG']['Fire Emblem Fates']['Image']?>" "cover">
         </div>
@@ -157,7 +161,7 @@ if (isset($_POST['game-list'])) {
         </div>
     </div>
 
-    <div class="gridRight <?= $arrayChangeColors[array_keys($dataBase[$theme])[3]] ?>">
+    <div class="gridRight <?= $arrayChangeColors[$arrayGames[3]] ?>">
         <div class="detailRight">
             <div id="ctitle4">
             <div id="titleRight">
@@ -178,7 +182,7 @@ if (isset($_POST['game-list'])) {
         </div>
     </div>
 
-    <div class="gridLeft <?= $arrayChangeColors[array_keys($dataBase[$theme])[4]] ?>">
+    <div class="gridLeft <?= $arrayChangeColors[$arrayGames[4]] ?>">
         <div class="cover">
             <img id="cover1" src=" <?= $dataBase ['RPG']['Fantasy of Expedition']['Image']?>" "cover">
         </div>
@@ -199,7 +203,7 @@ if (isset($_POST['game-list'])) {
         </div>
     </div>
 
-    <div class="gridRight <?= $arrayChangeColors[array_keys($dataBase[$theme])[5]] ?>">
+    <div class="gridRight <?= $arrayChangeColors[$arrayGames[5]] ?>">
         <div class="detailRight">
             <div id="ctitle6">
             <div id="titleRight">

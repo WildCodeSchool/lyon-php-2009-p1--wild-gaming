@@ -1,3 +1,54 @@
+<?php
+
+include_once '../src/function.php';
+
+$theme = "";
+switch ($_SERVER['PHP_SELF']){
+    case('/action.php'):
+        $theme = "Action/Aventure";
+        break;
+    case('/FPS.php'):
+        $theme = "FPS";
+        break;
+    case('/RPG.php'):
+        $theme = "RPG";
+        break;
+    case('/simulation.php'):
+        $theme = "Simulation";
+        break;
+    case('/sport.php'):
+        $theme = "Sport";
+        break;
+    case('/strategie.php'):
+        $theme = "Stratégie";
+        break;
+    case('/_form.php'):
+        $theme = "Simulation";
+        break;
+    default:
+        echo "error theme doesn't match";
+}
+
+$arrayGames = array_keys($dataBase[$theme]);
+
+for($i = 0; $i < count($arrayGames); $i++ ){
+    $arrayChangeColors[$arrayGames[$i]] = "";
+}
+
+if (isset($_POST['game-list'])) {
+    $userGame = $_POST['game-list'];
+    $arrayChangeColors[$userGame] = 'red';
+}
+?>
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +105,7 @@
 </div>
 
 <section class="simulation" id="article">
-    <div class="gridLeft">
+    <div class="gridLeft <?= $arrayChangeColors[$arrayGames[0]] ?>">
         <div class="cover">
             <img id="cover1" src="<?= $dataBase['Simulation']['Pro Cycling Manager 2020']['Image'] ?>" alt="cover">
         </div>
@@ -75,7 +126,7 @@
         </div>
     </div>
 
-    <div class="gridRight">
+    <div class="gridRight <?= $arrayChangeColors[$arrayGames[1]] ?>">
         <div class="detailRight">
             <div id="dtitle2">
             <div id="titleRight">
@@ -96,7 +147,7 @@
         </div>
     </div>
 
-    <div class="gridLeft">
+    <div class="gridLeft <?= $arrayChangeColors[$arrayGames[2]] ?>">
         <div class="cover">
             <img id="cover1" src="<?= $dataBase['Simulation']['Crusader King 3']['Image'] ?>" alt="cover">
         </div>
@@ -117,7 +168,7 @@
         </div>
     </div>
 
-    <div class="gridRight">
+    <div class="gridRight <?= $arrayChangeColors[$arrayGames[3]] ?>">
         <div class="detailRight">
             <div id="dtitle4">
             <div id="titleRight">
@@ -138,7 +189,7 @@
         </div>
     </div>
 
-    <div class="gridLeft">
+    <div class="gridLeft <?= $arrayChangeColors[$arrayGames[4]] ?>">
         <div class="cover">
             <img id="cover1" src=" <?= $dataBase['Simulation']['Port Royale 4']['Image'] ?>" alt="cover">
         </div>
@@ -159,7 +210,7 @@
         </div>
     </div>
 
-    <div class="gridRight">
+    <div class="gridRight <?= $arrayChangeColors[$arrayGames[5]] ?>">
         <div class="detailRight">
             <div id="dtitle6">
             <div id="titleRight">

@@ -1,3 +1,52 @@
+<?php
+
+include_once '../src/function.php';
+
+$theme = "";
+switch ($_SERVER['PHP_SELF']){
+    case('/action.php'):
+        $theme = "Action/Aventure";
+        break;
+    case('/FPS.php'):
+        $theme = "FPS";
+        break;
+    case('/RPG.php'):
+        $theme = "RPG";
+        break;
+    case('/simulation.php'):
+        $theme = "Simulation";
+        break;
+    case('/sport.php'):
+        $theme = "Sport";
+        break;
+    case('/strategie.php'):
+        $theme = "Stratégie";
+        break;
+    case('/_form.php'):
+        $theme = "Simulation";
+        break;
+    default:
+        echo "error theme don't match";
+}
+
+$arrayGames = array_keys($dataBase[$theme]);
+
+for($i = 0; $i < count($arrayGames); $i++ ){
+    $arrayChangeColors[$arrayGames[$i]] = "";
+}
+
+if (isset($_POST['game-list'])) {
+    $userGame = $_POST['game-list'];
+    $arrayChangeColors[$userGame] = 'red';
+}
+?>
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,51 +58,6 @@
 <body class="sportPage">
 
 <?php include_once '_headerSidePageResponsive.php' ?>
-<?php include_once '../src/function.php' ?>
-<?php
-
-    $theme = "";
-    switch ($_SERVER['PHP_SELF']){
-        case('/action.php'):
-            $theme = "Action/Aventure";
-            break;
-        case('/FPS.php'):
-            $theme = "FPS";
-            break;
-        case('/RPG.php'):
-            $theme = "RPG";
-            break;
-        case('/simulation.php'):
-            $theme = "Simulation";
-            break;
-        case('/sport.php'):
-            $theme = "Sport";
-            break;
-        case('/strategie.php'):
-            $theme = "Stratégie";
-            break;
-        case('/_form.php'):
-            $theme = "Simulation";
-            break;
-        default:
-            echo "error theme don't match";
-    }
-
-
-    $changeColor1 = $changeColor2 = $changeColor3 = $changeColor4 = $changeColor5 = $changeColor6 = "";
-    $arrayChangeColors = [
-        array_keys($dataBase[$theme])[0]  => $changeColor1,
-        array_keys($dataBase[$theme])[1]  => $changeColor2,
-        array_keys($dataBase[$theme])[2]  => $changeColor3,
-        array_keys($dataBase[$theme])[3]  => $changeColor4,
-        array_keys($dataBase[$theme])[4]  => $changeColor5,
-        array_keys($dataBase[$theme])[5]  => $changeColor6,
-    ];
-    if (isset($_POST['game-list'])) {
-        $arrayChangeColors[$_POST['game-list']] = 'red';
-    }
-?>
-
 
 <div class="slideshow">
 
@@ -96,7 +100,7 @@
 </div>
 
 <section class="sport" id="article">
-    <div class="gridLeft">
+    <div class="gridLeft <?= $arrayChangeColors[$arrayGames[0]] ?>">
         <div class="cover">
             <img id="cover1" src="<?= $dataBase['Sport']['NBA 2K21']['Image'] ?>" alt="cover">
         </div>
@@ -117,7 +121,7 @@
         </div>
     </div>
 
-    <div class="gridRight">
+    <div class="gridRight <?= $arrayChangeColors[$arrayGames[1]] ?>">
         <div class="detailRight">
             <div id="etitle2">
             <div id="titleRight">
@@ -138,7 +142,7 @@
         </div>
     </div>
 
-    <div class="gridLeft">
+    <div class="gridLeft <?= $arrayChangeColors[$arrayGames[2]] ?>">
         <div class="cover">
             <img id="cover1" src="<?= $dataBase['Sport']['F1 2020']['Image'] ?>" alt="cover">
         </div>
@@ -159,7 +163,7 @@
         </div>
     </div>
 
-    <div class="gridRight">
+    <div class="gridRight <?= $arrayChangeColors[$arrayGames[3]] ?>">
         <div class="detailRight">
             <div id="etitle4">
             <div id="titleRight">
@@ -180,7 +184,7 @@
         </div>
     </div>
 
-    <div class="gridLeft">
+    <div class="gridLeft <?= $arrayChangeColors[$arrayGames[4]] ?>">
         <div class="cover">
             <img id="cover1" src="<?= $dataBase['Sport']['PGA Tour 2K21']['Image'] ?>" alt="cover">
         </div>
@@ -201,7 +205,7 @@
         </div>
     </div>
 
-    <div class="gridRight">
+    <div class="gridRight <?= $arrayChangeColors[$arrayGames[5]] ?>">
         <div class="detailRight">
             <div id="etitle6">
             <div id="titleRight">
