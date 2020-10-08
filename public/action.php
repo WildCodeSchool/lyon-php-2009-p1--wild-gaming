@@ -18,32 +18,32 @@
 
 <div class="slideshow" id="slide">
         <div class="gameSlides fade">
-            <img src="assets/img/fake1.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[0] ?>" style="width:100%">
+            <a href="#atitle1"><img src="assets/img/carouselpics/act/ac.jpeg" alt =" <?= array_keys($dataBase['Action/Aventure'])[0] ?>" style="width:100%"></a>
             <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[0] ?></div>
         </div>
 
         <div class="gameSlides fade">
-            <img src="assets/img/fake2.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[1] ?>" style="width:100%">
+            <a href="#atitle2"><img src="assets/img/carouselpics/act/cyb.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[1] ?>" style="width:100%"></a>
             <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[1] ?></div>
         </div>
 
         <div class="gameSlides fade">
-            <img src="assets/img/fake3.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[2] ?>" style="width:100%">
+            <a href="#atitle3"><img src="assets/img/carouselpics/act/zel.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[2] ?>" style="width:100%"></a>
             <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[2] ?></div>
         </div>
 
         <div class="gameSlides fade">
-            <img src="assets/img/fake4.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[3] ?>" style="width:100%">
+            <a href="#atitle4"><img src="assets/img/carouselpics/act/red.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[3] ?>" style="width:100%"></a>
             <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[3] ?></div>
         </div>
 
         <div class="gameSlides fade">
-            <img src="assets/img/fake5.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[4] ?>" style="width:100%">
+            <a href="#atitle5"><img src="assets/img/carouselpics/act/wit.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[4] ?>" style="width:100%"></a>
             <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[4] ?></div>
         </div>
 
         <div class="gameSlides fade">
-            <img src="assets/img/fake6.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[5] ?>" style="width:100%">
+            <a href="#atitle6"><img src="assets/img/carouselpics/act/unc.jpg" alt =" <?= array_keys($dataBase['Action/Aventure'])[5] ?>" style="width:100%"></a>
             <div class="gameSlideText"><?= array_keys($dataBase['Action/Aventure'])[5] ?></div>
         </div>
 
@@ -67,10 +67,10 @@
             <img id="cover1" src=" <?= $dataBase['Sport']['NBA 2K21']['Image'] ?>" "cover">
         </div>
         <div class="details">
+            <div id="atitle1">
             <div id="title">
                 <h3><?= array_keys($dataBase['Action/Aventure'])[0]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['Release'] . ")" ?></span></h3>
-            </div>
-
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft">Studio : <?= ($dataBase)['Action/Aventure']['Assassin\'s Creed Origins']['Studio'] ?> </li>
@@ -84,9 +84,10 @@
     </div>
     <div class="gridRight">
         <div class="detailRight">
+            <div id="atitle2">
             <div id="titleRight">
                 <h3><?= array_keys($dataBase['Action/Aventure'])[1]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['Cyberpunk 2077']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Studio : <?= ($dataBase)['Action/Aventure']['Cyberpunk 2077']['Studio'] ?></li>
@@ -107,9 +108,10 @@
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
         </div>
         <div class="details">
+            <div id="atitle3">
             <div id="title">
                 <h3><?= array_keys($dataBase['Action/Aventure'])[2]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['The Legend of Zelda : Breath of the Wild']['Release'] . ")" ?></span></h3>
-            </div>
+            </div></div>
 
             <div id="infos">
                 <ul>
@@ -125,9 +127,10 @@
 
     <div class="gridRight">
         <div class="detailRight">
+            <div id="atitle4">
             <div id="titleRight">
                 <h3><?= array_keys($dataBase['Action/Aventure'])[3]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Studio : <?= ($dataBase)['Action/Aventure']['Red Dead Redemption 2']['Studio'] ?></li>
@@ -148,9 +151,10 @@
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
         </div>
         <div class="details">
+            <div id="atitle5">
             <div id="title">
                 <h3><?= array_keys($dataBase['Action/Aventure'])[4]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['The Witcher 3 : Wild Hunt']['Release'] . ")" ?></span></h3>
-            </div>
+            </div></div>
 
             <div id="infos">
                 <ul>
@@ -166,9 +170,10 @@
 
     <div class="gridRight">
         <div class="detailRight">
+            <div id="atitle6">
             <div id="titleRight">
                 <h3><?= array_keys($dataBase['Action/Aventure'])[5]?><span style="font-size: 20px; font-style: italic"><?= " (" . ($dataBase)['Action/Aventure']['Uncharted 4 : A Thief\'s End']['Release'] . ")" ?></h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Studio : <?= ($dataBase)['Action/Aventure']['Uncharted 4 : A Thief\'s End']['Studio'] ?></li>

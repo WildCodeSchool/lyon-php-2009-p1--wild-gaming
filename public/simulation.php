@@ -17,32 +17,32 @@
 <div class="slideshow">
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake1.jpg" alt =" <?= array_keys($dataBase['Simulation'])[0] ?>" style="width:100%">
+        <a href="#dtitle1"><img src="assets/img/carouselpics/sim/pcm.jpg" alt =" <?= array_keys($dataBase['Simulation'])[0] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Simulation'])[0] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake2.jpg" alt =" <?= array_keys($dataBase['Simulation'])[1] ?>" style="width:100%">
+        <a href="#dtitle2"><img src="assets/img/carouselpics/sim/civ.jpg" alt =" <?= array_keys($dataBase['Simulation'])[1] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Simulation'])[1] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake3.jpg" alt =" <?= array_keys($dataBase['Simulation'])[2] ?>" style="width:100%">
+        <a href="#dtitle3"><img src="assets/img/carouselpics/sim/csk.jpg" alt =" <?= array_keys($dataBase['Simulation'])[2] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Simulation'])[2] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake4.jpg" alt =" <?= array_keys($dataBase['Simulation'])[3] ?>" style="width:100%">
+        <a href="#dtitle4"><img src="assets/img/carouselpics/sim/mfs.jpg" alt =" <?= array_keys($dataBase['Simulation'])[3] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Simulation'])[3] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake5.jpg" alt =" <?= array_keys($dataBase['Simulation'])[4] ?>" style="width:100%">
+        <a href="#dtitle5"><img src="assets/img/carouselpics/sim/por.jpg" alt =" <?= array_keys($dataBase['Simulation'])[4] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Simulation'])[4] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake6.jpg" alt =" <?= array_keys($dataBase['Simulation'])[5] ?>" style="width:100%">
+        <a href="#dtitle6"><img src="assets/img/carouselpics/sim/ann.jpg" alt =" <?= array_keys($dataBase['Simulation'])[5] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['Simulation'])[5] ?></div>
     </div>
 
@@ -66,10 +66,10 @@
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
         </div>
         <div class="details">
+            <div id="dtitle1">
             <div id="title">
                 <h3>Game 1:</h3>
-            </div>
-
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft">EA Vancouver</li>
@@ -82,9 +82,10 @@
     </div>
     <div class="gridRight">
         <div class="detailRight">
+            <div id="dtitle2">
             <div id="titleRight">
                 <h3>Game 2:</h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Développé par EA Vancouver</li>
@@ -103,10 +104,10 @@
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
         </div>
         <div class="details">
+            <div id="dtitle3">
             <div id="title">
                 <h3>Game 1:</h3>
-            </div>
-
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft">EA Vancouver</li>
@@ -120,9 +121,10 @@
 
     <div class="gridRight">
         <div class="detailRight">
+            <div id="dtitle4">
             <div id="titleRight">
                 <h3>Game 2:</h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Développé par EA Vancouver</li>
@@ -141,10 +143,10 @@
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
         </div>
         <div class="details">
+            <div id="dtitle5">
             <div id="title">
                 <h3>Game 1:</h3>
-            </div>
-
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft">EA Vancouver</li>
@@ -158,9 +160,10 @@
 
     <div class="gridRight">
         <div class="detailRight">
+            <div id="dtitle6">
             <div id="titleRight">
                 <h3>Game 2:</h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Développé par EA Vancouver</li>

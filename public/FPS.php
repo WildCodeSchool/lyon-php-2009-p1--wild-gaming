@@ -17,32 +17,32 @@
 <div class="slideshow">
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake1.jpg" alt =" <?= array_keys($dataBase['FPS'])[0] ?>" style="width:100%">
+        <a href="#btitle1"><img src="assets/img/carouselpics/fps/doe.jpg" alt =" <?= array_keys($dataBase['FPS'])[0] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[0] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake2.jpg" alt =" <?= array_keys($dataBase['FPS'])[1] ?>" style="width:100%">
+        <a href="#btitle2"><img src="assets/img/carouselpics/fps/com.jpg" alt =" <?= array_keys($dataBase['FPS'])[1] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[1] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake3.jpg" alt =" <?= array_keys($dataBase['FPS'])[2] ?>" style="width:100%">
+        <a href="#btitle3"><img src="assets/img/carouselpics/fps/btv.jpg" alt =" <?= array_keys($dataBase['FPS'])[2] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[2] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake4.jpg" alt =" <?= array_keys($dataBase['FPS'])[3] ?>" style="width:100%">
+        <a href="#btitle4"><img src="assets/img/carouselpics/fps/csg.jpg" alt =" <?= array_keys($dataBase['FPS'])[3] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[3] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake5.jpg" alt =" <?= array_keys($dataBase['FPS'])[4] ?>" style="width:100%">
+        <a href="#btitle5"><img src="assets/img/carouselpics/fps/sbf.png" alt =" <?= array_keys($dataBase['FPS'])[4] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[4] ?></div>
     </div>
 
     <div class="gameSlides fade">
-        <img src="assets/img/fake6.jpg" alt =" <?= array_keys($dataBase['FPS'])[5] ?>" style="width:100%">
+        <a href="#btitle6"><img src="assets/img/carouselpics/fps/bor.jpg" alt =" <?= array_keys($dataBase['FPS'])[5] ?>" style="width:100%"></a>
         <div class="gameSlideText"><?= array_keys($dataBase['FPS'])[5] ?></div>
     </div>
 
@@ -66,10 +66,10 @@
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
         </div>
         <div class="details">
+            <div id="btitle1">
             <div id="title">
                 <h3>Game 1:</h3>
-            </div>
-
+            </div></div>>
             <div id="infos">
                 <ul>
                     <li id="listLeft">EA Vancouver</li>
@@ -82,9 +82,10 @@
     </div>
     <div class="gridRight">
         <div class="detailRight">
+            <div id="btitle2">
             <div id="titleRight">
                 <h3>Game 2:</h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Développé par EA Vancouver</li>
@@ -103,10 +104,10 @@
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
         </div>
         <div class="details">
+            <div id="btitle3">
             <div id="title">
                 <h3>Game 1:</h3>
-            </div>
-
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft">EA Vancouver</li>
@@ -120,9 +121,10 @@
 
     <div class="gridRight">
         <div class="detailRight">
+            <div id="btitle4">
             <div id="titleRight">
                 <h3>Game 2:</h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Développé par EA Vancouver</li>
@@ -141,10 +143,10 @@
             <img id="cover1" src="https://images-na.ssl-images-amazon.com/images/I/61hSuJRkylL._AC_SX385_.jpg" alt="cover">
         </div>
         <div class="details">
+            <div id="btitle5">
             <div id="title">
                 <h3>Game 1:</h3>
-            </div>
-
+            </div></div>
             <div id="infos">
                 <ul>
                     <li id="listLeft">EA Vancouver</li>
@@ -158,9 +160,10 @@
 
     <div class="gridRight">
         <div class="detailRight">
+            <div id="btitle6">
             <div id="titleRight">
                 <h3>Game 2:</h3>
-            </div>
+            </div></div>
             <div id="infosRight">
                 <ul>
                     <li id="listRight">Développé par EA Vancouver</li>
