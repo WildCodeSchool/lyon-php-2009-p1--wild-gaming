@@ -409,6 +409,12 @@ label.star:hover:before {
 .navbar-brand{
     width: 4rem;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
 .container-fluid{
     padding: 0;
 }
