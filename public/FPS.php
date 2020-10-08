@@ -78,8 +78,8 @@
                         <li id="listLeft">Studio : <?= ($dataBase)['FPS']['Doom Eternal']['Studio'] ?> </li>
                         <li id="listLeft">PEGI : <?= ($dataBase)['FPS']['Doom Eternal']['PEGI'] ?></li>
                         <p id="listLeft">Synopsis : <?= ($dataBase)['FPS']['Doom Eternal']['Synopsis'] ?></p>
-                        <a id="listLeft" href="https://www.metacritic.com/game/playstation-4/doom-eternal" target="_blank">Note : 87/100</a>
-                        <a id="listLeft" href="https://bethesda.net/en/game/doom" target="_blank">Acheter</a>
+                        <a class="buttonarticle" id="listLeft" href="https://www.metacritic.com/game/playstation-4/doom-eternal" target="_blank">Note : 87/100</a>
+                        <a class="buttonarticle" id="listLeft" href="https://bethesda.net/en/game/doom" target="_blank">Acheter</a>
                     </ul>
                 </div>
             </div>
@@ -95,8 +95,8 @@
                     <li id="listRight">Studio : <?= ($dataBase)['FPS']['Call of Duty : Modern Warfare']['Studio'] ?></li>
                     <li id="listRight">PEGI : <?= ($dataBase)['FPS']['Call of Duty : Modern Warfare']['PEGI'] ?></li>
                     <p id="listRight">Synopsis : <?= ($dataBase)['FPS']['Call of Duty : Modern Warfare']['Synopsis'] ?></p>
-                    <a id="listRight" href="https://www.metacritic.com/game/playstation-4/call-of-duty-modern-warfare" target="_blank">Note : 80/100</a>
-                    <a id="listRight" href="https://www.callofduty.com/fr/modernwarfare/buy" target="_blank"> Acheter</a>
+                    <a class="buttonarticle" id="listRight" href="https://www.metacritic.com/game/playstation-4/call-of-duty-modern-warfare" target="_blank">Note : 80/100</a>
+                    <a class="buttonarticle" id="listRight" href="https://www.callofduty.com/fr/modernwarfare/buy" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
@@ -119,8 +119,8 @@
                     <li id="listLeft">Studio : <?= ($dataBase)['FPS']['Battlefield 5']['Studio'] ?> </li>
                     <li id="listLeft">PEGI : <?= ($dataBase)['FPS']['Battlefield 5']['PEGI'] ?></li>
                     <p id="listLeft">Synopsis : <?= ($dataBase)['FPS']['Battlefield 5']['Synopsis'] ?></p>
-                    <a id="listLeft" href="https://www.metacritic.com/game/playstation-4/battlefield-v" target="_blank">Note : 73/100</a>
-                    <a id="listLeft" href="https://www.ea.com/fr-fr/games/battlefield/battlefield-5/buy" target="_blank">Acheter</a>
+                    <a class="buttonarticle" id="listLeft" href="https://www.metacritic.com/game/playstation-4/battlefield-v" target="_blank">Note : 73/100</a>
+                    <a class="buttonarticle" id="listLeft" href="https://www.ea.com/fr-fr/games/battlefield/battlefield-5/buy" target="_blank">Acheter</a>
                 </ul>
             </div>
         </div>
@@ -136,8 +136,8 @@
                     <li id="listRight">Studio : <?= ($dataBase)['FPS']['Counter Strike : Global Offensive']['Studio'] ?></li>
                     <li id="listRight">PEGI : <?= ($dataBase)['FPS']['Counter Strike : Global Offensive']['PEGI'] ?></li>
                     <p id="listRight">Synopsis : <?= ($dataBase)['FPS']['Counter Strike : Global Offensive']['Synopsis'] ?></p>
-                    <a id="listRight" href="https://www.metacritic.com/game/pc/counter-strike-global-offensive" target="_blank">Note : 83/100</a>
-                    <a id="listRight" href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank"> Acheter</a>
+                    <a class="buttonarticle" id="listRight" href="https://www.metacritic.com/game/pc/counter-strike-global-offensive" target="_blank">Note : 83/100</a>
+                    <a class="buttonarticle" id="listRight" href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
@@ -160,8 +160,8 @@
                     <li id="listLeft">Studio : <?= ($dataBase)['FPS']['Star Wars Battlefront 2']['Studio'] ?> </li>
                     <li id="listLeft">PEGI : <?= ($dataBase)['FPS']['Star Wars Battlefront 2']['PEGI'] ?></li>
                     <p id="listLeft">Synopsis : <?= ($dataBase)['FPS']['Star Wars Battlefront 2']['Synopsis'] ?></p>
-                    <a id="listLeft" href="https://www.metacritic.com/game/pc/star-wars-battlefront-ii" target="_blank">Note : 65/100</a>
-                    <a id="listLeft" href="https://www.ea.com/games/starwars/battlefront/star-wars-battlefront-2/buy" target="_blank">Acheter</a>
+                    <a class="buttonarticle" id="listLeft" href="https://www.metacritic.com/game/pc/star-wars-battlefront-ii" target="_blank">Note : 65/100</a>
+                    <a class="buttonarticle" id="listLeft" href="https://www.ea.com/games/starwars/battlefront/star-wars-battlefront-2/buy" target="_blank">Acheter</a>
                 </ul>
             </div>
         </div>
@@ -177,8 +177,8 @@
                     <li id="listRight">Studio : <?= ($dataBase)['FPS']['Borderlands 3']['Studio'] ?></li>
                     <li id="listRight">PEGI : <?= ($dataBase)['FPS']['Borderlands 3']['PEGI'] ?></li>
                     <p id="listRight">Synopsis : <?= ($dataBase)['FPS']['Borderlands 3']['Synopsis'] ?></p>
-                    <a id="listRight" href="https://www.metacritic.com/game/pc/borderlands-3" target="_blank">Note : 81/100</a>
-                    <a id="listRight" href="https://borderlands.com/fr-FR/shop/" target="_blank"> Acheter</a>
+                    <a class="buttonarticle" id="listRight" href="https://www.metacritic.com/game/pc/borderlands-3" target="_blank">Note : 81/100</a>
+                    <a class="buttonarticle" id="listRight" href="https://borderlands.com/fr-FR/shop/" target="_blank"> Acheter</a>
                 </ul>
             </div>
         </div>
