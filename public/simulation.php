@@ -125,6 +125,8 @@ if (isset($_POST['game-list'])) {
             </div>
         </div>
     </div>
+    <div id="separator"></div>
+
 
     <div class="gridRight <?= $arrayChangeColors[$arrayGames[1]] ?>">
         <div class="detailRight">
@@ -146,6 +148,8 @@ if (isset($_POST['game-list'])) {
             <img id="cover2" src="<?= $dataBase['Simulation']['Civilization 5']['Image'] ?>" alt="cover">
         </div>
     </div>
+    <div id="separator"></div>
+
 
     <div class="gridLeft <?= $arrayChangeColors[$arrayGames[2]] ?>">
         <div class="cover">
@@ -167,6 +171,8 @@ if (isset($_POST['game-list'])) {
             </div>
         </div>
     </div>
+    <div id="separator"></div>
+
 
     <div class="gridRight <?= $arrayChangeColors[$arrayGames[3]] ?>">
         <div class="detailRight">
@@ -188,6 +194,8 @@ if (isset($_POST['game-list'])) {
             <img id="cover2" src="<?= $dataBase['Simulation']['Microsoft Flight Simulator']['Image'] ?>" alt="cover">
         </div>
     </div>
+    <div id="separator"></div>
+
 
     <div class="gridLeft <?= $arrayChangeColors[$arrayGames[4]] ?>">
         <div class="cover">
@@ -209,6 +217,8 @@ if (isset($_POST['game-list'])) {
             </div>
         </div>
     </div>
+    <div id="separator"></div>
+
 
     <div class="gridRight <?= $arrayChangeColors[$arrayGames[5]] ?>">
         <div class="detailRight">

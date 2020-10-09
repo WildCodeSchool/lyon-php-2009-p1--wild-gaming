@@ -361,8 +361,6 @@ body {
 }
 .gridLeft {
     width: 95%;
-    border: black solid 1px;
-    border-radius: 5px;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     grid-template-rows: 350px;
@@ -378,19 +376,32 @@ body {
 .gridRight {
     display: grid;
     width: 95%;
-    border: black solid 1px;
-    border-radius: 5px;
     grid-template-columns: 1fr 0.5fr;
     grid-template-rows: 350px;
     gap: 5px 10px;
     grid-template-areas:
     "detailRight coverRight";
-    margin-bottom: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
 }
+
+#separator {
+    align-items: center;
+    border-bottom: black dotted 1px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.gridRight {
+
+}
+
 .detailRight {
     grid-area: detailRight;
 }
@@ -602,8 +613,9 @@ header .sidepage{
 /* interaction */
 
 .red {
-    border-color: red;
-    border-width: 6px;
+    padding: 25px;
+    border: solid #BB2828 6px;
+
 }
 
 .copyright {

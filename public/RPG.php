@@ -118,6 +118,8 @@ if (isset($_POST['game-list'])) {
             </div>
         </div>
     </div>
+    <div id="separator"></div>
+
 
     <div class="gridRight <?= $arrayChangeColors[$arrayGames[1]] ?>">
         <div class="detailRight">
@@ -139,6 +141,8 @@ if (isset($_POST['game-list'])) {
             <img id="cover2" src=" <?= $dataBase['RPG']['Sword Art Online : Alicization Lycoris']['Image'] ?>" alt="cover">
         </div>
     </div>
+    <div id="separator"></div>
+
 
     <div class="gridLeft <?= $arrayChangeColors[$arrayGames[2]] ?>">
         <div class="cover">
@@ -160,6 +164,8 @@ if (isset($_POST['game-list'])) {
             </div>
         </div>
     </div>
+    <div id="separator"></div>
+
 
     <div class="gridRight <?= $arrayChangeColors[$arrayGames[3]] ?>">
         <div class="detailRight">
@@ -181,6 +187,8 @@ if (isset($_POST['game-list'])) {
             <img id="cover2" src=" <?= $dataBase['RPG']['Star Wars : The Old Republic']['Image'] ?>" alt="cover">
         </div>
     </div>
+    <div id="separator"></div>
+
 
     <div class="gridLeft <?= $arrayChangeColors[$arrayGames[4]] ?>">
         <div class="cover">
@@ -202,6 +210,8 @@ if (isset($_POST['game-list'])) {
             </div>
         </div>
     </div>
+    <div id="separator"></div>
+
 
     <div class="gridRight <?= $arrayChangeColors[$arrayGames[5]] ?>">
         <div class="detailRight">
