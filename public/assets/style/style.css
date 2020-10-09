@@ -128,7 +128,9 @@ body {
     justify-content: center;
 }
 
-
+h1 {
+    text-align: center;
+}
 
 @media screen and (max-width: 600px){
 
@@ -202,7 +204,7 @@ body {
         height: 75px;
         border-radius: 15px;
         font-size: 31px;
-        background-color: #184062;
+        background-color: #183569;
         color: white;
         font-weight: 900;
         border-color: black;

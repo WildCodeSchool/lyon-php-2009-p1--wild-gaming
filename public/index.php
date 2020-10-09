@@ -17,7 +17,7 @@
         </picture>
     </header>
     <div class="title-homepage">
-        <h1>Welcome</h1>
+        <h1>Choose your weapon</h1>
     </div>
     <section>
         <div class="homepage_btn">

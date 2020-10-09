@@ -23,14 +23,13 @@ $titles = [
     <header class="sidepage">
         <div class="container-fluid">
           <nav class="navbar navbar-expand-md navbar-light sticky" id="navbar">
-            <img class="navbar-brand" src="assets/img/blackwhitelogo.png" alt="logo"/>
+            <img class="navbar-brand" src="assets/img/blackwhitelogo.png" alt="logo" onclick="window.location='http://localhost:8000/index.php'" style="cursor: pointer;"/>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
-                <li class="nav-item"><a class="nav-link " href="index.php">Homepage</a></li>
                 <li class="nav-item"><a class="nav-link " href="RPG.php">RPG</a></li>
                 <li class="nav-item"><a class="nav-link " href="FPS.php">FPS</a></li>
                 <li class="nav-item"><a class="nav-link " href="action.php">Action/Aventure</a></li>
