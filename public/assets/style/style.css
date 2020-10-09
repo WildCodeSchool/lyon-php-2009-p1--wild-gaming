@@ -19,6 +19,7 @@
     --strategy-backgrnd: #B2E7E1;
     --navbar-sport-backgrnd: #E99025;
     --sport-backgrnd: #F7CB96;
+    --side-background-color: #FEFFBF;
 
 /*
     --action-text: #E1EDFB;
@@ -76,38 +77,38 @@ body {
 }
 
 .actionPage {
-    background-color: var(--action-backgrnd);
+    background-color: var(--side-background-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 
 }
 .fpsPage {
-    background-color: var(--fps-backgrnd);
+    background-color: var(--side-background-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .rpgPage {
-    background-color: var(--rpg-backgrnd);
+    background-color: var(--side-background-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .simulationPage {
-    background-color: var(--simu-backgrnd);
+    background-color: var(--side-background-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .sportPage {
-    background-color: var(--sport-backgrnd);
+    background-color: var(--side-background-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
 }
 .strategiePage {
-    background-color: var(--strategy-backgrnd);
+    background-color: var(--side-background-color);
     font-family: 'Roboto Slab';font-size: 15px;
     margin: 0;
     padding: 0;
