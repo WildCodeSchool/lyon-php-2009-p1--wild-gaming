@@ -353,10 +353,10 @@ body {
 }
 @media screen and (max-width: 600px) {
     .gridRight {
-        height: auto;
+        height: 500px;
     }
     .gridLeft {
-        height: auto;
+        height: 500px;
     }
 }
 .gridLeft {
